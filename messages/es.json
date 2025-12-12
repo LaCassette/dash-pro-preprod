@@ -1,0 +1,342 @@
+{
+  "common": {
+    "loading": "Cargando...",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "create": "Crear",
+    "confirm": "Confirmar",
+    "close": "Cerrar",
+    "search": "Buscar",
+    "filter": "Filtrar",
+    "noResults": "Sin resultados",
+    "error": "Error",
+    "success": "Éxito",
+    "yes": "Sí",
+    "no": "No",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "previous": "Anterior",
+    "actions": "Acciones",
+    "details": "Detalles",
+    "settings": "Configuración",
+    "logout": "Cerrar sesión",
+    "welcome": "Bienvenido"
+  },
+  "nav": {
+    "dashboard": "Panel de control",
+    "profile": "Perfil",
+    "messaging": "Mensajería",
+    "clients": "Clientes",
+    "trainings": "Entrenamientos",
+    "nutrition": "Nutrición",
+    "organizations": "Organizaciones",
+    "assistants": "Asistentes",
+    "calculators": "Calculadoras",
+    "subscription": "Suscripción",
+    "admin": "Administración",
+    "users": "Usuarios",
+    "pros": "Profesionales",
+    "settings": "Configuración",
+    "programBuilder": "Constructor de Programas",
+    "programs": "Programs"
+  },
+  "dashboard": {
+    "title": "Mi Panel",
+    "welcomeMessage": "Bienvenido, {name}",
+    "role": "Rol",
+    "sportPrograms": "Programas Deportivos",
+    "nutritionPrograms": "Programas Nutricionales",
+    "totalPrograms": "Programas Totales",
+    "conversations": "Conversaciones",
+    "recentMessages": "Mensajes Recientes",
+    "clients": "Clientes",
+    "activeClients": "Clientes activos",
+    "organizations": "Organizaciones",
+    "managedOrganizations": "Organizaciones gestionadas",
+    "memberOrganizations": "Organizaciones miembro",
+    "assistants": "Asistentes",
+    "configuredAssistants": "Asistentes configurados",
+    "createdThisWeek": "creados esta semana",
+    "totalMessages": "mensajes totales",
+    "thisWeek": "Esta semana",
+    "newThisWeek": "nuevos esta semana"
+  },
+  "profile": {
+    "title": "Mi Perfil",
+    "personalInfo": "Información personal",
+    "sportProfile": "Perfil deportivo",
+    "nutritionProfile": "Perfil nutricional",
+    "medicalProfile": "Perfil médico",
+    "lifestyleProfile": "Estilo de vida",
+    "email": "Correo electrónico",
+    "name": "Nombre",
+    "phone": "Teléfono",
+    "birthDate": "Fecha de nacimiento",
+    "gender": "Sexo",
+    "male": "Hombre",
+    "female": "Mujer",
+    "weight": "Peso",
+    "height": "Altura",
+    "age": "Edad",
+    "saveChanges": "Guardar cambios"
+  },
+  "messaging": {
+    "title": "Mensajería",
+    "newConversation": "Nueva conversación",
+    "searchConversations": "Buscar conversaciones",
+    "noConversations": "Sin conversaciones",
+    "startConversation": "Iniciar una conversación",
+    "typeMessage": "Escribe tu mensaje...",
+    "send": "Enviar",
+    "unread": "No leído",
+    "online": "En línea",
+    "offline": "Desconectado",
+    "lastSeen": "Última conexión"
+  },
+  "clients": {
+    "title": "Mis Clientes",
+    "addClient": "Añadir cliente",
+    "searchClients": "Buscar clientes",
+    "noClients": "Sin clientes",
+    "inviteClient": "Invitar cliente",
+    "clientDetails": "Detalles del cliente",
+    "programs": "Programas",
+    "progress": "Progreso",
+    "lastActivity": "Última actividad"
+  },
+  "trainings": {
+    "title": "Entrenamientos",
+    "createProgram": "Crear programa",
+    "searchPrograms": "Buscar programas",
+    "noPrograms": "Sin programas",
+    "programDetails": "Detalles del programa",
+    "exercises": "Ejercicios",
+    "duration": "Duración",
+    "difficulty": "Dificultad",
+    "category": "Categoría"
+  },
+  "nutrition": {
+    "title": "Nutrición",
+    "createPlan": "Crear plan",
+    "searchPlans": "Buscar planes",
+    "noPlans": "Sin planes",
+    "planDetails": "Detalles del plan",
+    "meals": "Comidas",
+    "calories": "Calorías",
+    "macros": "Macronutrientes",
+    "proteins": "Proteínas",
+    "carbs": "Carbohidratos",
+    "fats": "Grasas"
+  },
+  "organizations": {
+    "title": "Organizaciones",
+    "createOrganization": "Crear organización",
+    "joinOrganization": "Unirse a una organización",
+    "searchOrganizations": "Buscar organizaciones",
+    "noOrganizations": "Sin organizaciones",
+    "members": "Miembros",
+    "invitations": "Invitaciones",
+    "settings": "Configuración",
+    "leave": "Abandonar",
+    "delete": "Eliminar"
+  },
+  "assistants": {
+    "title": "Asistentes IA",
+    "createAssistant": "Crear asistente",
+    "noAssistants": "Sin asistentes",
+    "chat": "Chat",
+    "history": "Historial",
+    "configure": "Configurar",
+    "sessions": "Sesiones"
+  },
+  "calculators": {
+    "title": "Calculadoras",
+    "bmr": "TMB",
+    "bmrTitle": "Calculadora TMB (Tasa Metabólica Basal)",
+    "bmrDescription": "Calcula tu tasa metabólica basal con la fórmula de Black et al.",
+    "imc": "IMC",
+    "imcTitle": "Calculadora IMC (Índice de Masa Corporal)",
+    "imcDescription": "Calcula tu índice de masa corporal",
+    "img": "IMG",
+    "imgTitle": "Calculadora IMG (Índice de Masa Grasa)",
+    "imgDescription": "Calcula tu índice de masa grasa con la fórmula de Deurenberg",
+    "rth": "ICC",
+    "rthTitle": "Calculadora ICC (Índice Cintura-Cadera)",
+    "rthDescription": "Calcula tu índice cintura-cadera para evaluar el riesgo cardiovascular",
+    "idealWeight": "Peso Ideal",
+    "idealWeightTitle": "Peso Ideal (Fórmula de Lorentz)",
+    "idealWeightDescription": "Calcula el peso ideal con la fórmula de Lorentz",
+    "calculate": "Calcular",
+    "result": "Resultado",
+    "kcalPerDay": "kcal/día",
+    "kg": "kg",
+    "cm": "cm",
+    "years": "años",
+    "underweight": "Bajo peso",
+    "normalWeight": "Peso normal",
+    "overweight": "Sobrepeso",
+    "moderateObesity": "Obesidad moderada",
+    "severeObesity": "Obesidad severa",
+    "morbidObesity": "Obesidad mórbida",
+    "tooThin": "Demasiado delgado",
+    "normal": "Normal",
+    "obesity": "Obesidad",
+    "lowRisk": "Riesgo bajo",
+    "moderateRisk": "Riesgo moderado",
+    "highRisk": "Riesgo elevado",
+    "waistCircumference": "Circunferencia de cintura",
+    "hipCircumference": "Circunferencia de cadera"
+  },
+  "subscription": {
+    "title": "Suscripción",
+    "currentPlan": "Plan actual",
+    "upgrade": "Actualizar",
+    "downgrade": "Degradar",
+    "cancel": "Cancelar suscripción",
+    "billingHistory": "Historial de facturación",
+    "nextBilling": "Próxima facturación",
+    "status": "Estado",
+    "active": "Activo",
+    "inactive": "Inactivo",
+    "trial": "Prueba",
+    "expired": "Expirado",
+    "monthly": "Mensual",
+    "yearly": "Anual",
+    "choosePlan": "Elegir un plan",
+    "manageSubscription": "Gestionar suscripción"
+  },
+  "admin": {
+    "title": "Administración",
+    "users": "Usuarios",
+    "pros": "Profesionales",
+    "organizations": "Organizaciones",
+    "pendingApproval": "Pendiente de aprobación",
+    "approve": "Aprobar",
+    "reject": "Rechazar",
+    "userDetails": "Detalles del usuario",
+    "proDetails": "Detalles del profesional",
+    "totalUsers": "Total usuarios",
+    "totalPros": "Total profesionales",
+    "totalOrganizations": "Total organizaciones"
+  },
+  "errors": {
+    "generic": "Ha ocurrido un error",
+    "notFound": "Página no encontrada",
+    "unauthorized": "No autorizado",
+    "forbidden": "Acceso denegado",
+    "networkError": "Error de red",
+    "validationError": "Error de validación",
+    "serverError": "Error del servidor",
+    "required": "Este campo es obligatorio",
+    "invalidEmail": "Correo electrónico inválido",
+    "invalidPassword": "Contraseña inválida",
+    "passwordMismatch": "Las contraseñas no coinciden"
+  },
+  "auth": {
+    "login": "Iniciar sesión",
+    "register": "Registrarse",
+    "logout": "Cerrar sesión",
+    "forgotPassword": "Olvidé mi contraseña",
+    "resetPassword": "Restablecer contraseña",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "confirmPassword": "Confirmar contraseña",
+    "rememberMe": "Recordarme"
+  },
+  "roles": {
+    "user": "Usuario",
+    "pro": "Profesional",
+    "admin": "Administrador",
+    "pending": "Pendiente",
+    "active": "Activo",
+    "rejected": "Rechazado"
+  },
+  "time": {
+    "today": "Hoy",
+    "yesterday": "Ayer",
+    "daysAgo": "hace {count} días",
+    "weeksAgo": "hace {count} semanas",
+    "monthsAgo": "hace {count} meses",
+    "justNow": "Ahora mismo"
+  },
+  "tour": {
+    "buttons": {
+      "back": "Anterior",
+      "close": "Cerrar",
+      "last": "Terminar",
+      "next": "Siguiente",
+      "skip": "Omitir",
+      "remindLater": "Recordármelo más tarde",
+      "understood": "Entendido"
+    },
+    "welcome": {
+      "title": "¡Bienvenido a Atletia! 🎉",
+      "description": "Este recorrido te guiará a través de las principales funcionalidades de la plataforma.",
+      "start": "Empecemos descubriendo tu panel de control."
+    },
+    "sidebar": {
+      "title": "Menú de navegación",
+      "description": "Usa este menú para acceder a todas las secciones de la aplicación.",
+      "tip": "Consejo: Puedes reducir el menú haciendo clic en el icono de arriba."
+    },
+    "stats": {
+      "title": "Tus estadísticas",
+      "description": "Aquí puedes ver un resumen de tu actividad: programas, mensajes, clientes, etc.",
+      "realtime": "Estas estadísticas se actualizan en tiempo real según tu organización activa."
+    },
+    "profile": {
+      "title": "Mi perfil",
+      "description": "Gestiona tu información personal y tus perfiles deportivo y nutricional.",
+      "important": "Importante: Completa tus perfiles para obtener programas personalizados."
+    },
+    "trainings": {
+      "title": "Mis entrenamientos",
+      "description": "Consulta todos tus programas de entrenamiento deportivo creados por tus coaches.",
+      "filter": "Puedes filtrar por organización y ver los detalles de cada programa."
+    },
+    "nutrition": {
+      "title": "Mi nutrición",
+      "description": "Accede a tus programas nutricionales personalizados.",
+      "adapted": "Los programas están adaptados a tus objetivos y a tu perfil nutricional."
+    },
+    "messaging": {
+      "title": "Mi mensajería",
+      "description": "Comunícate de forma segura con tus coaches y clientes.",
+      "security": "Seguridad: Todos los mensajes están cifrados para proteger tu privacidad."
+    },
+    "clients": {
+      "title": "Gestión de clientes",
+      "description": "Gestiona todos tus clientes, consulta sus perfiles y crea programas personalizados.",
+      "features": "Funcionalidades: Búsqueda, filtros, estadísticas y acceso rápido a perfiles."
+    },
+    "organizations": {
+      "title": "Mis organizaciones",
+      "descriptionPro": "Crea y gestiona tus organizaciones para agrupar a tus clientes y programas.",
+      "descriptionUser": "Únete a organizaciones para acceder a los programas creados por tus coaches.",
+      "customization": "Personalización: Cada organización puede tener su propio color y logo.",
+      "search": "Puedes buscar organizaciones y solicitar unirte."
+    },
+    "assistants": {
+      "title": "Mis asistentes IA",
+      "description": "Usa nuestros asistentes IA especializados para obtener consejos de coach o nutricionista.",
+      "tip": "Consejo: Haz preguntas libres o usa las sugerencias predefinidas."
+    },
+    "calculators": {
+      "title": "Calculadoras",
+      "description": "Accede a herramientas de cálculo profesionales: TMB, IMC, IMG, ICC, Peso Ideal.",
+      "purpose": "Estas herramientas te ayudan a evaluar con precisión el estado de tus clientes."
+    },
+    "subscription": {
+      "title": "Suscripción",
+      "description": "Gestiona tu suscripción, consulta tus facturas y cambia de plan.",
+      "trial": "Prueba gratuita: 14 días para probar todas las funcionalidades."
+    },
+    "orgSelector": {
+      "title": "Selector de organización",
+      "description": "Si eres miembro de varias organizaciones, usa este selector para cambiar entre ellas.",
+      "context": "Los datos mostrados (programas, clientes, etc.) se adaptan a la organización seleccionada."
+    }
+  }
+}

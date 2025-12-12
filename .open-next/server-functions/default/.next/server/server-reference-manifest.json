@@ -1,0 +1,21 @@
+{
+  "node": {
+    "4091a86e4e012d07af9acf14f9e177bd1d84aae7dd": {
+      "workers": {
+        "app/dashboard/profile/page": {
+          "moduleId": 560068,
+          "async": false,
+          "exportedName": "setLocale",
+          "filename": "lib/locale-actions.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/profile/page": "action-browser"
+      },
+      "filename": "lib/locale-actions.ts",
+      "exportedName": "setLocale"
+    }
+  },
+  "edge": {},
+  "encryptionKey": "EgmNF13NUN/tapjpWa4t5P23JF2yT5XlzGtTzpfMq08="
+}

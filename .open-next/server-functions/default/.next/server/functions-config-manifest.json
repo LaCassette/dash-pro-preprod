@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "functions": {
+    "/api/coaching/[organizationId]/analyze-program": {},
+    "/api/coaching/[organizationId]/notes": {},
+    "/api/exercises/grouped": {},
+    "/api/exercises": {},
+    "/api/measurements/users/[userId]/stats": {},
+    "/api/measurements/users/[userId]": {},
+    "/api/logout": {},
+    "/api/public/stats": {},
+    "/api/stripe/webhook": {},
+    "/api/workout-sessions/users/[userId]": {},
+    "/api/workout-sessions/users/[userId]/stats": {},
+    "/dashboard/subscription": {}
+  }
+}

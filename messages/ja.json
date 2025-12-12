@@ -1,0 +1,342 @@
+{
+  "common": {
+    "loading": "読み込み中...",
+    "save": "保存",
+    "cancel": "キャンセル",
+    "delete": "削除",
+    "edit": "編集",
+    "create": "作成",
+    "confirm": "確認",
+    "close": "閉じる",
+    "search": "検索",
+    "filter": "フィルター",
+    "noResults": "結果がありません",
+    "error": "エラー",
+    "success": "成功",
+    "yes": "はい",
+    "no": "いいえ",
+    "back": "戻る",
+    "next": "次へ",
+    "previous": "前へ",
+    "actions": "アクション",
+    "details": "詳細",
+    "settings": "設定",
+    "logout": "ログアウト",
+    "welcome": "ようこそ"
+  },
+  "nav": {
+    "dashboard": "ダッシュボード",
+    "profile": "プロフィール",
+    "messaging": "メッセージ",
+    "clients": "クライアント",
+    "trainings": "トレーニング",
+    "nutrition": "栄養",
+    "organizations": "組織",
+    "assistants": "アシスタント",
+    "calculators": "計算機",
+    "subscription": "サブスクリプション",
+    "admin": "管理",
+    "users": "ユーザー",
+    "pros": "プロフェッショナル",
+    "settings": "設定",
+    "programBuilder": "プログラム作成",
+    "programs": "Programs"
+  },
+  "dashboard": {
+    "title": "マイダッシュボード",
+    "welcomeMessage": "ようこそ、{name}さん",
+    "role": "役割",
+    "sportPrograms": "スポーツプログラム",
+    "nutritionPrograms": "栄養プログラム",
+    "totalPrograms": "プログラム合計",
+    "conversations": "会話",
+    "recentMessages": "最近のメッセージ",
+    "clients": "クライアント",
+    "activeClients": "アクティブなクライアント",
+    "organizations": "組織",
+    "managedOrganizations": "管理組織",
+    "memberOrganizations": "所属組織",
+    "assistants": "アシスタント",
+    "configuredAssistants": "設定済みアシスタント",
+    "createdThisWeek": "今週作成",
+    "totalMessages": "メッセージ合計",
+    "thisWeek": "今週",
+    "newThisWeek": "今週の新規"
+  },
+  "profile": {
+    "title": "マイプロフィール",
+    "personalInfo": "個人情報",
+    "sportProfile": "スポーツプロフィール",
+    "nutritionProfile": "栄養プロフィール",
+    "medicalProfile": "医療プロフィール",
+    "lifestyleProfile": "ライフスタイル",
+    "email": "メール",
+    "name": "名前",
+    "phone": "電話番号",
+    "birthDate": "生年月日",
+    "gender": "性別",
+    "male": "男性",
+    "female": "女性",
+    "weight": "体重",
+    "height": "身長",
+    "age": "年齢",
+    "saveChanges": "変更を保存"
+  },
+  "messaging": {
+    "title": "メッセージ",
+    "newConversation": "新しい会話",
+    "searchConversations": "会話を検索",
+    "noConversations": "会話がありません",
+    "startConversation": "会話を始める",
+    "typeMessage": "メッセージを入力...",
+    "send": "送信",
+    "unread": "未読",
+    "online": "オンライン",
+    "offline": "オフライン",
+    "lastSeen": "最終ログイン"
+  },
+  "clients": {
+    "title": "マイクライアント",
+    "addClient": "クライアントを追加",
+    "searchClients": "クライアントを検索",
+    "noClients": "クライアントがいません",
+    "inviteClient": "クライアントを招待",
+    "clientDetails": "クライアント詳細",
+    "programs": "プログラム",
+    "progress": "進捗",
+    "lastActivity": "最終活動"
+  },
+  "trainings": {
+    "title": "トレーニング",
+    "createProgram": "プログラムを作成",
+    "searchPrograms": "プログラムを検索",
+    "noPrograms": "プログラムがありません",
+    "programDetails": "プログラム詳細",
+    "exercises": "エクササイズ",
+    "duration": "期間",
+    "difficulty": "難易度",
+    "category": "カテゴリー"
+  },
+  "nutrition": {
+    "title": "栄養",
+    "createPlan": "プランを作成",
+    "searchPlans": "プランを検索",
+    "noPlans": "プランがありません",
+    "planDetails": "プラン詳細",
+    "meals": "食事",
+    "calories": "カロリー",
+    "macros": "マクロ栄養素",
+    "proteins": "タンパク質",
+    "carbs": "炭水化物",
+    "fats": "脂質"
+  },
+  "organizations": {
+    "title": "組織",
+    "createOrganization": "組織を作成",
+    "joinOrganization": "組織に参加",
+    "searchOrganizations": "組織を検索",
+    "noOrganizations": "組織がありません",
+    "members": "メンバー",
+    "invitations": "招待",
+    "settings": "設定",
+    "leave": "脱退",
+    "delete": "削除"
+  },
+  "assistants": {
+    "title": "AIアシスタント",
+    "createAssistant": "アシスタントを作成",
+    "noAssistants": "アシスタントがいません",
+    "chat": "チャット",
+    "history": "履歴",
+    "configure": "設定",
+    "sessions": "セッション"
+  },
+  "calculators": {
+    "title": "計算機",
+    "bmr": "基礎代謝",
+    "bmrTitle": "基礎代謝計算機",
+    "bmrDescription": "Black et al.の式で基礎代謝を計算します",
+    "imc": "BMI",
+    "imcTitle": "BMI計算機（ボディマス指数）",
+    "imcDescription": "ボディマス指数を計算します",
+    "img": "体脂肪率",
+    "imgTitle": "体脂肪率計算機",
+    "imgDescription": "Deurenbergの式で体脂肪率を計算します",
+    "rth": "WHR",
+    "rthTitle": "ウエスト・ヒップ比計算機",
+    "rthDescription": "心血管リスクを評価するウエスト・ヒップ比を計算します",
+    "idealWeight": "理想体重",
+    "idealWeightTitle": "理想体重（ローレンツ式）",
+    "idealWeightDescription": "ローレンツ式で理想体重を計算します",
+    "calculate": "計算",
+    "result": "結果",
+    "kcalPerDay": "kcal/日",
+    "kg": "kg",
+    "cm": "cm",
+    "years": "歳",
+    "underweight": "低体重",
+    "normalWeight": "標準体重",
+    "overweight": "過体重",
+    "moderateObesity": "中等度肥満",
+    "severeObesity": "重度肥満",
+    "morbidObesity": "病的肥満",
+    "tooThin": "痩せすぎ",
+    "normal": "標準",
+    "obesity": "肥満",
+    "lowRisk": "低リスク",
+    "moderateRisk": "中リスク",
+    "highRisk": "高リスク",
+    "waistCircumference": "ウエスト周囲径",
+    "hipCircumference": "ヒップ周囲径"
+  },
+  "subscription": {
+    "title": "サブスクリプション",
+    "currentPlan": "現在のプラン",
+    "upgrade": "アップグレード",
+    "downgrade": "ダウングレード",
+    "cancel": "サブスクリプションをキャンセル",
+    "billingHistory": "請求履歴",
+    "nextBilling": "次回請求日",
+    "status": "ステータス",
+    "active": "アクティブ",
+    "inactive": "非アクティブ",
+    "trial": "トライアル",
+    "expired": "期限切れ",
+    "monthly": "月額",
+    "yearly": "年額",
+    "choosePlan": "プランを選択",
+    "manageSubscription": "サブスクリプション管理"
+  },
+  "admin": {
+    "title": "管理",
+    "users": "ユーザー",
+    "pros": "プロフェッショナル",
+    "organizations": "組織",
+    "pendingApproval": "承認待ち",
+    "approve": "承認",
+    "reject": "拒否",
+    "userDetails": "ユーザー詳細",
+    "proDetails": "プロフェッショナル詳細",
+    "totalUsers": "ユーザー合計",
+    "totalPros": "プロフェッショナル合計",
+    "totalOrganizations": "組織合計"
+  },
+  "errors": {
+    "generic": "エラーが発生しました",
+    "notFound": "ページが見つかりません",
+    "unauthorized": "認証されていません",
+    "forbidden": "アクセスが拒否されました",
+    "networkError": "ネットワークエラー",
+    "validationError": "入力エラー",
+    "serverError": "サーバーエラー",
+    "required": "この項目は必須です",
+    "invalidEmail": "無効なメールアドレス",
+    "invalidPassword": "無効なパスワード",
+    "passwordMismatch": "パスワードが一致しません"
+  },
+  "auth": {
+    "login": "ログイン",
+    "register": "登録",
+    "logout": "ログアウト",
+    "forgotPassword": "パスワードを忘れた",
+    "resetPassword": "パスワードをリセット",
+    "email": "メールアドレス",
+    "password": "パスワード",
+    "confirmPassword": "パスワード確認",
+    "rememberMe": "ログイン状態を保持"
+  },
+  "roles": {
+    "user": "ユーザー",
+    "pro": "プロフェッショナル",
+    "admin": "管理者",
+    "pending": "保留中",
+    "active": "アクティブ",
+    "rejected": "拒否済み"
+  },
+  "time": {
+    "today": "今日",
+    "yesterday": "昨日",
+    "daysAgo": "{count}日前",
+    "weeksAgo": "{count}週間前",
+    "monthsAgo": "{count}ヶ月前",
+    "justNow": "たった今"
+  },
+  "tour": {
+    "buttons": {
+      "back": "戻る",
+      "close": "閉じる",
+      "last": "完了",
+      "next": "次へ",
+      "skip": "スキップ",
+      "remindLater": "後で通知する",
+      "understood": "了解しました"
+    },
+    "welcome": {
+      "title": "Atletiaへようこそ！🎉",
+      "description": "このツアーでは、プラットフォームの主な機能をご案内します。",
+      "start": "まずはダッシュボードを見てみましょう。"
+    },
+    "sidebar": {
+      "title": "ナビゲーションメニュー",
+      "description": "このメニューを使用して、アプリケーションのすべてのセクションにアクセスできます。",
+      "tip": "ヒント：上部のアイコンをクリックしてメニューを折りたたむことができます。"
+    },
+    "stats": {
+      "title": "あなたの統計",
+      "description": "ここでは、プログラム、メッセージ、クライアントなど、あなたのアクティビティの概要を確認できます。",
+      "realtime": "これらの統計は、アクティブな組織に基づいてリアルタイムで更新されます。"
+    },
+    "profile": {
+      "title": "マイプロフィール",
+      "description": "個人情報とスポーツ・栄養プロフィールを管理します。",
+      "important": "重要：パーソナライズされたプログラムを取得するには、プロフィールを入力してください。"
+    },
+    "trainings": {
+      "title": "マイトレーニング",
+      "description": "コーチが作成したスポーツトレーニングプログラムをすべて確認できます。",
+      "filter": "組織でフィルタリングし、各プログラムの詳細を確認できます。"
+    },
+    "nutrition": {
+      "title": "マイ栄養",
+      "description": "パーソナライズされた栄養プログラムにアクセスします。",
+      "adapted": "プログラムは、あなたの目標と栄養プロフィールに合わせて調整されています。"
+    },
+    "messaging": {
+      "title": "マイメッセージ",
+      "description": "コーチやクライアントと安全にコミュニケーションを取ります。",
+      "security": "セキュリティ：プライバシーを保護するため、すべてのメッセージは暗号化されています。"
+    },
+    "clients": {
+      "title": "クライアント管理",
+      "description": "すべてのクライアントを管理し、プロフィールを確認し、パーソナライズされたプログラムを作成します。",
+      "features": "機能：検索、フィルター、統計、プロフィールへのクイックアクセス。"
+    },
+    "organizations": {
+      "title": "マイ組織",
+      "descriptionPro": "クライアントとプログラムをグループ化するための組織を作成・管理します。",
+      "descriptionUser": "コーチが作成したプログラムにアクセスするために組織に参加します。",
+      "customization": "カスタマイズ：各組織は独自の色とロゴを持つことができます。",
+      "search": "組織を検索し、参加をリクエストできます。"
+    },
+    "assistants": {
+      "title": "マイAIアシスタント",
+      "description": "専門のAIアシスタントを使用して、コーチや栄養士からのアドバイスを得ます。",
+      "tip": "ヒント：自由に質問するか、事前定義された提案を使用してください。"
+    },
+    "calculators": {
+      "title": "計算機",
+      "description": "プロフェッショナルな計算ツールにアクセス：基礎代謝、BMI、体脂肪率、WHR、理想体重。",
+      "purpose": "これらのツールは、クライアントの状態を正確に評価するのに役立ちます。"
+    },
+    "subscription": {
+      "title": "サブスクリプション",
+      "description": "サブスクリプションを管理し、請求書を確認し、プランを変更します。",
+      "trial": "無料トライアル：すべての機能を14日間テストできます。"
+    },
+    "orgSelector": {
+      "title": "組織セレクター",
+      "description": "複数の組織のメンバーである場合、このセレクターを使用してそれらを切り替えます。",
+      "context": "表示されるデータ（プログラム、クライアントなど）は、選択した組織に適応します。"
+    }
+  }
+}
