@@ -1,19 +1,14 @@
 import { auth0 } from '@/lib/auth0';
 import { redirect } from 'next/navigation';
 import { CustomNavbar } from '@/components/landing/custom-navbar';
-import { HeroSection } from '@/components/landing/hero-section';
+import { HeroSectionB2C } from '@/components/landing/hero-section-b2c';
 import { CredibilityBar } from '@/components/landing/credibility-bar';
-import { ValueProposition } from '@/components/landing/value-proposition';
-import { FeaturesSection } from '@/components/landing/features-section';
-import { ProductDemo } from '@/components/landing/product-demo';
-import { UseCases } from '@/components/landing/use-cases';
-import { ResultsImpact } from '@/components/landing/results-impact';
-import { Testimonials } from '@/components/landing/testimonials';
-import { CaseStudy } from '@/components/landing/case-study';
-import { Pricing } from '@/components/landing/pricing';
+import { ValuePropositionB2C } from '@/components/landing/value-proposition-b2c';
+import { FeaturesSectionB2C } from '@/components/landing/features-section-b2c';
+import { TestimonialsB2C } from '@/components/landing/testimonials-b2c';
+import { PricingB2C } from '@/components/landing/pricing-b2c';
 import { SecurityTrust } from '@/components/landing/security-trust';
-import { Newsletter } from '@/components/landing/newsletter';
-import { FAQ } from '@/components/landing/faq';
+import { FAQB2C } from '@/components/landing/faq-b2c';
 import { Footer } from '@/components/landing/footer';
 
 export default async function Home() {
@@ -35,19 +30,14 @@ export default async function Home() {
 
       <CustomNavbar />
       <main className="flex-1 relative z-10">
-        <HeroSection />
+        <HeroSectionB2C />
         <CredibilityBar />
-        <ValueProposition />
-        <FeaturesSection />
-        <ProductDemo />
-        <UseCases />
-        <ResultsImpact />
-        <Testimonials />
-        <CaseStudy />
-        <Pricing />
+        <ValuePropositionB2C />
+        <FeaturesSectionB2C />
+        <TestimonialsB2C />
+        <PricingB2C />
         <SecurityTrust />
-        <Newsletter />
-        <FAQ />
+        <FAQB2C />
       </main>
       <Footer />
     </div>

@@ -73,7 +73,25 @@ const CustomNavbar = ({
     title: 'ATLETIA',
   },
   menu = [
-    { title: 'Fonctionnalités', url: '#features' },
+    {
+      title: 'Offres',
+      url: '#',
+      items: [
+        {
+          title: 'Particuliers',
+          description: 'App mobile gratuite pour ton entraînement',
+          icon: <Sparkles className="size-5 shrink-0" />,
+          url: '/',
+        },
+        {
+          title: 'Professionnels',
+          description: 'Plateforme complète pour coachs et salles',
+          icon: <Shield className="size-5 shrink-0" />,
+          url: '/pro',
+        },
+      ],
+    },
+    { title: 'Fonctionnalités', url: '#fonctionnalites' },
     { title: 'Tarifs', url: '#pricing' },
     { title: 'FAQ', url: '#faq' },
     {

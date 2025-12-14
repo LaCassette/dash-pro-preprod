@@ -5,12 +5,13 @@ const withNextIntl = createNextIntlPlugin('./lib/i18n.ts');
 
 const nextConfig: NextConfig = {
   // Cloudflare Workers compatibility
+  output: "export",
   images: {
     unoptimized: true, // Use Cloudflare Images instead of Next.js optimization
   },
   experimental: {
     serverActions: {
-      bodySizeLimit: "2mb",
+      bodySizeLimit: "8mb",
     },
   },
 };
