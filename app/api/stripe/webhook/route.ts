@@ -5,8 +5,7 @@ import { prisma } from '@/lib/prisma';
 import { STRIPE_PRICE_IDS } from '@/lib/stripe-prices';
 import Stripe from 'stripe';
 
-export const runtime = 'edge';
-
+// Note: Using Node.js runtime instead of Edge because Stripe SDK exceeds Edge's 1MB limit
 export async function POST(request: NextRequest) {
   const body = await request.text();
   const signature = (await headers()).get('stripe-signature');
