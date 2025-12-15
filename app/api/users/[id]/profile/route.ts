@@ -3,6 +3,8 @@ import { prisma } from '@/lib/prisma';
 import { getAuthenticatedUser } from '@/lib/auth-helpers';
 import { encryptObject, decryptObject } from '@/lib/encryption';
 
+export const runtime = 'edge';
+
 // GET: Récupérer le profil d'un utilisateur
 export async function GET(
   request: NextRequest,

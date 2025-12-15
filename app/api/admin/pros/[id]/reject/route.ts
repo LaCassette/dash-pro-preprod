@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 import { auth0 } from '@/lib/auth0';
 import { prisma } from '@/lib/prisma';
 
-// Removed edge runtime for Auth0 compatibility
+export const runtime = 'edge';
 
 export async function POST(
   request: Request,

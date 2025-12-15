@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { auth0 } from '@/lib/auth0';
 import { prisma } from '@/lib/prisma';
 
-// Note: Cannot use edge runtime with Auth0 getSession() - requires Node.js for cookies
+export const runtime = 'edge';
 
 export async function GET() {
   try {

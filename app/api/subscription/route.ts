@@ -2,12 +2,12 @@ import { NextResponse } from 'next/server';
 import { auth0 } from '@/lib/auth0';
 import { prisma } from '@/lib/prisma';
 
-// Removed edge runtime for Auth0 compatibility
+export const runtime = 'edge';
 
 export async function GET() {
   try {
     const session = await auth0.getSession();
-    
+
     if (!session || !session.user) {
       return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
     }

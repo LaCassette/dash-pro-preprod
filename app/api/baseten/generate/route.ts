@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import OpenAI from 'openai';
 import { getAuthenticatedUser } from '@/lib/auth-helpers';
 
-// Removed edge runtime for Auth0 compatibility
+export const runtime = 'edge';
 
 export async function POST(request: NextRequest) {
   try {

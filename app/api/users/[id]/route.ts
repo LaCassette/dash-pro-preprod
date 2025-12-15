@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 import { getAuthenticatedUser } from '@/lib/auth-helpers';
 
-// Removed edge runtime for Auth0 compatibility
+export const runtime = 'edge';
 
 // GET: Détails d'un utilisateur
 export async function GET(

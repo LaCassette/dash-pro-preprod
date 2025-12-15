@@ -3,7 +3,7 @@ import { prisma } from '@/lib/prisma';
 import { getAuthenticatedUser } from '@/lib/auth-helpers';
 import OpenAI from 'openai';
 
-// Removed edge runtime for Auth0 compatibility
+export const runtime = 'edge';
 
 export async function POST(
   request: NextRequest,

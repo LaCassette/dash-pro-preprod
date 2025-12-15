@@ -4,7 +4,7 @@ import { prisma } from '@/lib/prisma';
 import { stripe } from '@/lib/stripe';
 import { STRIPE_PRICE_IDS } from '@/lib/stripe-prices';
 
-// Removed edge runtime for Auth0 compatibility
+export const runtime = 'edge';
 
 export async function POST(request: NextRequest) {
   try {

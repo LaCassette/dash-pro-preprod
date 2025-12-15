@@ -3,7 +3,7 @@ import { getAuthenticatedUser } from '@/lib/auth-helpers';
 import { prisma } from '@/lib/prisma';
 import { defaultAgents } from '@/lib/default-agents';
 
-// Removed edge runtime for Auth0 compatibility
+export const runtime = 'edge';
 
 export async function POST(request: NextRequest) {
   try {

@@ -3,7 +3,7 @@ import { auth0 } from '@/lib/auth0';
 import { prisma } from '@/lib/prisma';
 import { stripe } from '@/lib/stripe';
 
-// Removed edge runtime for Auth0 compatibility
+export const runtime = 'edge';
 
 export async function GET(request: NextRequest) {
   try {

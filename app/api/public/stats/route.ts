@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 
-// Note: Not using edge runtime because Prisma Client requires Node.js runtime
+export const runtime = 'edge';
 
 /**
  * GET /api/public/stats
