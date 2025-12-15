@@ -1,3 +1,6 @@
+'use client';
+export const runtime = 'edge';
+
 import { auth0 } from '@/lib/auth0';
 import { redirect } from 'next/navigation';
 import { CustomNavbar } from '@/components/landing/custom-navbar';

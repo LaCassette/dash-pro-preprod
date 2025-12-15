@@ -1,3 +1,6 @@
+'use client';
+export const runtime = 'edge';
+
 import { Suspense } from 'react';
 import { SubscriptionContent } from './subscription-content';
 import { Loader2 } from 'lucide-react';
