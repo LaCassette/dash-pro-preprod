@@ -1,8 +1,6 @@
 'use client';
 export const runtime = 'edge';
 
-'use client';
-
 
 import { useUser } from '@/hooks/use-user';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';

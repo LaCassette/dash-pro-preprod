@@ -1,8 +1,6 @@
 'use client';
 export const runtime = 'edge';
 
-'use client';
-
 
 /**
  * Page de détail d'une organisation.

@@ -1,4 +1,3 @@
-'use client';
 export const runtime = 'edge';
 
 import { auth0 } from '@/lib/auth0';

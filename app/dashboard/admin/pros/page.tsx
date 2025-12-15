@@ -1,8 +1,6 @@
 'use client';
 export const runtime = 'edge';
 
-'use client';
-
 
 import { useState, useEffect } from 'react';
 import { useUser } from '@/hooks/use-user';

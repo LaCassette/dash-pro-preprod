@@ -1,4 +1,3 @@
-'use client';
 export const runtime = 'edge';
 
 import { Metadata } from 'next';
@@ -14,7 +13,7 @@ export default function TerminationPage() {
     <div className="flex min-h-screen flex-col">
       <main className="container mx-auto max-w-4xl px-4 py-16">
         <h1 className="mb-8 text-4xl font-bold">Conditions Générales de Résiliation</h1>
-        
+
         <div className="prose prose-slate dark:prose-invert max-w-none">
           <p className="text-sm text-muted-foreground mb-8">
             Dernière mise à jour : {new Date().toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' })}
@@ -32,7 +31,7 @@ export default function TerminationPage() {
 
           <section className="mb-8">
             <h2 className="mb-4 text-2xl font-semibold">2. Résiliation par l'utilisateur</h2>
-            
+
             <h3 className="mb-3 text-xl font-semibold">2.1. Droit de résiliation</h3>
             <p className="mb-4">
               L'utilisateur peut résilier son abonnement à tout moment, sans justification, depuis les paramètres de son compte ou en contactant Atletia par courrier électronique à l'adresse : contact@atletia.fr.
@@ -40,7 +39,7 @@ export default function TerminationPage() {
             <p className="mb-4">
               La résiliation prend effet à la fin de la période d'abonnement en cours. Aucun remboursement ne sera effectué pour la période d'abonnement déjà payée et en cours.
             </p>
-            
+
             <h3 className="mb-3 text-xl font-semibold">2.2. Modalités de résiliation</h3>
             <p className="mb-4">
               Pour être valide, la résiliation doit être effectuée :
@@ -53,7 +52,7 @@ export default function TerminationPage() {
             <p className="mb-4">
               Atletia confirmera la résiliation par courrier électronique dans un délai de 48 heures.
             </p>
-            
+
             <h3 className="mb-3 text-xl font-semibold">2.3. Conséquences de la résiliation</h3>
             <p className="mb-4">
               En cas de résiliation par l'utilisateur :
@@ -69,7 +68,7 @@ export default function TerminationPage() {
 
           <section className="mb-8">
             <h2 className="mb-4 text-2xl font-semibold">3. Résiliation par Atletia</h2>
-            
+
             <h3 className="mb-3 text-xl font-semibold">3.1. Cas de résiliation unilatérale</h3>
             <p className="mb-4">
               Atletia se réserve le droit de résilier immédiatement et sans préavis l'abonnement de tout utilisateur en cas de :
@@ -85,7 +84,7 @@ export default function TerminationPage() {
               <li><strong>Non-paiement</strong> : défaut de paiement de l'abonnement, refus d'autorisation de paiement, ou tout incident de paiement</li>
               <li><strong>Inactivité prolongée</strong> : absence d'utilisation de la Plateforme pendant une période supérieure à 12 mois consécutifs (sous réserve d'un préavis de 30 jours)</li>
             </ul>
-            
+
             <h3 className="mb-3 text-xl font-semibold">3.2. Procédure de résiliation</h3>
             <p className="mb-4">
               En cas de résiliation par Atletia pour manquement grave, la résiliation prend effet immédiatement, sans préavis ni remboursement.
@@ -96,7 +95,7 @@ export default function TerminationPage() {
             <p className="mb-4">
               L'utilisateur dispose d'un délai de 7 jours pour contester la résiliation par courrier électronique. Passé ce délai, la résiliation devient définitive.
             </p>
-            
+
             <h3 className="mb-3 text-xl font-semibold">3.3. Conséquences de la résiliation par Atletia</h3>
             <p className="mb-4">
               En cas de résiliation par Atletia pour manquement :

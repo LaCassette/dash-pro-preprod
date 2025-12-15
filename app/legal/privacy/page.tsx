@@ -1,4 +1,3 @@
-'use client';
 export const runtime = 'edge';
 
 import { Metadata } from 'next';
@@ -14,7 +13,7 @@ export default function PrivacyPage() {
     <div className="flex min-h-screen flex-col">
       <main className="container mx-auto max-w-4xl px-4 py-16">
         <h1 className="mb-8 text-4xl font-bold">Politique de Confidentialité</h1>
-        
+
         <div className="prose prose-slate dark:prose-invert max-w-none">
           <p className="text-sm text-muted-foreground mb-8">
             Dernière mise à jour : {new Date().toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' })}
@@ -47,7 +46,7 @@ export default function PrivacyPage() {
 
           <section className="mb-8">
             <h2 className="mb-4 text-2xl font-semibold">3. Données collectées</h2>
-            
+
             <h3 className="mb-3 text-xl font-semibold">3.1. Données collectées directement</h3>
             <p className="mb-4">
               Nous collectons les données suivantes lorsque vous créez un compte ou utilisez notre Plateforme :
