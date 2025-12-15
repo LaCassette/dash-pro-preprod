@@ -3,7 +3,6 @@ import { prisma } from '@/lib/prisma';
 import { getAuthenticatedUser } from '@/lib/auth-helpers';
 import { encrypt, decrypt } from '@/lib/encryption';
 
-export const runtime = 'edge';
 
 /**
  * GET /api/chats/[id]/messages

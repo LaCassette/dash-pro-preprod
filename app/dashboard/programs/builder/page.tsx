@@ -1,5 +1,4 @@
 'use client';
-export const runtime = 'edge';
 
 import { SidebarTrigger } from '@/components/ui/sidebar';
 import { ExerciseProgramBuilder } from '@/components/dashboard/exercise-program-builder';

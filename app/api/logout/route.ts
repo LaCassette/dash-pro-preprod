@@ -1,6 +1,5 @@
 import { NextResponse } from 'next/server';
 
-export const runtime = 'edge';
 
 export async function POST() {
   // Cette route peut être utilisée pour nettoyer les cookies/sessions côté serveur si nécessaire

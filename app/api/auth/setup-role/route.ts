@@ -2,7 +2,6 @@ import { NextRequest, NextResponse } from 'next/server';
 import { auth0 } from '@/lib/auth0';
 import { prisma } from '@/lib/prisma';
 
-export const runtime = 'edge';
 
 /**
  * Route pour définir le rôle PRO lors de l'inscription

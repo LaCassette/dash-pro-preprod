@@ -3,7 +3,6 @@ import { prisma } from '@/lib/prisma';
 import { getAuthenticatedUser } from '@/lib/auth-helpers';
 import OpenAI from 'openai';
 
-export const runtime = 'edge';
 
 export async function POST(
   request: NextRequest,

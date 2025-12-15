@@ -3,7 +3,6 @@ import { auth0 } from '@/lib/auth0';
 import { prisma } from '@/lib/prisma';
 import { stripe } from '@/lib/stripe';
 
-export const runtime = 'edge';
 
 export async function POST(request: NextRequest) {
   try {

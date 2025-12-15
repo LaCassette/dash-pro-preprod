@@ -5,7 +5,6 @@ import { prisma } from '@/lib/prisma';
 import { STRIPE_PRICE_IDS } from '@/lib/stripe-prices';
 import Stripe from 'stripe';
 
-export const runtime = 'edge';
 export async function POST(request: NextRequest) {
   const body = await request.text();
   const signature = (await headers()).get('stripe-signature');

@@ -1,4 +1,3 @@
-export const runtime = 'edge';
 
 import { auth0 } from '@/lib/auth0';
 import { redirect } from 'next/navigation';

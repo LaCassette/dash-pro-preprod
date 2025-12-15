@@ -2,7 +2,6 @@ import { auth0 } from '@/lib/auth0';
 import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 
-export const runtime = 'edge';
 
 /**
  * API route pour synchroniser l'utilisateur Auth0 avec notre base de données

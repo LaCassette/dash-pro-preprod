@@ -4,7 +4,6 @@ import { prisma } from '@/lib/prisma';
 import { stripe } from '@/lib/stripe';
 import { STRIPE_PRICE_IDS } from '@/lib/stripe-prices';
 
-export const runtime = 'edge';
 
 export async function POST(request: NextRequest) {
   try {

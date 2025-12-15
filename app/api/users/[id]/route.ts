@@ -2,7 +2,6 @@ import { NextRequest, NextResponse } from 'next/server';
 import { prisma } from '@/lib/prisma';
 import { getAuthenticatedUser } from '@/lib/auth-helpers';
 
-export const runtime = 'edge';
 
 // GET: Détails d'un utilisateur
 export async function GET(

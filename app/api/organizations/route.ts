@@ -3,7 +3,6 @@ import { prisma } from '@/lib/prisma';
 import { getAuthenticatedUser } from '@/lib/auth-helpers';
 import { canCreateOrganization } from '@/lib/subscription-limits';
 
-export const runtime = 'edge';
 
 /**
  * GET /api/organizations

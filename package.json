@@ -8,9 +8,9 @@
     "start": "next start",
     "lint": "eslint",
     "postinstall": "prisma generate",
-    "build:cloudflare": "npx @opennextjs/cloudflare build",
-    "deploy": "npm run build:cloudflare && wrangler deploy",
-    "preview": "npm run build:cloudflare && wrangler dev"
+    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
+    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "upload": "opennextjs-cloudflare build && opennextjs-cloudflare upload"
   },
   "dependencies": {
     "@auth0/nextjs-auth0": "^4.12.1",

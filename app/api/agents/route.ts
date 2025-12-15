@@ -3,7 +3,6 @@ import { auth0 } from '@/lib/auth0';
 import { prisma } from '@/lib/prisma';
 import { getAuthenticatedUser } from '@/lib/auth-helpers';
 
-export const runtime = 'edge';
 
 export async function GET(request: NextRequest) {
   try {

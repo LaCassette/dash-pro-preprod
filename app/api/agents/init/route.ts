@@ -3,7 +3,6 @@ import { getAuthenticatedUser } from '@/lib/auth-helpers';
 import { prisma } from '@/lib/prisma';
 import { defaultAgents } from '@/lib/default-agents';
 
-export const runtime = 'edge';
 
 export async function POST(request: NextRequest) {
   try {

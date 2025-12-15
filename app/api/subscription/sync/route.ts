@@ -4,7 +4,6 @@ import { prisma } from '@/lib/prisma';
 import { stripe } from '@/lib/stripe';
 import { STRIPE_PRICE_IDS } from '@/lib/stripe-prices';
 
-export const runtime = 'edge';
 
 /**
  * Route pour synchroniser les données d'abonnement depuis Stripe

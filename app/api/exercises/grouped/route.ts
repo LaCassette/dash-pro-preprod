@@ -2,7 +2,6 @@ import { NextRequest, NextResponse } from 'next/server';
 
 const API_URL = process.env.API_URL || 'http://localhost:23945';
 
-export const runtime = 'edge';
 
 export async function GET(request: NextRequest) {
     try {
