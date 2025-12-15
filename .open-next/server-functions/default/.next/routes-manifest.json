@@ -619,6 +619,12 @@
       "namedRegex": "^/logout(?:/)?$"
     },
     {
+      "page": "/pro",
+      "regex": "^/pro(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/pro(?:/)?$"
+    },
+    {
       "page": "/signup",
       "regex": "^/signup(?:/)?$",
       "routeKeys": {},

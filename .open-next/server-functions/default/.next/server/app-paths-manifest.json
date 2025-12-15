@@ -41,12 +41,12 @@
   "/api/programs/[id]/route": "app/api/programs/[id]/route.js",
   "/api/programs/migrate/route": "app/api/programs/migrate/route.js",
   "/api/programs/route": "app/api/programs/route.js",
-  "/api/public/stats/route": "app-edge-has-no-entrypoint",
+  "/api/public/stats/route": "app/api/public/stats/route.js",
   "/api/requests/route": "app/api/requests/route.js",
   "/api/stripe/create-checkout/route": "app/api/stripe/create-checkout/route.js",
   "/api/stripe/create-portal/route": "app/api/stripe/create-portal/route.js",
   "/api/stripe/invoices/route": "app/api/stripe/invoices/route.js",
-  "/api/stripe/webhook/route": "app-edge-has-no-entrypoint",
+  "/api/stripe/webhook/route": "app/api/stripe/webhook/route.js",
   "/api/subscription/route": "app/api/subscription/route.js",
   "/api/subscription/sync/route": "app/api/subscription/sync/route.js",
   "/api/users/[id]/profile/route": "app/api/users/[id]/profile/route.js",
@@ -87,5 +87,6 @@
   "/legal/terms/page": "app/legal/terms/page.js",
   "/logout/page": "app/logout/page.js",
   "/page": "app/page.js",
+  "/pro/page": "app/pro/page.js",
   "/signup/page": "app/signup/page.js"
 }

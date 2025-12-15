@@ -207,7 +207,7 @@
       "hideLogsAfterAbort": false,
       "mcpServer": true,
       "serverActions": {
-        "bodySizeLimit": "2mb"
+        "bodySizeLimit": "8mb"
       },
       "optimizePackageImports": [
         "lucide-react",

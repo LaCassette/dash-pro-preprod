@@ -20,7 +20,7 @@
       "wasm": [],
       "assets": [],
       "env": {
-        "__NEXT_BUILD_ID": "dlAoypti2Hm3aXb0sWOI7",
+        "__NEXT_BUILD_ID": "ju0tWlgh9eQwl-s4yWxD7",
         "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "EgmNF13NUN/tapjpWa4t5P23JF2yT5XlzGtTzpfMq08=",
         "__NEXT_PREVIEW_MODE_ID": "c4c3d0ef1339e09e41bad08580252e0e",
         "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "fc657dccdb5e63a865320a3cdffb246e2d3e98fb64d9e1d6577ec34cb0d35c21",
@@ -40,8 +40,8 @@
         "server/app/api/coaching/[organizationId]/analyze-program/route_client-reference-manifest.js",
         "server/edge/chunks/ce889_server_app_api_coaching_[organizationId]_analyze-program_route_actions_a4321d20.js",
         "server/edge/chunks/[root-of-the-server]__1d278b79._.js",
-        "server/edge/chunks/node_modules_next_dist_1ee357a9._.js",
-        "server/edge/chunks/turbopack-edge-wrapper_014b09da.js"
+        "server/edge/chunks/node_modules_next_dist_f1acf56c._.js",
+        "server/edge/chunks/turbopack-edge-wrapper_4c9f4d91.js"
       ],
       "name": "app/api/coaching/[organizationId]/analyze-program/route",
       "page": "/api/coaching/[organizationId]/analyze-program/route",
@@ -54,7 +54,7 @@
       "wasm": [],
       "assets": [],
       "env": {
-        "__NEXT_BUILD_ID": "dlAoypti2Hm3aXb0sWOI7",
+        "__NEXT_BUILD_ID": "ju0tWlgh9eQwl-s4yWxD7",
         "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "EgmNF13NUN/tapjpWa4t5P23JF2yT5XlzGtTzpfMq08=",
         "__NEXT_PREVIEW_MODE_ID": "c4c3d0ef1339e09e41bad08580252e0e",
         "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "fc657dccdb5e63a865320a3cdffb246e2d3e98fb64d9e1d6577ec34cb0d35c21",
@@ -69,8 +69,8 @@
         "server/app/api/coaching/[organizationId]/notes/route_client-reference-manifest.js",
         "server/edge/chunks/ce889_server_app_api_coaching_[organizationId]_notes_route_actions_32f431c1.js",
         "server/edge/chunks/[root-of-the-server]__a59c03e7._.js",
-        "server/edge/chunks/node_modules_next_dist_1ee357a9._.js",
-        "server/edge/chunks/turbopack-edge-wrapper_3080243d.js"
+        "server/edge/chunks/node_modules_next_dist_f1acf56c._.js",
+        "server/edge/chunks/turbopack-edge-wrapper_83ae48b0.js"
       ],
       "name": "app/api/coaching/[organizationId]/notes/route",
       "page": "/api/coaching/[organizationId]/notes/route",
@@ -83,7 +83,7 @@
       "wasm": [],
       "assets": [],
       "env": {
-        "__NEXT_BUILD_ID": "dlAoypti2Hm3aXb0sWOI7",
+        "__NEXT_BUILD_ID": "ju0tWlgh9eQwl-s4yWxD7",
         "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "EgmNF13NUN/tapjpWa4t5P23JF2yT5XlzGtTzpfMq08=",
         "__NEXT_PREVIEW_MODE_ID": "c4c3d0ef1339e09e41bad08580252e0e",
         "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "fc657dccdb5e63a865320a3cdffb246e2d3e98fb64d9e1d6577ec34cb0d35c21",
@@ -98,8 +98,8 @@
         "server/app/api/exercises/grouped/route_client-reference-manifest.js",
         "server/edge/chunks/_next-internal_server_app_api_exercises_grouped_route_actions_1849a913.js",
         "server/edge/chunks/[root-of-the-server]__77347e06._.js",
-        "server/edge/chunks/node_modules_next_dist_1ee357a9._.js",
-        "server/edge/chunks/turbopack-edge-wrapper_d6a55f5b.js"
+        "server/edge/chunks/node_modules_next_dist_f1acf56c._.js",
+        "server/edge/chunks/turbopack-edge-wrapper_121bd2b1.js"
       ],
       "name": "app/api/exercises/grouped/route",
       "page": "/api/exercises/grouped/route",
@@ -112,7 +112,7 @@
       "wasm": [],
       "assets": [],
       "env": {
-        "__NEXT_BUILD_ID": "dlAoypti2Hm3aXb0sWOI7",
+        "__NEXT_BUILD_ID": "ju0tWlgh9eQwl-s4yWxD7",
         "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "EgmNF13NUN/tapjpWa4t5P23JF2yT5XlzGtTzpfMq08=",
         "__NEXT_PREVIEW_MODE_ID": "c4c3d0ef1339e09e41bad08580252e0e",
         "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "fc657dccdb5e63a865320a3cdffb246e2d3e98fb64d9e1d6577ec34cb0d35c21",
@@ -127,8 +127,8 @@
         "server/app/api/exercises/route_client-reference-manifest.js",
         "server/edge/chunks/_next-internal_server_app_api_exercises_route_actions_5910f22c.js",
         "server/edge/chunks/[root-of-the-server]__c5534fee._.js",
-        "server/edge/chunks/node_modules_next_dist_1ee357a9._.js",
-        "server/edge/chunks/turbopack-edge-wrapper_34109ab3.js"
+        "server/edge/chunks/node_modules_next_dist_f1acf56c._.js",
+        "server/edge/chunks/turbopack-edge-wrapper_57b84b60.js"
       ],
       "name": "app/api/exercises/route",
       "page": "/api/exercises/route",
@@ -141,7 +141,7 @@
       "wasm": [],
       "assets": [],
       "env": {
-        "__NEXT_BUILD_ID": "dlAoypti2Hm3aXb0sWOI7",
+        "__NEXT_BUILD_ID": "ju0tWlgh9eQwl-s4yWxD7",
         "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "EgmNF13NUN/tapjpWa4t5P23JF2yT5XlzGtTzpfMq08=",
         "__NEXT_PREVIEW_MODE_ID": "c4c3d0ef1339e09e41bad08580252e0e",
         "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "fc657dccdb5e63a865320a3cdffb246e2d3e98fb64d9e1d6577ec34cb0d35c21",
@@ -156,8 +156,8 @@
         "server/app/api/logout/route_client-reference-manifest.js",
         "server/edge/chunks/_next-internal_server_app_api_logout_route_actions_ef40b8fa.js",
         "server/edge/chunks/[root-of-the-server]__608b62e5._.js",
-        "server/edge/chunks/node_modules_next_dist_1ee357a9._.js",
-        "server/edge/chunks/turbopack-edge-wrapper_b07ccfb4.js"
+        "server/edge/chunks/node_modules_next_dist_f1acf56c._.js",
+        "server/edge/chunks/turbopack-edge-wrapper_2c7f5b71.js"
       ],
       "name": "app/api/logout/route",
       "page": "/api/logout/route",
@@ -170,7 +170,7 @@
       "wasm": [],
       "assets": [],
       "env": {
-        "__NEXT_BUILD_ID": "dlAoypti2Hm3aXb0sWOI7",
+        "__NEXT_BUILD_ID": "ju0tWlgh9eQwl-s4yWxD7",
         "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "EgmNF13NUN/tapjpWa4t5P23JF2yT5XlzGtTzpfMq08=",
         "__NEXT_PREVIEW_MODE_ID": "c4c3d0ef1339e09e41bad08580252e0e",
         "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "fc657dccdb5e63a865320a3cdffb246e2d3e98fb64d9e1d6577ec34cb0d35c21",
@@ -185,8 +185,8 @@
         "server/app/api/measurements/users/[userId]/route_client-reference-manifest.js",
         "server/edge/chunks/_next-internal_server_app_api_measurements_users_[userId]_route_actions_a19f00c0.js",
         "server/edge/chunks/[root-of-the-server]__c127b6d4._.js",
-        "server/edge/chunks/node_modules_next_dist_1ee357a9._.js",
-        "server/edge/chunks/turbopack-edge-wrapper_c5a226f5.js"
+        "server/edge/chunks/node_modules_next_dist_f1acf56c._.js",
+        "server/edge/chunks/turbopack-edge-wrapper_759336c5.js"
       ],
       "name": "app/api/measurements/users/[userId]/route",
       "page": "/api/measurements/users/[userId]/route",
@@ -199,7 +199,7 @@
       "wasm": [],
       "assets": [],
       "env": {
-        "__NEXT_BUILD_ID": "dlAoypti2Hm3aXb0sWOI7",
+        "__NEXT_BUILD_ID": "ju0tWlgh9eQwl-s4yWxD7",
         "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "EgmNF13NUN/tapjpWa4t5P23JF2yT5XlzGtTzpfMq08=",
         "__NEXT_PREVIEW_MODE_ID": "c4c3d0ef1339e09e41bad08580252e0e",
         "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "fc657dccdb5e63a865320a3cdffb246e2d3e98fb64d9e1d6577ec34cb0d35c21",
@@ -214,8 +214,8 @@
         "server/app/api/measurements/users/[userId]/stats/route_client-reference-manifest.js",
         "server/edge/chunks/ce889_server_app_api_measurements_users_[userId]_stats_route_actions_294c7d70.js",
         "server/edge/chunks/[root-of-the-server]__b15a0072._.js",
-        "server/edge/chunks/node_modules_next_dist_1ee357a9._.js",
-        "server/edge/chunks/turbopack-edge-wrapper_153819ee.js"
+        "server/edge/chunks/node_modules_next_dist_f1acf56c._.js",
+        "server/edge/chunks/turbopack-edge-wrapper_6f039ac8.js"
       ],
       "name": "app/api/measurements/users/[userId]/stats/route",
       "page": "/api/measurements/users/[userId]/stats/route",
@@ -228,78 +228,7 @@
       "wasm": [],
       "assets": [],
       "env": {
-        "__NEXT_BUILD_ID": "dlAoypti2Hm3aXb0sWOI7",
-        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "EgmNF13NUN/tapjpWa4t5P23JF2yT5XlzGtTzpfMq08=",
-        "__NEXT_PREVIEW_MODE_ID": "c4c3d0ef1339e09e41bad08580252e0e",
-        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "fc657dccdb5e63a865320a3cdffb246e2d3e98fb64d9e1d6577ec34cb0d35c21",
-        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "4b5d650411df94ae78227660bf3b123420646615d2ce13334574929655801c69"
-      }
-    },
-    "/api/public/stats/route": {
-      "files": [
-        "server/middleware-build-manifest.js",
-        "server/interception-route-rewrite-manifest.js",
-        "server/server-reference-manifest.js",
-        "server/app/api/public/stats/route_client-reference-manifest.js",
-        "server/edge/chunks/_next-internal_server_app_api_public_stats_route_actions_76f89835.js",
-        "server/edge/chunks/[root-of-the-server]__0b003bdf._.js",
-        "server/edge/chunks/node_modules_next_dist_1ee357a9._.js",
-        "server/edge/chunks/_514b03cf._.js",
-        "server/edge/chunks/turbopack-edge-wrapper_31223102.js"
-      ],
-      "name": "app/api/public/stats/route",
-      "page": "/api/public/stats/route",
-      "matchers": [
-        {
-          "regexp": "^/api/public/stats(?:/)?$",
-          "originalSource": "/api/public/stats"
-        }
-      ],
-      "wasm": [
-        {
-          "name": "wasm_5ff7258941bdfe0f",
-          "filePath": "server/edge/chunks/node_modules__prisma_client_query_engine_bg_23ace1ce.wasm"
-        }
-      ],
-      "assets": [],
-      "env": {
-        "__NEXT_BUILD_ID": "dlAoypti2Hm3aXb0sWOI7",
-        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "EgmNF13NUN/tapjpWa4t5P23JF2yT5XlzGtTzpfMq08=",
-        "__NEXT_PREVIEW_MODE_ID": "c4c3d0ef1339e09e41bad08580252e0e",
-        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "fc657dccdb5e63a865320a3cdffb246e2d3e98fb64d9e1d6577ec34cb0d35c21",
-        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "4b5d650411df94ae78227660bf3b123420646615d2ce13334574929655801c69"
-      }
-    },
-    "/api/stripe/webhook/route": {
-      "files": [
-        "server/middleware-build-manifest.js",
-        "server/interception-route-rewrite-manifest.js",
-        "server/server-reference-manifest.js",
-        "server/app/api/stripe/webhook/route_client-reference-manifest.js",
-        "server/edge/chunks/_next-internal_server_app_api_stripe_webhook_route_actions_371d5332.js",
-        "server/edge/chunks/[root-of-the-server]__bafad193._.js",
-        "server/edge/chunks/_514b03cf._.js",
-        "server/edge/chunks/node_modules_next_dist_1ee357a9._.js",
-        "server/edge/chunks/node_modules_d9643d43._.js",
-        "server/edge/chunks/turbopack-edge-wrapper_5639d93a.js"
-      ],
-      "name": "app/api/stripe/webhook/route",
-      "page": "/api/stripe/webhook/route",
-      "matchers": [
-        {
-          "regexp": "^/api/stripe/webhook(?:/)?$",
-          "originalSource": "/api/stripe/webhook"
-        }
-      ],
-      "wasm": [
-        {
-          "name": "wasm_5ff7258941bdfe0f",
-          "filePath": "server/edge/chunks/node_modules__prisma_client_query_engine_bg_23ace1ce.wasm"
-        }
-      ],
-      "assets": [],
-      "env": {
-        "__NEXT_BUILD_ID": "dlAoypti2Hm3aXb0sWOI7",
+        "__NEXT_BUILD_ID": "ju0tWlgh9eQwl-s4yWxD7",
         "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "EgmNF13NUN/tapjpWa4t5P23JF2yT5XlzGtTzpfMq08=",
         "__NEXT_PREVIEW_MODE_ID": "c4c3d0ef1339e09e41bad08580252e0e",
         "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "fc657dccdb5e63a865320a3cdffb246e2d3e98fb64d9e1d6577ec34cb0d35c21",
@@ -314,8 +243,8 @@
         "server/app/api/workout-sessions/users/[userId]/route_client-reference-manifest.js",
         "server/edge/chunks/ce889_server_app_api_workout-sessions_users_[userId]_route_actions_f65fde18.js",
         "server/edge/chunks/[root-of-the-server]__059d4b9f._.js",
-        "server/edge/chunks/node_modules_next_dist_1ee357a9._.js",
-        "server/edge/chunks/turbopack-edge-wrapper_42ff7551.js"
+        "server/edge/chunks/node_modules_next_dist_f1acf56c._.js",
+        "server/edge/chunks/turbopack-edge-wrapper_ab64ffc2.js"
       ],
       "name": "app/api/workout-sessions/users/[userId]/route",
       "page": "/api/workout-sessions/users/[userId]/route",
@@ -328,7 +257,7 @@
       "wasm": [],
       "assets": [],
       "env": {
-        "__NEXT_BUILD_ID": "dlAoypti2Hm3aXb0sWOI7",
+        "__NEXT_BUILD_ID": "ju0tWlgh9eQwl-s4yWxD7",
         "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "EgmNF13NUN/tapjpWa4t5P23JF2yT5XlzGtTzpfMq08=",
         "__NEXT_PREVIEW_MODE_ID": "c4c3d0ef1339e09e41bad08580252e0e",
         "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "fc657dccdb5e63a865320a3cdffb246e2d3e98fb64d9e1d6577ec34cb0d35c21",
@@ -343,8 +272,8 @@
         "server/app/api/workout-sessions/users/[userId]/stats/route_client-reference-manifest.js",
         "server/edge/chunks/ce889_server_app_api_workout-sessions_users_[userId]_stats_route_actions_a1ea547f.js",
         "server/edge/chunks/[root-of-the-server]__f11cc950._.js",
-        "server/edge/chunks/node_modules_next_dist_1ee357a9._.js",
-        "server/edge/chunks/turbopack-edge-wrapper_ce07318e.js"
+        "server/edge/chunks/node_modules_next_dist_f1acf56c._.js",
+        "server/edge/chunks/turbopack-edge-wrapper_f50e20b0.js"
       ],
       "name": "app/api/workout-sessions/users/[userId]/stats/route",
       "page": "/api/workout-sessions/users/[userId]/stats/route",
@@ -357,7 +286,7 @@
       "wasm": [],
       "assets": [],
       "env": {
-        "__NEXT_BUILD_ID": "dlAoypti2Hm3aXb0sWOI7",
+        "__NEXT_BUILD_ID": "ju0tWlgh9eQwl-s4yWxD7",
         "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "EgmNF13NUN/tapjpWa4t5P23JF2yT5XlzGtTzpfMq08=",
         "__NEXT_PREVIEW_MODE_ID": "c4c3d0ef1339e09e41bad08580252e0e",
         "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "fc657dccdb5e63a865320a3cdffb246e2d3e98fb64d9e1d6577ec34cb0d35c21",
@@ -423,7 +352,7 @@
       ],
       "assets": [],
       "env": {
-        "__NEXT_BUILD_ID": "dlAoypti2Hm3aXb0sWOI7",
+        "__NEXT_BUILD_ID": "ju0tWlgh9eQwl-s4yWxD7",
         "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "EgmNF13NUN/tapjpWa4t5P23JF2yT5XlzGtTzpfMq08=",
         "__NEXT_PREVIEW_MODE_ID": "c4c3d0ef1339e09e41bad08580252e0e",
         "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "fc657dccdb5e63a865320a3cdffb246e2d3e98fb64d9e1d6577ec34cb0d35c21",

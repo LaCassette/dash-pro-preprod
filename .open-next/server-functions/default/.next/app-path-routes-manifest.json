@@ -87,5 +87,6 @@
   "/legal/terms/page": "/legal/terms",
   "/logout/page": "/logout",
   "/page": "/",
+  "/pro/page": "/pro",
   "/signup/page": "/signup"
 }

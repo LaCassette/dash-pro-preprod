@@ -727,7 +727,7 @@ var require_root_of_the_server_ad53bf88 = __commonJS({
   ".next/server/edge/chunks/[root-of-the-server]__ad53bf88._.js"() {
     "use strict";
     (globalThis.TURBOPACK || (globalThis.TURBOPACK = [])).push(["chunks/[root-of-the-server]__ad53bf88._.js", 372418, (t) => {
-      t.v({ name: "@auth0/nextjs-auth0", version: "4.12.1", description: "Auth0 Next.js SDK", type: "module", repository: { type: "git", url: "git+https://github.com/auth0/nextjs-auth0.git" }, keywords: ["auth0", "next.js", "react", "oidc", "authentication", "vercel"], author: "Auth0 (https://auth0.com)", license: "MIT", bugs: { url: "https://github.com/auth0/nextjs-auth0/issues" }, homepage: "https://github.com/auth0/nextjs-auth0#readme", devDependencies: { "@eslint/js": "^9.20.0", "@ianvs/prettier-plugin-sort-imports": "^4.3.1", "@playwright/test": "^1.48.2", "@stylistic/eslint-plugin-ts": "^3.1.0", "@testing-library/react": "^16.3.0", "@types/node": "^22.8.6", "@types/react": "*", "@types/react-dom": "*", "@vitest/coverage-v8": "2.1.9", eslint: "^9.20.0", "eslint-config-prettier": "10.1.8", "eslint-plugin-prettier": "5.5.4", "eslint-plugin-react": "^7.37.4", globals: "^15.14.0", jsdom: "^26.1.0", msw: "^2.7.5", next: "15.2.3", prettier: "^3.3.3", typedoc: "^0.28.4", typescript: "^5.6.3", "typescript-eslint": "^8.23.0", vite: "^5.4.11", vitest: "^2.1.4" }, peerDependencies: { next: "^14.2.25 || ^15.2.3", react: "^18.0.0 || ^19.0.0 || ^19.0.0-0", "react-dom": "^18.0.0 || ^19.0.0 || ^19.0.0-0" }, exports: { ".": { default: "./dist/client/index.js" }, "./client": { default: "./dist/client/index.js" }, "./server": { default: "./dist/server/index.js" }, "./errors": { default: "./dist/errors/index.js" }, "./types": { default: "./dist/types/index.d.ts" }, "./testing": { default: "./dist/testing/index.js" } }, dependencies: { "@edge-runtime/cookies": "^5.0.1", "@panva/hkdf": "^1.2.1", jose: "^6.0.11", oauth4webapi: "^3.8.2", "openid-client": "^6.8.0", swr: "^2.2.5" }, publishConfig: { access: "public" }, typesVersions: { "*": { testing: ["./dist/testing/index.d.ts"], types: ["./dist/types/index.d.ts"], server: ["./dist/server/index.d.ts"], errors: ["./dist/errors/index.d.ts"], "*": ["./dist/client/*", "./dist/client/index.d.ts"] } }, files: ["dist"], scripts: { build: "tsc", "build:watch": "tsc -w", "test:unit": "vitest --run", "test:coverage": "vitest run --run --coverage", "test:e2e": "playwright test", "install:examples": "pnpm install --filter ./examples/with-next-intl --shamefully-hoist && pnpm install --filter ./examples/with-shadcn --shamefully-hoist", docs: "typedoc", lint: "tsc --noEmit && tsc --noEmit --project tsconfig.test.json && eslint ./src", "lint:fix": "tsc --noEmit && tsc --noEmit --project tsconfig.test.json && eslint --fix ./src" } });
+      t.v({ name: "@auth0/nextjs-auth0", version: "4.13.3", description: "Auth0 Next.js SDK", type: "module", repository: { type: "git", url: "git+https://github.com/auth0/nextjs-auth0.git" }, keywords: ["auth0", "next.js", "react", "oidc", "authentication", "vercel"], author: "Auth0 (https://auth0.com)", license: "MIT", bugs: { url: "https://github.com/auth0/nextjs-auth0/issues" }, homepage: "https://github.com/auth0/nextjs-auth0#readme", devDependencies: { "@eslint/js": "^9.20.0", "@ianvs/prettier-plugin-sort-imports": "^4.3.1", "@playwright/test": "^1.48.2", "@stylistic/eslint-plugin-ts": "^3.1.0", "@testing-library/react": "^16.3.0", "@types/node": "^22.8.6", "@types/react": "*", "@types/react-dom": "*", "@vitest/coverage-v8": "2.1.9", eslint: "^9.20.0", "eslint-config-prettier": "10.1.8", "eslint-plugin-prettier": "5.5.4", "eslint-plugin-react": "^7.37.4", globals: "^15.14.0", jsdom: "^26.1.0", msw: "^2.7.5", next: "15.2.8", prettier: "^3.3.3", typedoc: "^0.28.4", typescript: "^5.6.3", "typescript-eslint": "^8.23.0", vite: "^5.4.11", vitest: "^2.1.4" }, peerDependencies: { next: "^14.2.35 || ~15.0.7 || ~15.1.11 || ~15.2.8 || ~15.3.8 || ~15.4.10 || ~15.5.9 || ^16.0.10", react: "^18.0.0 || ~19.0.1 ||  ~19.1.2 || ^19.2.1", "react-dom": "^18.0.0 || ~19.0.1 || ~19.1.2 || ^19.2.1" }, exports: { ".": { default: "./dist/client/index.js" }, "./client": { default: "./dist/client/index.js" }, "./server": { default: "./dist/server/index.js" }, "./errors": { default: "./dist/errors/index.js" }, "./types": { default: "./dist/types/index.d.ts" }, "./testing": { default: "./dist/testing/index.js" } }, dependencies: { "@edge-runtime/cookies": "^5.0.1", "@panva/hkdf": "^1.2.1", jose: "^6.0.11", oauth4webapi: "^3.8.2", "openid-client": "^6.8.0", swr: "^2.2.5" }, publishConfig: { access: "public" }, typesVersions: { "*": { testing: ["./dist/testing/index.d.ts"], types: ["./dist/types/index.d.ts"], server: ["./dist/server/index.d.ts"], errors: ["./dist/errors/index.d.ts"], "*": ["./dist/client/*", "./dist/client/index.d.ts"] } }, files: ["dist"], scripts: { build: "tsc", "build:watch": "tsc -w", "test:unit": "vitest --run", "test:coverage": "vitest run --run --coverage", "test:e2e": "playwright test", "install:examples": "pnpm install --filter ./examples/with-next-intl --shamefully-hoist && pnpm install --filter ./examples/with-shadcn --shamefully-hoist", docs: "typedoc", lint: "tsc --noEmit && tsc --noEmit --project tsconfig.test.json && eslint ./src", "lint:fix": "tsc --noEmit && tsc --noEmit --project tsconfig.test.json && eslint --fix ./src" } });
     }, 951615, (t, e, s) => {
       e.exports = t.x("node:buffer", () => (init_node_buffer(), __toCommonJS(node_buffer_exports)));
     }, 478500, (t, e, s) => {
@@ -1749,7 +1749,7 @@ var require_node_modules_91242dc2 = __commonJS({
       t.exports = e.r(99212);
     }, 709822, (e, t, r) => {
       "use strict";
-      var n = e.r(579412), o = e.r(40049), i = Symbol.for("react.element"), a = Symbol.for("react.transitional.element"), u = Symbol.for("react.fragment"), s = Symbol.for("react.context"), l = Symbol.for("react.forward_ref"), c = Symbol.for("react.suspense"), f = Symbol.for("react.suspense_list"), d = Symbol.for("react.memo"), p = Symbol.for("react.lazy"), y = Symbol.for("react.memo_cache_sentinel"), h = Symbol.for("react.view_transition"), v = Symbol.iterator;
+      var n = e.r(579412), o = e.r(40049), i = Symbol.for("react.element"), a = Symbol.for("react.transitional.element"), u = Symbol.for("react.fragment"), l = Symbol.for("react.context"), s = Symbol.for("react.forward_ref"), c = Symbol.for("react.suspense"), f = Symbol.for("react.suspense_list"), d = Symbol.for("react.memo"), p = Symbol.for("react.lazy"), h = Symbol.for("react.memo_cache_sentinel"), y = Symbol.for("react.view_transition"), v = Symbol.iterator;
       function g(e10) {
         return null === e10 || "object" != typeof e10 ? null : "function" == typeof (e10 = v && e10[v] || e10["@@iterator"]) ? e10 : null;
       }
@@ -1771,29 +1771,31 @@ var require_node_modules_91242dc2 = __commonJS({
         return true;
       }
       var O = new TextEncoder();
-      function P(e10) {
+      function w(e10) {
         return O.encode(e10);
       }
-      function w(e10) {
+      function P(e10) {
         return e10.byteLength;
       }
-      function $(e10, t2) {
+      function k(e10, t2) {
         "function" == typeof e10.error ? e10.error(t2) : e10.close();
       }
-      var j = Symbol.for("react.client.reference"), T = Symbol.for("react.server.reference");
-      function k(e10, t2, r2) {
+      var j = Symbol.for("react.client.reference"), $ = Symbol.for("react.server.reference");
+      function T(e10, t2, r2) {
         return Object.defineProperties(e10, { $$typeof: { value: j }, $$id: { value: t2 }, $$async: { value: r2 } });
       }
       var A = Function.prototype.bind, x = Array.prototype.slice;
       function M() {
         var e10 = A.apply(this, arguments);
-        if (this.$$typeof === T) {
+        if (this.$$typeof === $) {
           var t2 = x.call(arguments, 1);
-          return Object.defineProperties(e10, { $$typeof: { value: T }, $$id: { value: this.$$id }, $$bound: t2 = { value: this.$$bound ? this.$$bound.concat(t2) : t2 }, bind: { value: M, configurable: true } });
+          return Object.defineProperties(e10, { $$typeof: { value: $ }, $$id: { value: this.$$id }, $$bound: t2 = { value: this.$$bound ? this.$$bound.concat(t2) : t2 }, bind: { value: M, configurable: true } });
         }
         return e10;
       }
-      var I = Promise.prototype, D = { get: function(e10, t2) {
+      var I = { value: function() {
+        return "function () { [omitted code] }";
+      }, configurable: true, writable: true }, D = Promise.prototype, L = { get: function(e10, t2) {
         switch (t2) {
           case "$$typeof":
             return e10.$$typeof;
@@ -1821,7 +1823,7 @@ var require_node_modules_91242dc2 = __commonJS({
       }, set: function() {
         throw Error("Cannot assign to a client module from a server module.");
       } };
-      function L(e10, t2) {
+      function N(e10, t2) {
         switch (t2) {
           case "$$typeof":
             return e10.$$typeof;
@@ -1841,110 +1843,110 @@ var require_node_modules_91242dc2 = __commonJS({
             return Object.prototype[Symbol.toStringTag];
           case "__esModule":
             var r2 = e10.$$id;
-            return e10.default = k(function() {
+            return e10.default = T(function() {
               throw Error("Attempted to call the default export of " + r2 + " from the server but it's on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.");
             }, e10.$$id + "#", e10.$$async), true;
           case "then":
             if (e10.then) return e10.then;
             if (e10.$$async) return;
-            var n2 = k({}, e10.$$id, true), o2 = new Proxy(n2, N);
-            return e10.status = "fulfilled", e10.value = o2, e10.then = k(function(e11) {
+            var n2 = T({}, e10.$$id, true), o2 = new Proxy(n2, U);
+            return e10.status = "fulfilled", e10.value = o2, e10.then = T(function(e11) {
               return Promise.resolve(e11(o2));
             }, e10.$$id + "#then", false);
         }
         if ("symbol" == typeof t2) throw Error("Cannot read Symbol exports. Only named exports are supported on a client module imported on the server.");
-        return (n2 = e10[t2]) || (Object.defineProperty(n2 = k(function() {
+        return (n2 = e10[t2]) || (Object.defineProperty(n2 = T(function() {
           throw Error("Attempted to call " + String(t2) + "() from the server but " + String(t2) + " is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.");
-        }, e10.$$id + "#" + t2, e10.$$async), "name", { value: t2 }), n2 = e10[t2] = new Proxy(n2, D)), n2;
+        }, e10.$$id + "#" + t2, e10.$$async), "name", { value: t2 }), n2 = e10[t2] = new Proxy(n2, L)), n2;
       }
-      var N = { get: function(e10, t2) {
-        return L(e10, t2);
+      var U = { get: function(e10, t2) {
+        return N(e10, t2);
       }, getOwnPropertyDescriptor: function(e10, t2) {
         var r2 = Object.getOwnPropertyDescriptor(e10, t2);
-        return r2 || (r2 = { value: L(e10, t2), writable: false, configurable: false, enumerable: false }, Object.defineProperty(e10, t2, r2)), r2;
+        return r2 || (r2 = { value: N(e10, t2), writable: false, configurable: false, enumerable: false }, Object.defineProperty(e10, t2, r2)), r2;
       }, getPrototypeOf: function() {
-        return I;
+        return D;
       }, set: function() {
         throw Error("Cannot assign to a client module from a server module.");
-      } }, U = n.__DOM_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE, F = U.d;
-      function B(e10, t2, r2) {
+      } }, F = n.__DOM_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE, z = F.d;
+      function H(e10, t2, r2) {
         if ("string" == typeof e10) {
-          var n2 = e_();
+          var n2 = eS();
           if (n2) {
             var o2 = n2.hints, i2 = "L";
             if ("image" === t2 && r2) {
-              var a2 = r2.imageSrcSet, u2 = r2.imageSizes, s2 = "";
-              "string" == typeof a2 && "" !== a2 ? (s2 += "[" + a2 + "]", "string" == typeof u2 && (s2 += "[" + u2 + "]")) : s2 += "[][]" + e10, i2 += "[image]" + s2;
+              var a2 = r2.imageSrcSet, u2 = r2.imageSizes, l2 = "";
+              "string" == typeof a2 && "" !== a2 ? (l2 += "[" + a2 + "]", "string" == typeof u2 && (l2 += "[" + u2 + "]")) : l2 += "[][]" + e10, i2 += "[image]" + l2;
             } else i2 += "[" + t2 + "]" + e10;
-            o2.has(i2) || (o2.add(i2), (r2 = z(r2)) ? eC(n2, "L", [e10, t2, r2]) : eC(n2, "L", [e10, t2]));
-          } else F.L(e10, t2, r2);
+            o2.has(i2) || (o2.add(i2), (r2 = W(r2)) ? eR(n2, "L", [e10, t2, r2]) : eR(n2, "L", [e10, t2]));
+          } else z.L(e10, t2, r2);
         }
       }
-      function H(e10, t2) {
+      function B(e10, t2) {
         if ("string" == typeof e10) {
-          var r2 = e_();
+          var r2 = eS();
           if (r2) {
             var n2 = r2.hints, o2 = "m|" + e10;
             if (n2.has(o2)) return;
-            return n2.add(o2), (t2 = z(t2)) ? eC(r2, "m", [e10, t2]) : eC(r2, "m", e10);
+            return n2.add(o2), (t2 = W(t2)) ? eR(r2, "m", [e10, t2]) : eR(r2, "m", e10);
           }
-          F.m(e10, t2);
+          z.m(e10, t2);
         }
       }
-      function z(e10) {
+      function W(e10) {
         if (null == e10) return null;
         var t2, r2 = false, n2 = {};
         for (t2 in e10) null != e10[t2] && (r2 = true, n2[t2] = e10[t2]);
         return r2 ? n2 : null;
       }
-      U.d = { f: F.f, r: F.r, D: function(e10) {
+      F.d = { f: z.f, r: z.r, D: function(e10) {
         if ("string" == typeof e10 && e10) {
-          var t2 = e_();
+          var t2 = eS();
           if (t2) {
             var r2 = t2.hints, n2 = "D|" + e10;
-            r2.has(n2) || (r2.add(n2), eC(t2, "D", e10));
-          } else F.D(e10);
+            r2.has(n2) || (r2.add(n2), eR(t2, "D", e10));
+          } else z.D(e10);
         }
       }, C: function(e10, t2) {
         if ("string" == typeof e10) {
-          var r2 = e_();
+          var r2 = eS();
           if (r2) {
             var n2 = r2.hints, o2 = "C|" + (null == t2 ? "null" : t2) + "|" + e10;
-            n2.has(o2) || (n2.add(o2), "string" == typeof t2 ? eC(r2, "C", [e10, t2]) : eC(r2, "C", e10));
-          } else F.C(e10, t2);
+            n2.has(o2) || (n2.add(o2), "string" == typeof t2 ? eR(r2, "C", [e10, t2]) : eR(r2, "C", e10));
+          } else z.C(e10, t2);
         }
-      }, L: B, m: H, X: function(e10, t2) {
+      }, L: H, m: B, X: function(e10, t2) {
         if ("string" == typeof e10) {
-          var r2 = e_();
+          var r2 = eS();
           if (r2) {
             var n2 = r2.hints, o2 = "X|" + e10;
             if (n2.has(o2)) return;
-            return n2.add(o2), (t2 = z(t2)) ? eC(r2, "X", [e10, t2]) : eC(r2, "X", e10);
+            return n2.add(o2), (t2 = W(t2)) ? eR(r2, "X", [e10, t2]) : eR(r2, "X", e10);
           }
-          F.X(e10, t2);
+          z.X(e10, t2);
         }
       }, S: function(e10, t2, r2) {
         if ("string" == typeof e10) {
-          var n2 = e_();
+          var n2 = eS();
           if (n2) {
             var o2 = n2.hints, i2 = "S|" + e10;
             if (o2.has(i2)) return;
-            return o2.add(i2), (r2 = z(r2)) ? eC(n2, "S", [e10, "string" == typeof t2 ? t2 : 0, r2]) : "string" == typeof t2 ? eC(n2, "S", [e10, t2]) : eC(n2, "S", e10);
+            return o2.add(i2), (r2 = W(r2)) ? eR(n2, "S", [e10, "string" == typeof t2 ? t2 : 0, r2]) : "string" == typeof t2 ? eR(n2, "S", [e10, t2]) : eR(n2, "S", e10);
           }
-          F.S(e10, t2, r2);
+          z.S(e10, t2, r2);
         }
       }, M: function(e10, t2) {
         if ("string" == typeof e10) {
-          var r2 = e_();
+          var r2 = eS();
           if (r2) {
             var n2 = r2.hints, o2 = "M|" + e10;
             if (n2.has(o2)) return;
-            return n2.add(o2), (t2 = z(t2)) ? eC(r2, "M", [e10, t2]) : eC(r2, "M", e10);
+            return n2.add(o2), (t2 = W(t2)) ? eR(r2, "M", [e10, t2]) : eR(r2, "M", e10);
           }
-          F.M(e10, t2);
+          z.M(e10, t2);
         }
       } };
-      var W = "function" == typeof AsyncLocalStorage, X = W ? new AsyncLocalStorage() : null, q = Symbol.for("react.temporary.reference"), V = { get: function(e10, t2) {
+      var X = "function" == typeof AsyncLocalStorage, q = X ? new AsyncLocalStorage() : null, V = Symbol.for("react.temporary.reference"), Y = { get: function(e10, t2) {
         switch (t2) {
           case "$$typeof":
             return e10.$$typeof;
@@ -1967,32 +1969,32 @@ var require_node_modules_91242dc2 = __commonJS({
       }, set: function() {
         throw Error("Cannot assign to a temporary client reference from a server module.");
       } };
-      function Y() {
+      function J() {
       }
-      var J = Error("Suspense Exception: This is not a real error! It's an implementation detail of `use` to interrupt the current render. You must either rethrow it immediately, or move the `use` call outside of the `try/catch` block. Capturing without rethrowing will lead to unexpected behavior.\n\nTo handle async errors, wrap your component in an error boundary, or call the promise's `.catch` method and pass the result to `use`."), G = null;
-      function K() {
-        if (null === G) throw Error("Expected a suspended thenable. This is a bug in React. Please file an issue.");
-        var e10 = G;
-        return G = null, e10;
+      var G = Error("Suspense Exception: This is not a real error! It's an implementation detail of `use` to interrupt the current render. You must either rethrow it immediately, or move the `use` call outside of the `try/catch` block. Capturing without rethrowing will lead to unexpected behavior.\n\nTo handle async errors, wrap your component in an error boundary, or call the promise's `.catch` method and pass the result to `use`."), K = null;
+      function Z() {
+        if (null === K) throw Error("Expected a suspended thenable. This is a bug in React. Please file an issue.");
+        var e10 = K;
+        return K = null, e10;
       }
-      var Z = null, Q = 0, ee = null;
-      function et() {
-        var e10 = ee || [];
-        return ee = null, e10;
+      var Q = null, ee = 0, et = null;
+      function er() {
+        var e10 = et || [];
+        return et = null, e10;
       }
-      var er = { readContext: ei, use: function(e10) {
+      var en = { readContext: ea, use: function(e10) {
         if (null !== e10 && "object" == typeof e10 || "function" == typeof e10) {
           if ("function" == typeof e10.then) {
-            var t2 = Q;
-            Q += 1, null === ee && (ee = []);
-            var r2 = ee, n2 = e10, o2 = t2;
-            switch (void 0 === (o2 = r2[o2]) ? r2.push(n2) : o2 !== n2 && (n2.then(Y, Y), n2 = o2), n2.status) {
+            var t2 = ee;
+            ee += 1, null === et && (et = []);
+            var r2 = et, n2 = e10, o2 = t2;
+            switch (void 0 === (o2 = r2[o2]) ? r2.push(n2) : o2 !== n2 && (n2.then(J, J), n2 = o2), n2.status) {
               case "fulfilled":
                 return n2.value;
               case "rejected":
                 throw n2.reason;
               default:
-                switch ("string" == typeof n2.status ? n2.then(Y, Y) : ((r2 = n2).status = "pending", r2.then(function(e11) {
+                switch ("string" == typeof n2.status ? n2.then(J, J) : ((r2 = n2).status = "pending", r2.then(function(e11) {
                   if ("pending" === n2.status) {
                     var t3 = n2;
                     t3.status = "fulfilled", t3.value = e11;
@@ -2008,70 +2010,70 @@ var require_node_modules_91242dc2 = __commonJS({
                   case "rejected":
                     throw n2.reason;
                 }
-                throw G = n2, J;
+                throw K = n2, G;
             }
           }
-          e10.$$typeof === s && ei();
+          e10.$$typeof === l && ea();
         }
         if (e10.$$typeof === j) {
-          if (null != e10.value && e10.value.$$typeof === s) throw Error("Cannot read a Client Context from a Server Component.");
+          if (null != e10.value && e10.value.$$typeof === l) throw Error("Cannot read a Client Context from a Server Component.");
           throw Error("Cannot use() an already resolved Client Reference.");
         }
         throw Error("An unsupported type was passed to use(): " + String(e10));
       }, useCallback: function(e10) {
         return e10;
-      }, useContext: ei, useEffect: en, useImperativeHandle: en, useLayoutEffect: en, useInsertionEffect: en, useMemo: function(e10) {
+      }, useContext: ea, useEffect: eo, useImperativeHandle: eo, useLayoutEffect: eo, useInsertionEffect: eo, useMemo: function(e10) {
         return e10();
-      }, useReducer: en, useRef: en, useState: en, useDebugValue: function() {
-      }, useDeferredValue: en, useTransition: en, useSyncExternalStore: en, useId: function() {
-        if (null === Z) throw Error("useId can only be used while React is rendering");
-        var e10 = Z.identifierCount++;
-        return "_" + Z.identifierPrefix + "S_" + e10.toString(32) + "_";
-      }, useHostTransitionStatus: en, useFormState: en, useActionState: en, useOptimistic: en, useMemoCache: function(e10) {
-        for (var t2 = Array(e10), r2 = 0; r2 < e10; r2++) t2[r2] = y;
+      }, useReducer: eo, useRef: eo, useState: eo, useDebugValue: function() {
+      }, useDeferredValue: eo, useTransition: eo, useSyncExternalStore: eo, useId: function() {
+        if (null === Q) throw Error("useId can only be used while React is rendering");
+        var e10 = Q.identifierCount++;
+        return "_" + Q.identifierPrefix + "S_" + e10.toString(32) + "_";
+      }, useHostTransitionStatus: eo, useFormState: eo, useActionState: eo, useOptimistic: eo, useMemoCache: function(e10) {
+        for (var t2 = Array(e10), r2 = 0; r2 < e10; r2++) t2[r2] = h;
         return t2;
       }, useCacheRefresh: function() {
-        return eo;
+        return ei;
       } };
-      function en() {
+      function eo() {
         throw Error("This Hook is not supported in Server Components.");
       }
-      function eo() {
+      function ei() {
         throw Error("Refreshing the cache is not supported in Server Components.");
       }
-      function ei() {
+      function ea() {
         throw Error("Cannot read a Client Context from a Server Component.");
       }
-      er.useEffectEvent = en;
-      var ea = { getCacheForType: function(e10) {
-        var t2 = (t2 = e_()) ? t2.cache : /* @__PURE__ */ new Map(), r2 = t2.get(e10);
+      en.useEffectEvent = eo;
+      var eu = { getCacheForType: function(e10) {
+        var t2 = (t2 = eS()) ? t2.cache : /* @__PURE__ */ new Map(), r2 = t2.get(e10);
         return void 0 === r2 && (r2 = e10(), t2.set(e10, r2)), r2;
       }, cacheSignal: function() {
-        var e10 = e_();
+        var e10 = eS();
         return e10 ? e10.cacheController.signal : null;
-      } }, eu = o.__SERVER_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE;
-      if (!eu) throw Error('The "react" package in this environment is not configured correctly. The "react-server" condition must be enabled in any environment that runs React Server Components.');
-      var es = Array.isArray, el = Object.getPrototypeOf;
-      function ec(e10) {
+      } }, el = o.__SERVER_INTERNALS_DO_NOT_USE_OR_WARN_USERS_THEY_CANNOT_UPGRADE;
+      if (!el) throw Error('The "react" package in this environment is not configured correctly. The "react-server" condition must be enabled in any environment that runs React Server Components.');
+      var es = Array.isArray, ec = Object.getPrototypeOf;
+      function ef(e10) {
         return (e10 = Object.prototype.toString.call(e10)).slice(8, e10.length - 1);
       }
-      function ef(e10) {
+      function ed(e10) {
         switch (typeof e10) {
           case "string":
             return JSON.stringify(10 >= e10.length ? e10 : e10.slice(0, 10) + "...");
           case "object":
             if (es(e10)) return "[...]";
-            if (null !== e10 && e10.$$typeof === ed) return "client";
-            return "Object" === (e10 = ec(e10)) ? "{...}" : e10;
+            if (null !== e10 && e10.$$typeof === ep) return "client";
+            return "Object" === (e10 = ef(e10)) ? "{...}" : e10;
           case "function":
-            return e10.$$typeof === ed ? "client" : (e10 = e10.displayName || e10.name) ? "function " + e10 : "function";
+            return e10.$$typeof === ep ? "client" : (e10 = e10.displayName || e10.name) ? "function " + e10 : "function";
           default:
             return String(e10);
         }
       }
-      var ed = Symbol.for("react.client.reference");
-      function ep(e10, t2) {
-        var r2 = ec(e10);
+      var ep = Symbol.for("react.client.reference");
+      function eh(e10, t2) {
+        var r2 = ef(e10);
         if ("Object" !== r2 && "Array" !== r2) return r2;
         r2 = -1;
         var n2 = 0;
@@ -2079,7 +2081,7 @@ var require_node_modules_91242dc2 = __commonJS({
           for (var o2 = "[", i2 = 0; i2 < e10.length; i2++) {
             0 < i2 && (o2 += ", ");
             var u2 = e10[i2];
-            u2 = "object" == typeof u2 && null !== u2 ? ep(u2) : ef(u2), "" + i2 === t2 ? (r2 = o2.length, n2 = u2.length, o2 += u2) : o2 = 10 > u2.length && 40 > o2.length + u2.length ? o2 + u2 : o2 + "...";
+            u2 = "object" == typeof u2 && null !== u2 ? eh(u2) : ed(u2), "" + i2 === t2 ? (r2 = o2.length, n2 = u2.length, o2 += u2) : o2 = 10 > u2.length && 40 > o2.length + u2.length ? o2 + u2 : o2 + "...";
           }
           o2 += "]";
         } else if (e10.$$typeof === a) o2 = "<" + function e11(t3) {
@@ -2089,11 +2091,11 @@ var require_node_modules_91242dc2 = __commonJS({
               return "Suspense";
             case f:
               return "SuspenseList";
-            case h:
+            case y:
               return "ViewTransition";
           }
           if ("object" == typeof t3) switch (t3.$$typeof) {
-            case l:
+            case s:
               return e11(t3.render);
             case d:
               return e11(t3.type);
@@ -2108,44 +2110,44 @@ var require_node_modules_91242dc2 = __commonJS({
           return "";
         }(e10.type) + "/>";
         else {
-          if (e10.$$typeof === ed) return "client";
+          if (e10.$$typeof === ep) return "client";
           for (u2 = 0, o2 = "{", i2 = Object.keys(e10); u2 < i2.length; u2++) {
             0 < u2 && (o2 += ", ");
-            var s2 = i2[u2], y2 = JSON.stringify(s2);
-            o2 += ('"' + s2 + '"' === y2 ? s2 : y2) + ": ", y2 = "object" == typeof (y2 = e10[s2]) && null !== y2 ? ep(y2) : ef(y2), s2 === t2 ? (r2 = o2.length, n2 = y2.length, o2 += y2) : o2 = 10 > y2.length && 40 > o2.length + y2.length ? o2 + y2 : o2 + "...";
+            var l2 = i2[u2], h2 = JSON.stringify(l2);
+            o2 += ('"' + l2 + '"' === h2 ? l2 : h2) + ": ", h2 = "object" == typeof (h2 = e10[l2]) && null !== h2 ? eh(h2) : ed(h2), l2 === t2 ? (r2 = o2.length, n2 = h2.length, o2 += h2) : o2 = 10 > h2.length && 40 > o2.length + h2.length ? o2 + h2 : o2 + "...";
           }
           o2 += "}";
         }
         return void 0 === t2 ? o2 : -1 < r2 && 0 < n2 ? "\n  " + o2 + "\n  " + (e10 = " ".repeat(r2) + "^".repeat(n2)) : "\n  " + o2;
       }
-      var ey = Object.prototype.hasOwnProperty, eh = Object.prototype, ev = JSON.stringify;
-      function eg(e10) {
+      var ey = Object.prototype.hasOwnProperty, ev = Object.prototype, eg = JSON.stringify;
+      function em(e10) {
         console.error(e10);
       }
-      function em(e10, t2, r2, n2, o2, i2, a2, u2) {
-        if (null !== eu.A && eu.A !== ea) throw Error("Currently React only supports one RSC renderer at a time.");
-        eu.A = ea;
-        var s2 = /* @__PURE__ */ new Set(), l2 = [], c2 = /* @__PURE__ */ new Set();
-        this.type = e10, this.status = 10, this.flushScheduled = false, this.destination = this.fatalError = null, this.bundlerConfig = r2, this.cache = /* @__PURE__ */ new Map(), this.cacheController = new AbortController(), this.pendingChunks = this.nextChunkId = 0, this.hints = c2, this.abortableTasks = s2, this.pingedTasks = l2, this.completedImportChunks = [], this.completedHintChunks = [], this.completedRegularChunks = [], this.completedErrorChunks = [], this.writtenSymbols = /* @__PURE__ */ new Map(), this.writtenClientReferences = /* @__PURE__ */ new Map(), this.writtenServerReferences = /* @__PURE__ */ new Map(), this.writtenObjects = /* @__PURE__ */ new WeakMap(), this.temporaryReferences = u2, this.identifierPrefix = a2 || "", this.identifierCount = 1, this.taintCleanupQueue = [], this.onError = void 0 === n2 ? eg : n2, this.onAllReady = o2, this.onFatalError = i2, l2.push(e10 = eT(this, t2, null, false, 0, s2));
+      function eb(e10, t2, r2, n2, o2, i2, a2, u2) {
+        if (null !== el.A && el.A !== eu) throw Error("Currently React only supports one RSC renderer at a time.");
+        el.A = eu;
+        var l2 = /* @__PURE__ */ new Set(), s2 = [], c2 = /* @__PURE__ */ new Set();
+        this.type = e10, this.status = 10, this.flushScheduled = false, this.destination = this.fatalError = null, this.bundlerConfig = r2, this.cache = /* @__PURE__ */ new Map(), this.cacheController = new AbortController(), this.pendingChunks = this.nextChunkId = 0, this.hints = c2, this.abortableTasks = l2, this.pingedTasks = s2, this.completedImportChunks = [], this.completedHintChunks = [], this.completedRegularChunks = [], this.completedErrorChunks = [], this.writtenSymbols = /* @__PURE__ */ new Map(), this.writtenClientReferences = /* @__PURE__ */ new Map(), this.writtenServerReferences = /* @__PURE__ */ new Map(), this.writtenObjects = /* @__PURE__ */ new WeakMap(), this.temporaryReferences = u2, this.identifierPrefix = a2 || "", this.identifierCount = 1, this.taintCleanupQueue = [], this.onError = void 0 === n2 ? em : n2, this.onAllReady = o2, this.onFatalError = i2, s2.push(e10 = eT(this, t2, null, false, 0, l2));
       }
-      var eb = null;
-      function e_() {
-        if (eb) return eb;
-        if (W) {
-          var e10 = X.getStore();
+      var e_ = null;
+      function eS() {
+        if (e_) return e_;
+        if (X) {
+          var e10 = q.getStore();
           if (e10) return e10;
         }
         return null;
       }
-      function eS(e10, t2, r2) {
+      function eC(e10, t2, r2) {
         var n2 = eT(e10, r2, t2.keyPath, t2.implicitSlot, t2.formatContext, e10.abortableTasks);
         switch (r2.status) {
           case "fulfilled":
-            return n2.model = r2.value, ej(e10, n2), n2.id;
+            return n2.model = r2.value, e$(e10, n2), n2.id;
           case "rejected":
-            return eq(e10, n2, r2.reason), n2.id;
+            return eV(e10, n2, r2.reason), n2.id;
           default:
-            if (12 === e10.status) return e10.abortableTasks.delete(n2), 21 === e10.type ? (eQ(n2), e0(n2, e10)) : (t2 = e10.fatalError, eK(n2), eZ(n2, e10, t2)), n2.id;
+            if (12 === e10.status) return e10.abortableTasks.delete(n2), 21 === e10.type ? (e0(n2), e1(n2, e10)) : (t2 = e10.fatalError, eZ(n2), eQ(n2, e10, t2)), n2.id;
             "string" != typeof r2.status && (r2.status = "pending", r2.then(function(e11) {
               "pending" === r2.status && (r2.status = "fulfilled", r2.value = e11);
             }, function(e11) {
@@ -2153,24 +2155,24 @@ var require_node_modules_91242dc2 = __commonJS({
             }));
         }
         return r2.then(function(t3) {
-          n2.model = t3, ej(e10, n2);
+          n2.model = t3, e$(e10, n2);
         }, function(t3) {
-          0 === n2.status && (eq(e10, n2, t3), e4(e10));
+          0 === n2.status && (eV(e10, n2, t3), e6(e10));
         }), n2.id;
       }
-      function eC(e10, t2, r2) {
-        t2 = P(":H" + t2 + (r2 = ev(r2)) + "\n"), e10.completedHintChunks.push(t2), e4(e10);
+      function eR(e10, t2, r2) {
+        t2 = w(":H" + t2 + (r2 = eg(r2)) + "\n"), e10.completedHintChunks.push(t2), e6(e10);
       }
-      function eR(e10) {
+      function eE(e10) {
         if ("fulfilled" === e10.status) return e10.value;
         if ("rejected" === e10.status) throw e10.reason;
         throw e10;
       }
-      function eE() {
+      function eO() {
       }
-      function eO(e10, t2, r2, n2, o2) {
+      function ew(e10, t2, r2, n2, o2) {
         var i2 = t2.thenableState;
-        if (t2.thenableState = null, Q = 0, ee = i2, o2 = n2(o2, void 0), 12 === e10.status) throw "object" == typeof o2 && null !== o2 && "function" == typeof o2.then && o2.$$typeof !== j && o2.then(eE, eE), null;
+        if (t2.thenableState = null, ee = 0, et = i2, o2 = n2(o2, void 0), 12 === e10.status) throw "object" == typeof o2 && null !== o2 && "function" == typeof o2.then && o2.$$typeof !== j && o2.then(eO, eO), null;
         return o2 = function(e11, t3, r3, n3) {
           if ("object" != typeof n3 || null === n3 || n3.$$typeof === j) return n3;
           if ("function" == typeof n3.then) {
@@ -2186,7 +2188,7 @@ var require_node_modules_91242dc2 = __commonJS({
                   "pending" === n3.status && (n3.status = "rejected", n3.reason = e12);
                 }));
             }
-            return { $$typeof: p, _payload: n3, _init: eR };
+            return { $$typeof: p, _payload: n3, _init: eE };
           }
           var o3 = g(n3);
           return o3 ? ((e11 = {})[Symbol.iterator] = function() {
@@ -2194,111 +2196,111 @@ var require_node_modules_91242dc2 = __commonJS({
           }, e11) : "function" != typeof n3[m] || "function" == typeof ReadableStream && n3 instanceof ReadableStream ? n3 : ((e11 = {})[m] = function() {
             return n3[m]();
           }, e11);
-        }(e10, 0, 0, o2), n2 = t2.keyPath, i2 = t2.implicitSlot, null !== r2 ? t2.keyPath = null === n2 ? r2 : n2 + "," + r2 : null === n2 && (t2.implicitSlot = true), e10 = eN(e10, t2, eV, "", o2), t2.keyPath = n2, t2.implicitSlot = i2, e10;
+        }(e10, 0, 0, o2), n2 = t2.keyPath, i2 = t2.implicitSlot, null !== r2 ? t2.keyPath = null === n2 ? r2 : n2 + "," + r2 : null === n2 && (t2.implicitSlot = true), e10 = eU(e10, t2, eY, "", o2), t2.keyPath = n2, t2.implicitSlot = i2, e10;
       }
       function eP(e10, t2, r2) {
         return null !== t2.keyPath ? (e10 = [a, u, t2.keyPath, { children: r2 }], t2.implicitSlot ? [e10] : e10) : r2;
       }
-      var ew = 0;
-      function e$(e10, t2) {
-        return t2 = eT(e10, t2.model, t2.keyPath, t2.implicitSlot, t2.formatContext, e10.abortableTasks), ej(e10, t2), eA(t2.id);
-      }
+      var ek = 0;
       function ej(e10, t2) {
+        return t2 = eT(e10, t2.model, t2.keyPath, t2.implicitSlot, t2.formatContext, e10.abortableTasks), e$(e10, t2), ex(t2.id);
+      }
+      function e$(e10, t2) {
         var r2 = e10.pingedTasks;
         r2.push(t2), 1 === r2.length && (e10.flushScheduled = null !== e10.destination, 21 === e10.type || 10 === e10.status ? S(function() {
-          return eG(e10);
+          return eK(e10);
         }) : setTimeout(function() {
-          return eG(e10);
+          return eK(e10);
         }, 0));
       }
       function eT(e10, t2, r2, n2, o2, i2) {
         e10.pendingChunks++;
         var u2 = e10.nextChunkId++;
-        "object" != typeof t2 || null === t2 || null !== r2 || n2 || e10.writtenObjects.set(t2, ek(u2));
-        var s2 = { id: u2, status: 0, model: t2, keyPath: r2, implicitSlot: n2, formatContext: o2, ping: function() {
-          return ej(e10, s2);
+        "object" != typeof t2 || null === t2 || null !== r2 || n2 || e10.writtenObjects.set(t2, eA(u2));
+        var l2 = { id: u2, status: 0, model: t2, keyPath: r2, implicitSlot: n2, formatContext: o2, ping: function() {
+          return e$(e10, l2);
         }, toJSON: function(t3, r3) {
-          ew += t3.length;
-          var n3 = s2.keyPath, o3 = s2.implicitSlot;
+          ek += t3.length;
+          var n3 = l2.keyPath, o3 = l2.implicitSlot;
           try {
-            var i3 = eN(e10, s2, this, t3, r3);
-          } catch (l2) {
-            if (t3 = "object" == typeof (t3 = s2.model) && null !== t3 && (t3.$$typeof === a || t3.$$typeof === p), 12 === e10.status) s2.status = 3, 21 === e10.type ? (n3 = e10.nextChunkId++, i3 = n3 = t3 ? eA(n3) : ek(n3)) : (n3 = e10.fatalError, i3 = t3 ? eA(n3) : ek(n3));
-            else if ("object" == typeof (r3 = l2 === J ? K() : l2) && null !== r3 && "function" == typeof r3.then) {
-              var u3 = (i3 = eT(e10, s2.model, s2.keyPath, s2.implicitSlot, s2.formatContext, e10.abortableTasks)).ping;
-              r3.then(u3, u3), i3.thenableState = et(), s2.keyPath = n3, s2.implicitSlot = o3, i3 = t3 ? eA(i3.id) : ek(i3.id);
-            } else s2.keyPath = n3, s2.implicitSlot = o3, e10.pendingChunks++, n3 = e10.nextChunkId++, o3 = eU(e10, r3, s2), eB(e10, n3, o3), i3 = t3 ? eA(n3) : ek(n3);
+            var i3 = eU(e10, l2, this, t3, r3);
+          } catch (s2) {
+            if (t3 = "object" == typeof (t3 = l2.model) && null !== t3 && (t3.$$typeof === a || t3.$$typeof === p), 12 === e10.status) l2.status = 3, 21 === e10.type ? (n3 = e10.nextChunkId++, i3 = n3 = t3 ? ex(n3) : eA(n3)) : (n3 = e10.fatalError, i3 = t3 ? ex(n3) : eA(n3));
+            else if ("object" == typeof (r3 = s2 === G ? Z() : s2) && null !== r3 && "function" == typeof r3.then) {
+              var u3 = (i3 = eT(e10, l2.model, l2.keyPath, l2.implicitSlot, l2.formatContext, e10.abortableTasks)).ping;
+              r3.then(u3, u3), i3.thenableState = er(), l2.keyPath = n3, l2.implicitSlot = o3, i3 = t3 ? ex(i3.id) : eA(i3.id);
+            } else l2.keyPath = n3, l2.implicitSlot = o3, e10.pendingChunks++, n3 = e10.nextChunkId++, o3 = eF(e10, r3, l2), eH(e10, n3, o3), i3 = t3 ? ex(n3) : eA(n3);
           }
           return i3;
         }, thenableState: null };
-        return i2.add(s2), s2;
-      }
-      function ek(e10) {
-        return "$" + e10.toString(16);
+        return i2.add(l2), l2;
       }
       function eA(e10) {
+        return "$" + e10.toString(16);
+      }
+      function ex(e10) {
         return "$L" + e10.toString(16);
       }
-      function ex(e10, t2, r2) {
-        return e10 = ev(r2), P(t2 = t2.toString(16) + ":" + e10 + "\n");
+      function eM(e10, t2, r2) {
+        return e10 = eg(r2), w(t2 = t2.toString(16) + ":" + e10 + "\n");
       }
-      function eM(e10, t2, r2, n2) {
+      function eI(e10, t2, r2, n2) {
         var o2 = n2.$$async ? n2.$$id + "#async" : n2.$$id, i2 = e10.writtenClientReferences, u2 = i2.get(o2);
-        if (void 0 !== u2) return t2[0] === a && "1" === r2 ? eA(u2) : ek(u2);
+        if (void 0 !== u2) return t2[0] === a && "1" === r2 ? ex(u2) : eA(u2);
         try {
-          var s2 = e10.bundlerConfig, l2 = n2.$$id;
+          var l2 = e10.bundlerConfig, s2 = n2.$$id;
           u2 = "";
-          var c2 = s2[l2];
+          var c2 = l2[s2];
           if (c2) u2 = c2.name;
           else {
-            var f2 = l2.lastIndexOf("#");
-            if (-1 !== f2 && (u2 = l2.slice(f2 + 1), c2 = s2[l2.slice(0, f2)]), !c2) throw Error('Could not find the module "' + l2 + '" in the React Client Manifest. This is probably a bug in the React Server Components bundler.');
+            var f2 = s2.lastIndexOf("#");
+            if (-1 !== f2 && (u2 = s2.slice(f2 + 1), c2 = l2[s2.slice(0, f2)]), !c2) throw Error('Could not find the module "' + s2 + '" in the React Client Manifest. This is probably a bug in the React Server Components bundler.');
           }
-          if (true === c2.async && true === n2.$$async) throw Error('The module "' + l2 + '" is marked as an async ESM module but was loaded as a CJS proxy. This is probably a bug in the React Server Components bundler.');
+          if (true === c2.async && true === n2.$$async) throw Error('The module "' + s2 + '" is marked as an async ESM module but was loaded as a CJS proxy. This is probably a bug in the React Server Components bundler.');
           var d2 = true === c2.async || true === n2.$$async ? [c2.id, c2.chunks, u2, 1] : [c2.id, c2.chunks, u2];
           e10.pendingChunks++;
-          var p2 = e10.nextChunkId++, y2 = ev(d2), h2 = p2.toString(16) + ":I" + y2 + "\n", v2 = P(h2);
-          return e10.completedImportChunks.push(v2), i2.set(o2, p2), t2[0] === a && "1" === r2 ? eA(p2) : ek(p2);
+          var p2 = e10.nextChunkId++, h2 = eg(d2), y2 = p2.toString(16) + ":I" + h2 + "\n", v2 = w(y2);
+          return e10.completedImportChunks.push(v2), i2.set(o2, p2), t2[0] === a && "1" === r2 ? ex(p2) : eA(p2);
         } catch (n3) {
-          return e10.pendingChunks++, t2 = e10.nextChunkId++, r2 = eU(e10, n3, null), eB(e10, t2, r2), ek(t2);
+          return e10.pendingChunks++, t2 = e10.nextChunkId++, r2 = eF(e10, n3, null), eH(e10, t2, r2), eA(t2);
         }
       }
-      function eI(e10, t2, r2) {
-        return t2 = eT(e10, t2, null, false, r2, e10.abortableTasks), eY(e10, t2), t2.id;
-      }
       function eD(e10, t2, r2) {
+        return t2 = eT(e10, t2, null, false, r2, e10.abortableTasks), eJ(e10, t2), t2.id;
+      }
+      function eL(e10, t2, r2) {
         e10.pendingChunks++;
         var n2 = e10.nextChunkId++;
-        return ez(e10, n2, t2, r2, false), ek(n2);
+        return eW(e10, n2, t2, r2, false), eA(n2);
       }
-      var eL = false;
-      function eN(e10, t2, r2, n2, o2) {
+      var eN = false;
+      function eU(e10, t2, r2, n2, o2) {
         if (t2.model = o2, o2 === a) return "$";
         if (null === o2) return null;
         if ("object" == typeof o2) {
           switch (o2.$$typeof) {
             case a:
-              var s2 = null, c2 = e10.writtenObjects;
+              var l2 = null, c2 = e10.writtenObjects;
               if (null === t2.keyPath && !t2.implicitSlot) {
                 var f2 = c2.get(o2);
-                if (void 0 !== f2) if (eL !== o2) return f2;
-                else eL = null;
-                else -1 === n2.indexOf(":") && void 0 !== (r2 = c2.get(r2)) && (s2 = r2 + ":" + n2, c2.set(o2, s2));
+                if (void 0 !== f2) if (eN !== o2) return f2;
+                else eN = null;
+                else -1 === n2.indexOf(":") && void 0 !== (r2 = c2.get(r2)) && (l2 = r2 + ":" + n2, c2.set(o2, l2));
               }
-              if (3200 < ew) return e$(e10, t2);
-              return r2 = (n2 = o2.props).ref, "object" == typeof (e10 = function e11(t3, r3, n3, o3, i2, s3) {
+              if (3200 < ek) return ej(e10, t2);
+              return r2 = (n2 = o2.props).ref, "object" == typeof (e10 = function e11(t3, r3, n3, o3, i2, l3) {
                 if (null != i2) throw Error("Refs cannot be used in Server Components, nor passed to Client Components.");
-                if ("function" == typeof n3 && n3.$$typeof !== j && n3.$$typeof !== q) return eO(t3, r3, o3, n3, s3);
-                if (n3 === u && null === o3) return n3 = r3.implicitSlot, null === r3.keyPath && (r3.implicitSlot = true), s3 = eN(t3, r3, eV, "", s3.children), r3.implicitSlot = n3, s3;
+                if ("function" == typeof n3 && n3.$$typeof !== j && n3.$$typeof !== V) return ew(t3, r3, o3, n3, l3);
+                if (n3 === u && null === o3) return n3 = r3.implicitSlot, null === r3.keyPath && (r3.implicitSlot = true), l3 = eU(t3, r3, eY, "", l3.children), r3.implicitSlot = n3, l3;
                 if (null != n3 && "object" == typeof n3 && n3.$$typeof !== j) switch (n3.$$typeof) {
                   case p:
                     var c3 = n3._init;
                     if (n3 = c3(n3._payload), 12 === t3.status) throw null;
-                    return e11(t3, r3, n3, o3, i2, s3);
-                  case l:
-                    return eO(t3, r3, o3, n3.render, s3);
+                    return e11(t3, r3, n3, o3, i2, l3);
+                  case s:
+                    return ew(t3, r3, o3, n3.render, l3);
                   case d:
-                    return e11(t3, r3, n3.type, o3, i2, s3);
+                    return e11(t3, r3, n3.type, o3, i2, l3);
                 }
                 else "string" == typeof n3 && (c3 = function(e12, t4, r4) {
                   switch (t4) {
@@ -2307,19 +2309,19 @@ var require_node_modules_91242dc2 = __commonJS({
                       var n4 = r4.srcSet;
                       if (!("lazy" === r4.loading || !t4 && !n4 || "string" != typeof t4 && null != t4 || "string" != typeof n4 && null != n4 || "low" === r4.fetchPriority || 3 & e12) && ("string" != typeof t4 || ":" !== t4[4] || "d" !== t4[0] && "D" !== t4[0] || "a" !== t4[1] && "A" !== t4[1] || "t" !== t4[2] && "T" !== t4[2] || "a" !== t4[3] && "A" !== t4[3]) && ("string" != typeof n4 || ":" !== n4[4] || "d" !== n4[0] && "D" !== n4[0] || "a" !== n4[1] && "A" !== n4[1] || "t" !== n4[2] && "T" !== n4[2] || "a" !== n4[3] && "A" !== n4[3])) {
                         var o4 = "string" == typeof r4.sizes ? r4.sizes : void 0, i3 = r4.crossOrigin;
-                        B(t4 || "", "image", { imageSrcSet: n4, imageSizes: o4, crossOrigin: "string" == typeof i3 ? "use-credentials" === i3 ? i3 : "" : void 0, integrity: r4.integrity, type: r4.type, fetchPriority: r4.fetchPriority, referrerPolicy: r4.referrerPolicy });
+                        H(t4 || "", "image", { imageSrcSet: n4, imageSizes: o4, crossOrigin: "string" == typeof i3 ? "use-credentials" === i3 ? i3 : "" : void 0, integrity: r4.integrity, type: r4.type, fetchPriority: r4.fetchPriority, referrerPolicy: r4.referrerPolicy });
                       }
                       return e12;
                     case "link":
                       if (t4 = r4.rel, n4 = r4.href, !(1 & e12 || null != r4.itemProp || "string" != typeof t4 || "string" != typeof n4 || "" === n4)) switch (t4) {
                         case "preload":
-                          B(n4, r4.as, { crossOrigin: r4.crossOrigin, integrity: r4.integrity, nonce: r4.nonce, type: r4.type, fetchPriority: r4.fetchPriority, referrerPolicy: r4.referrerPolicy, imageSrcSet: r4.imageSrcSet, imageSizes: r4.imageSizes, media: r4.media });
+                          H(n4, r4.as, { crossOrigin: r4.crossOrigin, integrity: r4.integrity, nonce: r4.nonce, type: r4.type, fetchPriority: r4.fetchPriority, referrerPolicy: r4.referrerPolicy, imageSrcSet: r4.imageSrcSet, imageSizes: r4.imageSizes, media: r4.media });
                           break;
                         case "modulepreload":
-                          H(n4, { as: r4.as, crossOrigin: r4.crossOrigin, integrity: r4.integrity, nonce: r4.nonce });
+                          B(n4, { as: r4.as, crossOrigin: r4.crossOrigin, integrity: r4.integrity, nonce: r4.nonce });
                           break;
                         case "stylesheet":
-                          B(n4, "style", { crossOrigin: r4.crossOrigin, integrity: r4.integrity, nonce: r4.nonce, type: r4.type, fetchPriority: r4.fetchPriority, referrerPolicy: r4.referrerPolicy, media: r4.media });
+                          H(n4, "style", { crossOrigin: r4.crossOrigin, integrity: r4.integrity, nonce: r4.nonce, type: r4.type, fetchPriority: r4.fetchPriority, referrerPolicy: r4.referrerPolicy, media: r4.media });
                       }
                       return e12;
                     case "picture":
@@ -2329,32 +2331,32 @@ var require_node_modules_91242dc2 = __commonJS({
                     default:
                       return e12;
                   }
-                }(i2 = r3.formatContext, n3, s3), i2 !== c3 && null != s3.children && eI(t3, s3.children, c3));
-                return t3 = o3, o3 = r3.keyPath, null === t3 ? t3 = o3 : null !== o3 && (t3 = o3 + "," + t3), s3 = [a, n3, t3, s3], r3 = r3.implicitSlot && null !== t3 ? [s3] : s3;
-              }(e10, t2, o2.type, o2.key, void 0 !== r2 ? r2 : null, n2)) && null !== e10 && null !== s2 && (c2.has(e10) || c2.set(e10, s2)), e10;
+                }(i2 = r3.formatContext, n3, l3), i2 !== c3 && null != l3.children && eD(t3, l3.children, c3));
+                return t3 = o3, o3 = r3.keyPath, null === t3 ? t3 = o3 : null !== o3 && (t3 = o3 + "," + t3), l3 = [a, n3, t3, l3], r3 = r3.implicitSlot && null !== t3 ? [l3] : l3;
+              }(e10, t2, o2.type, o2.key, void 0 !== r2 ? r2 : null, n2)) && null !== e10 && null !== l2 && (c2.has(e10) || c2.set(e10, l2)), e10;
             case p:
-              if (3200 < ew) return e$(e10, t2);
+              if (3200 < ek) return ej(e10, t2);
               if (t2.thenableState = null, o2 = (n2 = o2._init)(o2._payload), 12 === e10.status) throw null;
-              return eN(e10, t2, eV, "", o2);
+              return eU(e10, t2, eY, "", o2);
             case i:
               throw Error('A React Element from an older version of React was rendered. This is not supported. It can happen if:\n- Multiple copies of the "react" package is used.\n- A library pre-bundled an old copy of "react" or "react/jsx-runtime".\n- A compiler tries to "inline" JSX instead of using the runtime.');
           }
-          if (o2.$$typeof === j) return eM(e10, r2, n2, o2);
-          if (void 0 !== e10.temporaryReferences && void 0 !== (s2 = e10.temporaryReferences.get(o2))) return "$T" + s2;
-          if (c2 = (s2 = e10.writtenObjects).get(o2), "function" == typeof o2.then) {
+          if (o2.$$typeof === j) return eI(e10, r2, n2, o2);
+          if (void 0 !== e10.temporaryReferences && void 0 !== (l2 = e10.temporaryReferences.get(o2))) return "$T" + l2;
+          if (c2 = (l2 = e10.writtenObjects).get(o2), "function" == typeof o2.then) {
             if (void 0 !== c2) {
-              if (null !== t2.keyPath || t2.implicitSlot) return "$@" + eS(e10, t2, o2).toString(16);
-              if (eL !== o2) return c2;
-              eL = null;
+              if (null !== t2.keyPath || t2.implicitSlot) return "$@" + eC(e10, t2, o2).toString(16);
+              if (eN !== o2) return c2;
+              eN = null;
             }
-            return e10 = "$@" + eS(e10, t2, o2).toString(16), s2.set(o2, e10), e10;
+            return e10 = "$@" + eC(e10, t2, o2).toString(16), l2.set(o2, e10), e10;
           }
-          if (void 0 !== c2) if (eL !== o2) return c2;
+          if (void 0 !== c2) if (eN !== o2) return c2;
           else {
-            if (c2 !== ek(t2.id)) return c2;
-            eL = null;
+            if (c2 !== eA(t2.id)) return c2;
+            eN = null;
           }
-          else if (-1 === n2.indexOf(":") && void 0 !== (c2 = s2.get(r2))) {
+          else if (-1 === n2.indexOf(":") && void 0 !== (c2 = l2.get(r2))) {
             if (f2 = n2, es(r2) && r2[0] === a) switch (n2) {
               case "1":
                 f2 = "type";
@@ -2368,51 +2370,51 @@ var require_node_modules_91242dc2 = __commonJS({
               case "4":
                 f2 = "_owner";
             }
-            s2.set(o2, c2 + ":" + f2);
+            l2.set(o2, c2 + ":" + f2);
           }
           if (es(o2)) return eP(e10, t2, o2);
-          if (o2 instanceof Map) return "$Q" + eI(e10, o2 = Array.from(o2), 0).toString(16);
-          if (o2 instanceof Set) return "$W" + eI(e10, o2 = Array.from(o2), 0).toString(16);
-          if ("function" == typeof FormData && o2 instanceof FormData) return "$K" + eI(e10, o2 = Array.from(o2.entries()), 0).toString(16);
+          if (o2 instanceof Map) return "$Q" + eD(e10, o2 = Array.from(o2), 0).toString(16);
+          if (o2 instanceof Set) return "$W" + eD(e10, o2 = Array.from(o2), 0).toString(16);
+          if ("function" == typeof FormData && o2 instanceof FormData) return "$K" + eD(e10, o2 = Array.from(o2.entries()), 0).toString(16);
           if (o2 instanceof Error) return "$Z";
-          if (o2 instanceof ArrayBuffer) return eD(e10, "A", new Uint8Array(o2));
-          if (o2 instanceof Int8Array) return eD(e10, "O", o2);
-          if (o2 instanceof Uint8Array) return eD(e10, "o", o2);
-          if (o2 instanceof Uint8ClampedArray) return eD(e10, "U", o2);
-          if (o2 instanceof Int16Array) return eD(e10, "S", o2);
-          if (o2 instanceof Uint16Array) return eD(e10, "s", o2);
-          if (o2 instanceof Int32Array) return eD(e10, "L", o2);
-          if (o2 instanceof Uint32Array) return eD(e10, "l", o2);
-          if (o2 instanceof Float32Array) return eD(e10, "G", o2);
-          if (o2 instanceof Float64Array) return eD(e10, "g", o2);
-          if (o2 instanceof BigInt64Array) return eD(e10, "M", o2);
-          if (o2 instanceof BigUint64Array) return eD(e10, "m", o2);
-          if (o2 instanceof DataView) return eD(e10, "V", o2);
+          if (o2 instanceof ArrayBuffer) return eL(e10, "A", new Uint8Array(o2));
+          if (o2 instanceof Int8Array) return eL(e10, "O", o2);
+          if (o2 instanceof Uint8Array) return eL(e10, "o", o2);
+          if (o2 instanceof Uint8ClampedArray) return eL(e10, "U", o2);
+          if (o2 instanceof Int16Array) return eL(e10, "S", o2);
+          if (o2 instanceof Uint16Array) return eL(e10, "s", o2);
+          if (o2 instanceof Int32Array) return eL(e10, "L", o2);
+          if (o2 instanceof Uint32Array) return eL(e10, "l", o2);
+          if (o2 instanceof Float32Array) return eL(e10, "G", o2);
+          if (o2 instanceof Float64Array) return eL(e10, "g", o2);
+          if (o2 instanceof BigInt64Array) return eL(e10, "M", o2);
+          if (o2 instanceof BigUint64Array) return eL(e10, "m", o2);
+          if (o2 instanceof DataView) return eL(e10, "V", o2);
           if ("function" == typeof Blob && o2 instanceof Blob) return function(e11, t3) {
             function r3(t4) {
-              0 === i2.status && (e11.cacheController.signal.removeEventListener("abort", n3), eq(e11, i2, t4), e4(e11), a2.cancel(t4).then(r3, r3));
+              0 === i2.status && (e11.cacheController.signal.removeEventListener("abort", n3), eV(e11, i2, t4), e6(e11), a2.cancel(t4).then(r3, r3));
             }
             function n3() {
               if (0 === i2.status) {
                 var t4 = e11.cacheController.signal;
-                t4.removeEventListener("abort", n3), t4 = t4.reason, 21 === e11.type ? (e11.abortableTasks.delete(i2), eQ(i2), e0(i2, e11)) : (eq(e11, i2, t4), e4(e11)), a2.cancel(t4).then(r3, r3);
+                t4.removeEventListener("abort", n3), t4 = t4.reason, 21 === e11.type ? (e11.abortableTasks.delete(i2), e0(i2), e1(i2, e11)) : (eV(e11, i2, t4), e6(e11)), a2.cancel(t4).then(r3, r3);
               }
             }
             var o3 = [t3.type], i2 = eT(e11, o3, null, false, 0, e11.abortableTasks), a2 = t3.stream().getReader();
             return e11.cacheController.signal.addEventListener("abort", n3), a2.read().then(function t4(u2) {
               if (0 === i2.status) if (!u2.done) return o3.push(u2.value), a2.read().then(t4).catch(r3);
-              else e11.cacheController.signal.removeEventListener("abort", n3), ej(e11, i2);
+              else e11.cacheController.signal.removeEventListener("abort", n3), e$(e11, i2);
             }).catch(r3), "$B" + i2.id.toString(16);
           }(e10, o2);
-          if (s2 = g(o2)) return (n2 = s2.call(o2)) === o2 ? "$i" + eI(e10, o2 = Array.from(n2), 0).toString(16) : eP(e10, t2, Array.from(n2));
+          if (l2 = g(o2)) return (n2 = l2.call(o2)) === o2 ? "$i" + eD(e10, o2 = Array.from(n2), 0).toString(16) : eP(e10, t2, Array.from(n2));
           if ("function" == typeof ReadableStream && o2 instanceof ReadableStream) return function(e11, t3, r3) {
             function n3(t4) {
-              0 === u2.status && (e11.cacheController.signal.removeEventListener("abort", o3), eq(e11, u2, t4), e4(e11), a2.cancel(t4).then(n3, n3));
+              0 === u2.status && (e11.cacheController.signal.removeEventListener("abort", o3), eV(e11, u2, t4), e6(e11), a2.cancel(t4).then(n3, n3));
             }
             function o3() {
               if (0 === u2.status) {
                 var t4 = e11.cacheController.signal;
-                t4.removeEventListener("abort", o3), t4 = t4.reason, 21 === e11.type ? (e11.abortableTasks.delete(u2), eQ(u2), e0(u2, e11)) : (eq(e11, u2, t4), e4(e11)), a2.cancel(t4).then(n3, n3);
+                t4.removeEventListener("abort", o3), t4 = t4.reason, 21 === e11.type ? (e11.abortableTasks.delete(u2), e0(u2), e1(u2, e11)) : (eV(e11, u2, t4), e6(e11)), a2.cancel(t4).then(n3, n3);
               }
             }
             var i2 = r3.supportsBYOB;
@@ -2422,175 +2424,175 @@ var require_node_modules_91242dc2 = __commonJS({
               i2 = false;
             }
             var a2 = r3.getReader(), u2 = eT(e11, t3.model, t3.keyPath, t3.implicitSlot, t3.formatContext, e11.abortableTasks);
-            return e11.pendingChunks++, t3 = u2.id.toString(16) + ":" + (i2 ? "r" : "R") + "\n", e11.completedRegularChunks.push(P(t3)), e11.cacheController.signal.addEventListener("abort", o3), a2.read().then(function t4(r4) {
-              if (0 === u2.status) if (r4.done) u2.status = 1, r4 = u2.id.toString(16) + ":C\n", e11.completedRegularChunks.push(P(r4)), e11.abortableTasks.delete(u2), e11.cacheController.signal.removeEventListener("abort", o3), e4(e11), e6(e11);
+            return e11.pendingChunks++, t3 = u2.id.toString(16) + ":" + (i2 ? "r" : "R") + "\n", e11.completedRegularChunks.push(w(t3)), e11.cacheController.signal.addEventListener("abort", o3), a2.read().then(function t4(r4) {
+              if (0 === u2.status) if (r4.done) u2.status = 1, r4 = u2.id.toString(16) + ":C\n", e11.completedRegularChunks.push(w(r4)), e11.abortableTasks.delete(u2), e11.cacheController.signal.removeEventListener("abort", o3), e6(e11), e3(e11);
               else try {
-                u2.model = r4.value, e11.pendingChunks++, eJ(e11, u2), e4(e11), a2.read().then(t4, n3);
+                u2.model = r4.value, e11.pendingChunks++, eG(e11, u2), e6(e11), a2.read().then(t4, n3);
               } catch (e12) {
                 n3(e12);
               }
-            }, n3), ek(u2.id);
+            }, n3), eA(u2.id);
           }(e10, t2, o2);
-          if ("function" == typeof (s2 = o2[m])) return null !== t2.keyPath ? (e10 = [a, u, t2.keyPath, { children: o2 }], e10 = t2.implicitSlot ? [e10] : e10) : (n2 = s2.call(o2), e10 = function(e11, t3, r3, n3) {
+          if ("function" == typeof (l2 = o2[m])) return null !== t2.keyPath ? (e10 = [a, u, t2.keyPath, { children: o2 }], e10 = t2.implicitSlot ? [e10] : e10) : (n2 = l2.call(o2), e10 = function(e11, t3, r3, n3) {
             function o3(t4) {
-              0 === a2.status && (e11.cacheController.signal.removeEventListener("abort", i2), eq(e11, a2, t4), e4(e11), "function" == typeof n3.throw && n3.throw(t4).then(o3, o3));
+              0 === a2.status && (e11.cacheController.signal.removeEventListener("abort", i2), eV(e11, a2, t4), e6(e11), "function" == typeof n3.throw && n3.throw(t4).then(o3, o3));
             }
             function i2() {
               if (0 === a2.status) {
                 var t4 = e11.cacheController.signal;
                 t4.removeEventListener("abort", i2);
                 var r4 = t4.reason;
-                21 === e11.type ? (e11.abortableTasks.delete(a2), eQ(a2), e0(a2, e11)) : (eq(e11, a2, t4.reason), e4(e11)), "function" == typeof n3.throw && n3.throw(r4).then(o3, o3);
+                21 === e11.type ? (e11.abortableTasks.delete(a2), e0(a2), e1(a2, e11)) : (eV(e11, a2, t4.reason), e6(e11)), "function" == typeof n3.throw && n3.throw(r4).then(o3, o3);
               }
             }
             r3 = r3 === n3;
             var a2 = eT(e11, t3.model, t3.keyPath, t3.implicitSlot, t3.formatContext, e11.abortableTasks);
-            return e11.pendingChunks++, t3 = a2.id.toString(16) + ":" + (r3 ? "x" : "X") + "\n", e11.completedRegularChunks.push(P(t3)), e11.cacheController.signal.addEventListener("abort", i2), n3.next().then(function t4(r4) {
+            return e11.pendingChunks++, t3 = a2.id.toString(16) + ":" + (r3 ? "x" : "X") + "\n", e11.completedRegularChunks.push(w(t3)), e11.cacheController.signal.addEventListener("abort", i2), n3.next().then(function t4(r4) {
               if (0 === a2.status) if (r4.done) {
                 if (a2.status = 1, void 0 === r4.value) var u2 = a2.id.toString(16) + ":C\n";
                 else try {
-                  var s3 = eI(e11, r4.value, 0);
-                  u2 = a2.id.toString(16) + ":C" + ev(ek(s3)) + "\n";
+                  var l3 = eD(e11, r4.value, 0);
+                  u2 = a2.id.toString(16) + ":C" + eg(eA(l3)) + "\n";
                 } catch (e12) {
                   o3(e12);
                   return;
                 }
-                e11.completedRegularChunks.push(P(u2)), e11.abortableTasks.delete(a2), e11.cacheController.signal.removeEventListener("abort", i2), e4(e11), e6(e11);
+                e11.completedRegularChunks.push(w(u2)), e11.abortableTasks.delete(a2), e11.cacheController.signal.removeEventListener("abort", i2), e6(e11), e3(e11);
               } else try {
-                a2.model = r4.value, e11.pendingChunks++, eJ(e11, a2), e4(e11), n3.next().then(t4, o3);
+                a2.model = r4.value, e11.pendingChunks++, eG(e11, a2), e6(e11), n3.next().then(t4, o3);
               } catch (e12) {
                 o3(e12);
               }
-            }, o3), ek(a2.id);
+            }, o3), eA(a2.id);
           }(e10, t2, o2, n2)), e10;
           if (o2 instanceof Date) return "$D" + o2.toJSON();
-          if ((e10 = el(o2)) !== eh && (null === e10 || null !== el(e10))) throw Error("Only plain objects, and a few built-ins, can be passed to Client Components from Server Components. Classes or null prototypes are not supported." + ep(r2, n2));
+          if ((e10 = ec(o2)) !== ev && (null === e10 || null !== ec(e10))) throw Error("Only plain objects, and a few built-ins, can be passed to Client Components from Server Components. Classes or null prototypes are not supported." + eh(r2, n2));
           return o2;
         }
-        if ("string" == typeof o2) return (ew += o2.length, "Z" === o2[o2.length - 1] && r2[n2] instanceof Date) ? "$D" + o2 : 1024 <= o2.length && null !== w ? (e10.pendingChunks++, t2 = e10.nextChunkId++, eW(e10, t2, o2, false), ek(t2)) : e10 = "$" === o2[0] ? "$" + o2 : o2;
+        if ("string" == typeof o2) return (ek += o2.length, "Z" === o2[o2.length - 1] && r2[n2] instanceof Date) ? "$D" + o2 : 1024 <= o2.length && null !== P ? (e10.pendingChunks++, t2 = e10.nextChunkId++, eX(e10, t2, o2, false), eA(t2)) : e10 = "$" === o2[0] ? "$" + o2 : o2;
         if ("boolean" == typeof o2) return o2;
         if ("number" == typeof o2) return Number.isFinite(o2) ? 0 === o2 && -1 / 0 == 1 / o2 ? "$-0" : o2 : 1 / 0 === o2 ? "$Infinity" : -1 / 0 === o2 ? "$-Infinity" : "$NaN";
         if (void 0 === o2) return "$undefined";
         if ("function" == typeof o2) {
-          if (o2.$$typeof === j) return eM(e10, r2, n2, o2);
-          if (o2.$$typeof === T) return void 0 !== (n2 = (t2 = e10.writtenServerReferences).get(o2)) ? e10 = "$F" + n2.toString(16) : (n2 = null === (n2 = o2.$$bound) ? null : Promise.resolve(n2), e10 = eI(e10, { id: o2.$$id, bound: n2 }, 0), t2.set(o2, e10), e10 = "$F" + e10.toString(16)), e10;
+          if (o2.$$typeof === j) return eI(e10, r2, n2, o2);
+          if (o2.$$typeof === $) return void 0 !== (n2 = (t2 = e10.writtenServerReferences).get(o2)) ? e10 = "$h" + n2.toString(16) : (n2 = null === (n2 = o2.$$bound) ? null : Promise.resolve(n2), e10 = eD(e10, { id: o2.$$id, bound: n2 }, 0), t2.set(o2, e10), e10 = "$h" + e10.toString(16)), e10;
           if (void 0 !== e10.temporaryReferences && void 0 !== (e10 = e10.temporaryReferences.get(o2))) return "$T" + e10;
-          if (o2.$$typeof === q) throw Error("Could not reference an opaque temporary reference. This is likely due to misconfiguring the temporaryReferences options on the server.");
-          if (/^on[A-Z]/.test(n2)) throw Error("Event handlers cannot be passed to Client Component props." + ep(r2, n2) + "\nIf you need interactivity, consider converting part of this to a Client Component.");
-          throw Error('Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.' + ep(r2, n2));
+          if (o2.$$typeof === V) throw Error("Could not reference an opaque temporary reference. This is likely due to misconfiguring the temporaryReferences options on the server.");
+          if (/^on[A-Z]/.test(n2)) throw Error("Event handlers cannot be passed to Client Component props." + eh(r2, n2) + "\nIf you need interactivity, consider converting part of this to a Client Component.");
+          throw Error('Functions cannot be passed directly to Client Components unless you explicitly expose it by marking it with "use server". Or maybe you meant to call this function rather than return it.' + eh(r2, n2));
         }
         if ("symbol" == typeof o2) {
-          if (void 0 !== (s2 = (t2 = e10.writtenSymbols).get(o2))) return ek(s2);
-          if (Symbol.for(s2 = o2.description) !== o2) throw Error("Only global symbols received from Symbol.for(...) can be passed to Client Components. The symbol Symbol.for(" + o2.description + ") cannot be found among global symbols." + ep(r2, n2));
-          return e10.pendingChunks++, n2 = e10.nextChunkId++, r2 = ex(e10, n2, "$S" + s2), e10.completedImportChunks.push(r2), t2.set(o2, n2), ek(n2);
+          if (void 0 !== (l2 = (t2 = e10.writtenSymbols).get(o2))) return eA(l2);
+          if (Symbol.for(l2 = o2.description) !== o2) throw Error("Only global symbols received from Symbol.for(...) can be passed to Client Components. The symbol Symbol.for(" + o2.description + ") cannot be found among global symbols." + eh(r2, n2));
+          return e10.pendingChunks++, n2 = e10.nextChunkId++, r2 = eM(e10, n2, "$S" + l2), e10.completedImportChunks.push(r2), t2.set(o2, n2), eA(n2);
         }
         if ("bigint" == typeof o2) return "$n" + o2.toString(10);
-        throw Error("Type " + typeof o2 + " is not supported in Client Component props." + ep(r2, n2));
+        throw Error("Type " + typeof o2 + " is not supported in Client Component props." + eh(r2, n2));
       }
-      function eU(e10, t2) {
-        var r2 = eb;
-        eb = null;
+      function eF(e10, t2) {
+        var r2 = e_;
+        e_ = null;
         try {
-          var n2 = e10.onError, o2 = W ? X.run(void 0, n2, t2) : n2(t2);
+          var n2 = e10.onError, o2 = X ? q.run(void 0, n2, t2) : n2(t2);
         } finally {
-          eb = r2;
+          e_ = r2;
         }
         if (null != o2 && "string" != typeof o2) throw Error('onError returned something with a type other than "string". onError should return a string and may return null or undefined but must not return anything else. It received something of type "' + typeof o2 + '" instead');
         return o2 || "";
       }
-      function eF(e10, t2) {
-        (0, e10.onFatalError)(t2), null !== e10.destination ? (e10.status = 14, $(e10.destination, t2)) : (e10.status = 13, e10.fatalError = t2), e10.cacheController.abort(Error("The render was aborted due to a fatal error.", { cause: t2 }));
-      }
-      function eB(e10, t2, r2) {
-        r2 = { digest: r2 }, t2 = P(t2 = t2.toString(16) + ":E" + ev(r2) + "\n"), e10.completedErrorChunks.push(t2);
+      function ez(e10, t2) {
+        (0, e10.onFatalError)(t2), null !== e10.destination ? (e10.status = 14, k(e10.destination, t2)) : (e10.status = 13, e10.fatalError = t2), e10.cacheController.abort(Error("The render was aborted due to a fatal error.", { cause: t2 }));
       }
       function eH(e10, t2, r2) {
-        t2 = P(t2 = t2.toString(16) + ":" + r2 + "\n"), e10.completedRegularChunks.push(t2);
+        r2 = { digest: r2 }, t2 = w(t2 = t2.toString(16) + ":E" + eg(r2) + "\n"), e10.completedErrorChunks.push(t2);
       }
-      function ez(e10, t2, r2, n2, o2) {
-        o2 ? e10.pendingDebugChunks++ : e10.pendingChunks++, o2 = (n2 = new Uint8Array(n2.buffer, n2.byteOffset, n2.byteLength)).byteLength, t2 = P(t2 = t2.toString(16) + ":" + r2 + o2.toString(16) + ","), e10.completedRegularChunks.push(t2, n2);
+      function eB(e10, t2, r2) {
+        t2 = w(t2 = t2.toString(16) + ":" + r2 + "\n"), e10.completedRegularChunks.push(t2);
       }
-      function eW(e10, t2, r2, n2) {
-        if (null === w) throw Error("Existence of byteLengthOfChunk should have already been checked. This is a bug in React.");
-        n2 ? e10.pendingDebugChunks++ : e10.pendingChunks++, n2 = (r2 = P(r2)).byteLength, t2 = P(t2 = t2.toString(16) + ":T" + n2.toString(16) + ","), e10.completedRegularChunks.push(t2, r2);
+      function eW(e10, t2, r2, n2, o2) {
+        o2 ? e10.pendingDebugChunks++ : e10.pendingChunks++, o2 = (n2 = new Uint8Array(n2.buffer, n2.byteOffset, n2.byteLength)).byteLength, t2 = w(t2 = t2.toString(16) + ":" + r2 + o2.toString(16) + ","), e10.completedRegularChunks.push(t2, n2);
       }
-      function eX(e10, t2, r2) {
-        var n2 = t2.id;
-        "string" == typeof r2 && null !== w ? eW(e10, n2, r2, false) : r2 instanceof ArrayBuffer ? ez(e10, n2, "A", new Uint8Array(r2), false) : r2 instanceof Int8Array ? ez(e10, n2, "O", r2, false) : r2 instanceof Uint8Array ? ez(e10, n2, "o", r2, false) : r2 instanceof Uint8ClampedArray ? ez(e10, n2, "U", r2, false) : r2 instanceof Int16Array ? ez(e10, n2, "S", r2, false) : r2 instanceof Uint16Array ? ez(e10, n2, "s", r2, false) : r2 instanceof Int32Array ? ez(e10, n2, "L", r2, false) : r2 instanceof Uint32Array ? ez(e10, n2, "l", r2, false) : r2 instanceof Float32Array ? ez(e10, n2, "G", r2, false) : r2 instanceof Float64Array ? ez(e10, n2, "g", r2, false) : r2 instanceof BigInt64Array ? ez(e10, n2, "M", r2, false) : r2 instanceof BigUint64Array ? ez(e10, n2, "m", r2, false) : r2 instanceof DataView ? ez(e10, n2, "V", r2, false) : (r2 = ev(r2, t2.toJSON), eH(e10, t2.id, r2));
+      function eX(e10, t2, r2, n2) {
+        if (null === P) throw Error("Existence of byteLengthOfChunk should have already been checked. This is a bug in React.");
+        n2 ? e10.pendingDebugChunks++ : e10.pendingChunks++, n2 = (r2 = w(r2)).byteLength, t2 = w(t2 = t2.toString(16) + ":T" + n2.toString(16) + ","), e10.completedRegularChunks.push(t2, r2);
       }
       function eq(e10, t2, r2) {
-        t2.status = 4, r2 = eU(e10, r2, t2), eB(e10, t2.id, r2), e10.abortableTasks.delete(t2), e6(e10);
+        var n2 = t2.id;
+        "string" == typeof r2 && null !== P ? eX(e10, n2, r2, false) : r2 instanceof ArrayBuffer ? eW(e10, n2, "A", new Uint8Array(r2), false) : r2 instanceof Int8Array ? eW(e10, n2, "O", r2, false) : r2 instanceof Uint8Array ? eW(e10, n2, "o", r2, false) : r2 instanceof Uint8ClampedArray ? eW(e10, n2, "U", r2, false) : r2 instanceof Int16Array ? eW(e10, n2, "S", r2, false) : r2 instanceof Uint16Array ? eW(e10, n2, "s", r2, false) : r2 instanceof Int32Array ? eW(e10, n2, "L", r2, false) : r2 instanceof Uint32Array ? eW(e10, n2, "l", r2, false) : r2 instanceof Float32Array ? eW(e10, n2, "G", r2, false) : r2 instanceof Float64Array ? eW(e10, n2, "g", r2, false) : r2 instanceof BigInt64Array ? eW(e10, n2, "M", r2, false) : r2 instanceof BigUint64Array ? eW(e10, n2, "m", r2, false) : r2 instanceof DataView ? eW(e10, n2, "V", r2, false) : (r2 = eg(r2, t2.toJSON), eB(e10, t2.id, r2));
       }
-      var eV = {};
-      function eY(e10, t2) {
+      function eV(e10, t2, r2) {
+        t2.status = 4, r2 = eF(e10, r2, t2), eH(e10, t2.id, r2), e10.abortableTasks.delete(t2), e3(e10);
+      }
+      var eY = {};
+      function eJ(e10, t2) {
         if (0 === t2.status) {
           t2.status = 5;
-          var r2 = ew;
+          var r2 = ek;
           try {
-            eL = t2.model;
-            var n2 = eN(e10, t2, eV, "", t2.model);
-            if (eL = n2, t2.keyPath = null, t2.implicitSlot = false, "object" == typeof n2 && null !== n2) e10.writtenObjects.set(n2, ek(t2.id)), eX(e10, t2, n2);
+            eN = t2.model;
+            var n2 = eU(e10, t2, eY, "", t2.model);
+            if (eN = n2, t2.keyPath = null, t2.implicitSlot = false, "object" == typeof n2 && null !== n2) e10.writtenObjects.set(n2, eA(t2.id)), eq(e10, t2, n2);
             else {
-              var o2 = ev(n2);
-              eH(e10, t2.id, o2);
+              var o2 = eg(n2);
+              eB(e10, t2.id, o2);
             }
-            t2.status = 1, e10.abortableTasks.delete(t2), e6(e10);
+            t2.status = 1, e10.abortableTasks.delete(t2), e3(e10);
           } catch (r3) {
-            if (12 === e10.status) if (e10.abortableTasks.delete(t2), t2.status = 0, 21 === e10.type) eQ(t2), e0(t2, e10);
+            if (12 === e10.status) if (e10.abortableTasks.delete(t2), t2.status = 0, 21 === e10.type) e0(t2), e1(t2, e10);
             else {
               var i2 = e10.fatalError;
-              eK(t2), eZ(t2, e10, i2);
+              eZ(t2), eQ(t2, e10, i2);
             }
             else {
-              var a2 = r3 === J ? K() : r3;
+              var a2 = r3 === G ? Z() : r3;
               if ("object" == typeof a2 && null !== a2 && "function" == typeof a2.then) {
-                t2.status = 0, t2.thenableState = et();
+                t2.status = 0, t2.thenableState = er();
                 var u2 = t2.ping;
                 a2.then(u2, u2);
-              } else eq(e10, t2, a2);
+              } else eV(e10, t2, a2);
             }
           } finally {
-            ew = r2;
+            ek = r2;
           }
         }
       }
-      function eJ(e10, t2) {
-        var r2 = ew;
+      function eG(e10, t2) {
+        var r2 = ek;
         try {
-          eX(e10, t2, t2.model);
+          eq(e10, t2, t2.model);
         } finally {
-          ew = r2;
-        }
-      }
-      function eG(e10) {
-        var t2 = eu.H;
-        eu.H = er;
-        var r2 = eb;
-        Z = eb = e10;
-        try {
-          var n2 = e10.pingedTasks;
-          e10.pingedTasks = [];
-          for (var o2 = 0; o2 < n2.length; o2++) eY(e10, n2[o2]);
-          e1(e10);
-        } catch (t3) {
-          eU(e10, t3, null), eF(e10, t3);
-        } finally {
-          eu.H = t2, Z = null, eb = r2;
+          ek = r2;
         }
       }
       function eK(e10) {
+        var t2 = el.H;
+        el.H = en;
+        var r2 = e_;
+        Q = e_ = e10;
+        try {
+          var n2 = e10.pingedTasks;
+          e10.pingedTasks = [];
+          for (var o2 = 0; o2 < n2.length; o2++) eJ(e10, n2[o2]);
+          e2(e10);
+        } catch (t3) {
+          eF(e10, t3, null), ez(e10, t3);
+        } finally {
+          el.H = t2, Q = null, e_ = r2;
+        }
+      }
+      function eZ(e10) {
         0 === e10.status && (e10.status = 3);
       }
-      function eZ(e10, t2, r2) {
-        3 === e10.status && (r2 = ek(r2), e10 = ex(t2, e10.id, r2), t2.completedErrorChunks.push(e10));
+      function eQ(e10, t2, r2) {
+        3 === e10.status && (r2 = eA(r2), e10 = eM(t2, e10.id, r2), t2.completedErrorChunks.push(e10));
       }
-      function eQ(e10) {
+      function e0(e10) {
         0 === e10.status && (e10.status = 3);
       }
-      function e0(e10, t2) {
+      function e1(e10, t2) {
         3 === e10.status && t2.pendingChunks--;
       }
-      function e1(e10) {
+      function e2(e10) {
         var t2 = e10.destination;
         if (null !== t2) {
           C = new Uint8Array(4096), R = 0;
@@ -2612,31 +2614,31 @@ var require_node_modules_91242dc2 = __commonJS({
         }
         0 === e10.pendingChunks && (12 > e10.status && e10.cacheController.abort(Error("This render completed successfully. All cacheSignals are now aborted to allow clean up of any unused resources.")), null !== e10.destination && (e10.status = 14, e10.destination.close(), e10.destination = null));
       }
-      function e2(e10) {
-        e10.flushScheduled = null !== e10.destination, W ? S(function() {
-          X.run(e10, eG, e10);
+      function e4(e10) {
+        e10.flushScheduled = null !== e10.destination, X ? S(function() {
+          q.run(e10, eK, e10);
         }) : S(function() {
-          return eG(e10);
+          return eK(e10);
         }), setTimeout(function() {
           10 === e10.status && (e10.status = 11);
         }, 0);
       }
-      function e4(e10) {
+      function e6(e10) {
         false === e10.flushScheduled && 0 === e10.pingedTasks.length && null !== e10.destination && (e10.flushScheduled = true, setTimeout(function() {
-          e10.flushScheduled = false, e1(e10);
+          e10.flushScheduled = false, e2(e10);
         }, 0));
       }
-      function e6(e10) {
+      function e3(e10) {
         0 === e10.abortableTasks.size && (e10 = e10.onAllReady)();
       }
-      function e3(e10, t2) {
-        if (13 === e10.status) e10.status = 14, $(t2, e10.fatalError);
+      function e5(e10, t2) {
+        if (13 === e10.status) e10.status = 14, k(t2, e10.fatalError);
         else if (14 !== e10.status && null === e10.destination) {
           e10.destination = t2;
           try {
-            e1(e10);
+            e2(e10);
           } catch (t3) {
-            eU(e10, t3, null), eF(e10, t3);
+            eF(e10, t3, null), ez(e10, t3);
           }
         }
       }
@@ -2645,36 +2647,36 @@ var require_node_modules_91242dc2 = __commonJS({
           e10.status = 12, e10.cacheController.abort(t2);
           var r2 = e10.abortableTasks;
           if (0 < r2.size) if (21 === e10.type) r2.forEach(function(t3) {
-            return eQ(t3, e10);
+            return e0(t3, e10);
           }), setTimeout(function() {
             try {
               r2.forEach(function(t3) {
-                return e0(t3, e10);
-              }), (0, e10.onAllReady)(), e1(e10);
+                return e1(t3, e10);
+              }), (0, e10.onAllReady)(), e2(e10);
             } catch (t3) {
-              eU(e10, t3, null), eF(e10, t3);
+              eF(e10, t3, null), ez(e10, t3);
             }
           }, 0);
           else {
-            var n2 = void 0 === t2 ? Error("The render was aborted by the server without a reason.") : "object" == typeof t2 && null !== t2 && "function" == typeof t2.then ? Error("The render was aborted by the server with a promise.") : t2, o2 = eU(e10, n2, null), i2 = e10.nextChunkId++;
-            e10.fatalError = i2, e10.pendingChunks++, eB(e10, i2, o2, n2, false, null), r2.forEach(function(t3) {
-              return eK(t3, e10, i2);
+            var n2 = void 0 === t2 ? Error("The render was aborted by the server without a reason.") : "object" == typeof t2 && null !== t2 && "function" == typeof t2.then ? Error("The render was aborted by the server with a promise.") : t2, o2 = eF(e10, n2, null), i2 = e10.nextChunkId++;
+            e10.fatalError = i2, e10.pendingChunks++, eH(e10, i2, o2, n2, false, null), r2.forEach(function(t3) {
+              return eZ(t3, e10, i2);
             }), setTimeout(function() {
               try {
                 r2.forEach(function(t3) {
-                  return eZ(t3, e10, i2);
-                }), (0, e10.onAllReady)(), e1(e10);
+                  return eQ(t3, e10, i2);
+                }), (0, e10.onAllReady)(), e2(e10);
               } catch (t3) {
-                eU(e10, t3, null), eF(e10, t3);
+                eF(e10, t3, null), ez(e10, t3);
               }
             }, 0);
           }
-          else (0, e10.onAllReady)(), e1(e10);
+          else (0, e10.onAllReady)(), e2(e10);
         } catch (t3) {
-          eU(e10, t3, null), eF(e10, t3);
+          eF(e10, t3, null), ez(e10, t3);
         }
       }
-      function e5(e10, t2) {
+      function e7(e10, t2) {
         var r2 = "", n2 = e10[t2];
         if (n2) r2 = n2.name;
         else {
@@ -2691,91 +2693,163 @@ var require_node_modules_91242dc2 = __commonJS({
           t2.status = "rejected", t2.reason = e11;
         }), t2);
       }
-      var e7 = /* @__PURE__ */ new WeakSet(), te = /* @__PURE__ */ new WeakSet();
-      function tt() {
+      var te = /* @__PURE__ */ new WeakSet(), tt = /* @__PURE__ */ new WeakSet();
+      function tr() {
       }
-      function tr(e10) {
+      function tn(e10) {
         for (var t2 = e10[1], r2 = [], n2 = 0; n2 < t2.length; n2++) {
           var o2 = globalThis.__next_chunk_load__(t2[n2]);
-          if (te.has(o2) || r2.push(o2), !e7.has(o2)) {
-            var i2 = te.add.bind(te, o2);
-            o2.then(i2, tt), e7.add(o2);
+          if (tt.has(o2) || r2.push(o2), !te.has(o2)) {
+            var i2 = tt.add.bind(tt, o2);
+            o2.then(i2, tr), te.add(o2);
           }
         }
         return 4 === e10.length ? 0 === r2.length ? e8(e10[0]) : Promise.all(r2).then(function() {
           return e8(e10[0]);
         }) : 0 < r2.length ? Promise.all(r2) : null;
       }
-      function tn(e10) {
+      function to(e10) {
         var t2 = globalThis.__next_require__(e10[0]);
         if (4 === e10.length && "function" == typeof t2.then) if ("fulfilled" === t2.status) t2 = t2.value;
         else throw t2.reason;
-        return "*" === e10[2] ? t2 : "" === e10[2] ? t2.__esModule ? t2.default : t2 : t2[e10[2]];
+        return "*" === e10[2] ? t2 : "" === e10[2] ? t2.__esModule ? t2.default : t2 : ey.call(t2, e10[2]) ? t2[e10[2]] : void 0;
       }
-      function to(e10, t2, r2, n2) {
-        this.status = e10, this.value = t2, this.reason = r2, this._response = n2;
+      var ti = Symbol();
+      function ta(e10, t2, r2) {
+        this.status = e10, this.value = t2, this.reason = r2;
       }
-      function ti(e10) {
-        return new to("pending", null, null, e10);
-      }
-      function ta(e10, t2) {
-        for (var r2 = 0; r2 < e10.length; r2++) (0, e10[r2])(t2);
-      }
-      function tu(e10, t2) {
-        if ("pending" !== e10.status && "blocked" !== e10.status) e10.reason.error(t2);
-        else {
-          var r2 = e10.reason;
-          e10.status = "rejected", e10.reason = t2, null !== r2 && ta(r2, t2);
-        }
-      }
-      function ts(e10, t2, r2) {
-        if ("pending" !== e10.status) e10 = e10.reason, "C" === t2[0] ? e10.close("C" === t2 ? '"$undefined"' : t2.slice(1)) : e10.enqueueModel(t2);
-        else {
-          var n2 = e10.value, o2 = e10.reason;
-          if (e10.status = "resolved_model", e10.value = t2, e10.reason = r2, null !== n2) switch (tp(e10), e10.status) {
-            case "fulfilled":
-              ta(n2, e10.value);
-              break;
-            case "pending":
-            case "blocked":
-            case "cyclic":
-              if (e10.value) for (t2 = 0; t2 < n2.length; t2++) e10.value.push(n2[t2]);
-              else e10.value = n2;
-              if (e10.reason) {
-                if (o2) for (t2 = 0; t2 < o2.length; t2++) e10.reason.push(o2[t2]);
-              } else e10.reason = o2;
-              break;
-            case "rejected":
-              o2 && ta(o2, e10.reason);
-          }
+      function tu(e10, t2, r2) {
+        for (var n2 = 0; n2 < t2.length; n2++) {
+          var o2 = t2[n2];
+          "function" == typeof o2 ? o2(r2) : tb(e10, o2, r2);
         }
       }
       function tl(e10, t2, r2) {
-        return new to("resolved_model", (r2 ? '{"done":true,"value":' : '{"done":false,"value":') + t2 + "}", -1, e10);
+        for (var n2 = 0; n2 < t2.length; n2++) {
+          var o2 = t2[n2];
+          "function" == typeof o2 ? o2(r2) : t_(e10, o2.handler, r2);
+        }
+      }
+      function ts(e10, t2, r2) {
+        if ("pending" !== t2.status && "blocked" !== t2.status) t2.reason.error(r2);
+        else {
+          var n2 = t2.reason;
+          t2.status = "rejected", t2.reason = r2, null !== n2 && tl(e10, n2, r2);
+        }
       }
       function tc(e10, t2, r2) {
-        ts(e10, (r2 ? '{"done":true,"value":' : '{"done":false,"value":') + t2 + "}", -1);
+        var n2 = {};
+        return new ta("resolved_model", t2, (n2.id = r2, n2[ti] = e10, n2));
       }
-      to.prototype = Object.create(Promise.prototype), to.prototype.then = function(e10, t2) {
-        switch ("resolved_model" === this.status && tp(this), this.status) {
+      function tf(e10, t2, r2, n2) {
+        if ("pending" !== t2.status) t2 = t2.reason, "C" === r2[0] ? t2.close("C" === r2 ? '"$undefined"' : r2.slice(1)) : t2.enqueueModel(r2);
+        else {
+          var o2 = t2.value, i2 = t2.reason;
+          if (t2.status = "resolved_model", t2.value = r2, r2 = {}, t2.reason = (r2.id = n2, r2[ti] = e10, r2), null !== o2) e: switch (tv(t2), t2.status) {
+            case "fulfilled":
+              tu(e10, o2, t2.value);
+              break;
+            case "blocked":
+              for (r2 = 0; r2 < o2.length; r2++) if ("function" != typeof (n2 = o2[r2])) {
+                var a2 = function e11(t3, r3) {
+                  var n3 = r3.handler.chunk;
+                  if (null === n3) return null;
+                  if (n3 === t3) return r3.handler;
+                  if (null !== (r3 = n3.value)) for (n3 = 0; n3 < r3.length; n3++) {
+                    var o3 = r3[n3];
+                    if ("function" != typeof o3 && null !== (o3 = e11(t3, o3))) return o3;
+                  }
+                  return null;
+                }(t2, n2);
+                if (null !== a2) switch (tb(e10, n2, a2.value), o2.splice(r2, 1), r2--, null !== i2 && -1 !== (n2 = i2.indexOf(n2)) && i2.splice(n2, 1), t2.status) {
+                  case "fulfilled":
+                    tu(e10, o2, t2.value);
+                    break e;
+                  case "rejected":
+                    null !== i2 && tl(e10, i2, t2.reason);
+                    break e;
+                }
+              }
+            case "pending":
+              if (t2.value) for (e10 = 0; e10 < o2.length; e10++) t2.value.push(o2[e10]);
+              else t2.value = o2;
+              if (t2.reason) {
+                if (i2) for (o2 = 0; o2 < i2.length; o2++) t2.reason.push(i2[o2]);
+              } else t2.reason = i2;
+              break;
+            case "rejected":
+              i2 && tu(e10, i2, t2.reason);
+          }
+        }
+      }
+      function td(e10, t2, r2) {
+        var n2 = {};
+        return new ta("resolved_model", (r2 ? '{"done":true,"value":' : '{"done":false,"value":') + t2 + "}", (n2.id = -1, n2[ti] = e10, n2));
+      }
+      function tp(e10, t2, r2, n2) {
+        tf(e10, t2, (n2 ? '{"done":true,"value":' : '{"done":false,"value":') + r2 + "}", -1);
+      }
+      function th(e10, t2, r2, n2) {
+        var o2 = t2.id;
+        if ("string" != typeof o2 || "then" === n2) return null;
+        var i2 = e7(e10._bundlerConfig, o2);
+        o2 = t2.bound;
+        var a2 = tn(i2);
+        if (a2) o2 instanceof ta && (a2 = Promise.all([a2, o2]));
+        else {
+          if (!(o2 instanceof ta)) return to(i2);
+          a2 = Promise.resolve(o2);
+        }
+        if (ty) {
+          var u2 = ty;
+          u2.deps++;
+        } else u2 = ty = { chunk: null, value: null, reason: null, deps: 1, errored: false };
+        return a2.then(function() {
+          var o3 = to(i2);
+          if (t2.bound) {
+            var a3 = t2.bound.value;
+            (a3 = Array.isArray(a3) ? a3.slice(0) : []).unshift(null), o3 = o3.bind.apply(o3, a3);
+          }
+          r2[n2] = o3, "" === n2 && null === u2.value && (u2.value = o3), u2.deps--, 0 === u2.deps && null !== (o3 = u2.chunk) && "blocked" === o3.status && (a3 = o3.value, o3.status = "fulfilled", o3.value = u2.value, o3.reason = null, null !== a3 && tu(e10, a3, u2.value));
+        }, function(t3) {
+          if (!u2.errored) {
+            u2.errored = true, u2.value = null, u2.reason = t3;
+            var r3 = u2.chunk;
+            null !== r3 && "blocked" === r3.status && ts(e10, r3, t3);
+          }
+        }), null;
+      }
+      ta.prototype = Object.create(Promise.prototype), ta.prototype.then = function(e10, t2) {
+        switch ("resolved_model" === this.status && tv(this), this.status) {
           case "fulfilled":
-            e10(this.value);
+            if ("function" == typeof e10) {
+              for (var r2 = this.value, n2 = 0; r2 instanceof ta; ) {
+                if (n2++, r2 === this || 1e3 < n2) {
+                  "function" == typeof t2 && t2(Error("Cannot have cyclic thenables."));
+                  return;
+                }
+                if ("fulfilled" === r2.status) r2 = r2.value;
+                else break;
+              }
+              e10(this.value);
+            }
             break;
           case "pending":
           case "blocked":
-          case "cyclic":
-            e10 && (null === this.value && (this.value = []), this.value.push(e10)), t2 && (null === this.reason && (this.reason = []), this.reason.push(t2));
+            "function" == typeof e10 && (null === this.value && (this.value = []), this.value.push(e10)), "function" == typeof t2 && (null === this.reason && (this.reason = []), this.reason.push(t2));
             break;
           default:
-            t2(this.reason);
+            "function" == typeof t2 && t2(this.reason);
         }
       };
-      var tf = null, td = null;
-      function tp(e10) {
-        var t2 = tf, r2 = td;
-        tf = e10, td = null;
-        var n2 = -1 === e10.reason ? void 0 : e10.reason.toString(16), o2 = e10.value;
-        e10.status = "cyclic", e10.value = null, e10.reason = null;
+      var ty = null;
+      function tv(e10) {
+        var t2 = ty;
+        ty = null;
+        var r2 = e10.reason, n2 = r2[ti];
+        r2 = -1 === (r2 = r2.id) ? void 0 : r2.toString(16);
+        var o2 = e10.value;
+        e10.status = "blocked", e10.value = null, e10.reason = null;
         try {
           var i2 = JSON.parse(o2), a2 = function e11(t3, r3, n3, o3, i3) {
             if ("string" == typeof o3) return function(e12, t4, r4, n4, o4) {
@@ -2784,41 +2858,27 @@ var require_node_modules_91242dc2 = __commonJS({
                   case "$":
                     return n4.slice(1);
                   case "@":
-                    return th(e12, t4 = parseInt(n4.slice(2), 16));
-                  case "F":
-                    return n4 = tm(e12, n4 = n4.slice(2), t4, r4, tC), function(e13, t5, r5, n5, o5, i5) {
-                      var a5 = e5(e13._bundlerConfig, t5);
-                      if (t5 = tr(a5), r5) r5 = Promise.all([r5, t5]).then(function(e14) {
-                        e14 = e14[0];
-                        var t6 = tn(a5);
-                        return t6.bind.apply(t6, [null].concat(e14));
-                      });
-                      else {
-                        if (!t5) return tn(a5);
-                        r5 = Promise.resolve(t5).then(function() {
-                          return tn(a5);
-                        });
-                      }
-                      return r5.then(tv(n5, o5, i5, false, e13, tC, []), tg(n5)), null;
-                    }(e12, n4.id, n4.bound, tf, t4, r4);
+                    return tm(e12, t4 = parseInt(n4.slice(2), 16));
+                  case "h":
+                    return tS(e12, n4 = n4.slice(2), t4, r4, th);
                   case "T":
                     var i4, a4;
                     if (void 0 === o4 || void 0 === e12._temporaryReferences) throw Error("Could not reference an opaque temporary reference. This is likely due to misconfiguring the temporaryReferences options on the server.");
                     return i4 = e12._temporaryReferences, a4 = new Proxy(a4 = Object.defineProperties(function() {
                       throw Error("Attempted to call a temporary Client Reference from the server but it is on the client. It's not possible to invoke a client function from the server, it can only be rendered as a Component or passed to props of a Client Component.");
-                    }, { $$typeof: { value: q } }), V), i4.set(a4, o4), a4;
+                    }, { $$typeof: { value: V } }), Y), i4.set(a4, o4), a4;
                   case "Q":
-                    return tm(e12, n4 = n4.slice(2), t4, r4, tb);
+                    return tS(e12, n4 = n4.slice(2), t4, r4, tC);
                   case "W":
-                    return tm(e12, n4 = n4.slice(2), t4, r4, t_);
+                    return tS(e12, n4 = n4.slice(2), t4, r4, tR);
                   case "K":
                     t4 = n4.slice(2);
-                    var u3 = e12._prefix + t4 + "_", s2 = new FormData();
+                    var u3 = e12._prefix + t4 + "_", l3 = new FormData();
                     return e12._formData.forEach(function(e13, t5) {
-                      t5.startsWith(u3) && s2.append(t5.slice(u3.length), e13);
-                    }), s2;
+                      t5.startsWith(u3) && l3.append(t5.slice(u3.length), e13);
+                    }), l3;
                   case "i":
-                    return tm(e12, n4 = n4.slice(2), t4, r4, tS);
+                    return tS(e12, n4 = n4.slice(2), t4, r4, tE);
                   case "I":
                     return 1 / 0;
                   case "-":
@@ -2834,221 +2894,249 @@ var require_node_modules_91242dc2 = __commonJS({
                 }
                 switch (n4[1]) {
                   case "A":
-                    return tR(e12, n4, ArrayBuffer, 1, t4, r4);
+                    return tw(e12, n4, ArrayBuffer, 1, t4, r4);
                   case "O":
-                    return tR(e12, n4, Int8Array, 1, t4, r4);
+                    return tw(e12, n4, Int8Array, 1, t4, r4);
                   case "o":
-                    return tR(e12, n4, Uint8Array, 1, t4, r4);
+                    return tw(e12, n4, Uint8Array, 1, t4, r4);
                   case "U":
-                    return tR(e12, n4, Uint8ClampedArray, 1, t4, r4);
+                    return tw(e12, n4, Uint8ClampedArray, 1, t4, r4);
                   case "S":
-                    return tR(e12, n4, Int16Array, 2, t4, r4);
+                    return tw(e12, n4, Int16Array, 2, t4, r4);
                   case "s":
-                    return tR(e12, n4, Uint16Array, 2, t4, r4);
+                    return tw(e12, n4, Uint16Array, 2, t4, r4);
                   case "L":
-                    return tR(e12, n4, Int32Array, 4, t4, r4);
+                    return tw(e12, n4, Int32Array, 4, t4, r4);
                   case "l":
-                    return tR(e12, n4, Uint32Array, 4, t4, r4);
+                    return tw(e12, n4, Uint32Array, 4, t4, r4);
                   case "G":
-                    return tR(e12, n4, Float32Array, 4, t4, r4);
+                    return tw(e12, n4, Float32Array, 4, t4, r4);
                   case "g":
-                    return tR(e12, n4, Float64Array, 8, t4, r4);
+                    return tw(e12, n4, Float64Array, 8, t4, r4);
                   case "M":
-                    return tR(e12, n4, BigInt64Array, 8, t4, r4);
+                    return tw(e12, n4, BigInt64Array, 8, t4, r4);
                   case "m":
-                    return tR(e12, n4, BigUint64Array, 8, t4, r4);
+                    return tw(e12, n4, BigUint64Array, 8, t4, r4);
                   case "V":
-                    return tR(e12, n4, DataView, 1, t4, r4);
+                    return tw(e12, n4, DataView, 1, t4, r4);
                   case "B":
                     return t4 = parseInt(n4.slice(2), 16), e12._formData.get(e12._prefix + t4);
                 }
                 switch (n4[1]) {
                   case "R":
-                    return tO(e12, n4, void 0);
+                    return tk(e12, n4, void 0);
                   case "r":
-                    return tO(e12, n4, "bytes");
+                    return tk(e12, n4, "bytes");
                   case "X":
-                    return tw(e12, n4, false);
+                    return t$(e12, n4, false);
                   case "x":
-                    return tw(e12, n4, true);
+                    return t$(e12, n4, true);
                 }
-                return tm(e12, n4 = n4.slice(1), t4, r4, tC);
+                return tS(e12, n4 = n4.slice(1), t4, r4, tO);
               }
               return n4;
             }(t3, r3, n3, o3, i3);
             if ("object" == typeof o3 && null !== o3) if (void 0 !== i3 && void 0 !== t3._temporaryReferences && t3._temporaryReferences.set(o3, i3), Array.isArray(o3)) for (var a3 = 0; a3 < o3.length; a3++) o3[a3] = e11(t3, o3, "" + a3, o3[a3], void 0 !== i3 ? i3 + ":" + a3 : void 0);
-            else for (a3 in o3) ey.call(o3, a3) && (r3 = void 0 !== i3 && -1 === a3.indexOf(":") ? i3 + ":" + a3 : void 0, void 0 !== (r3 = e11(t3, o3, a3, o3[a3], r3)) ? o3[a3] = r3 : delete o3[a3]);
+            else for (a3 in o3) ey.call(o3, a3) && (r3 = void 0 !== i3 && -1 === a3.indexOf(":") ? i3 + ":" + a3 : void 0, void 0 !== (r3 = e11(t3, o3, a3, o3[a3], r3)) || "__proto__" === a3 ? o3[a3] = r3 : delete o3[a3]);
             return o3;
-          }(e10._response, { "": i2 }, "", i2, n2);
-          if (null !== td && 0 < td.deps) td.value = a2, e10.status = "blocked";
-          else {
-            var u2 = e10.value;
-            e10.status = "fulfilled", e10.value = a2, null !== u2 && ta(u2, a2);
+          }(n2, { "": i2 }, "", i2, r2), u2 = e10.value;
+          if (null !== u2) for (e10.value = null, e10.reason = null, i2 = 0; i2 < u2.length; i2++) {
+            var l2 = u2[i2];
+            "function" == typeof l2 ? l2(a2) : tb(n2, l2, a2);
           }
+          if (null !== ty) {
+            if (ty.errored) throw ty.reason;
+            if (0 < ty.deps) {
+              ty.value = a2, ty.chunk = e10;
+              return;
+            }
+          }
+          e10.status = "fulfilled", e10.value = a2, e10.reason = null;
         } catch (t3) {
           e10.status = "rejected", e10.reason = t3;
         } finally {
-          tf = t2, td = r2;
+          ty = t2;
         }
       }
-      function ty(e10, t2) {
-        e10._closed = true, e10._closedReason = t2, e10._chunks.forEach(function(e11) {
-          "pending" === e11.status && tu(e11, t2);
+      function tg(e10, t2) {
+        e10._closed = true, e10._closedReason = t2, e10._chunks.forEach(function(r2) {
+          "pending" === r2.status ? ts(e10, r2, t2) : "fulfilled" === r2.status && null !== r2.reason && r2.reason.error(t2);
         });
       }
-      function th(e10, t2) {
+      function tm(e10, t2) {
         var r2 = e10._chunks, n2 = r2.get(t2);
-        return n2 || (n2 = null != (n2 = e10._formData.get(e10._prefix + t2)) ? new to("resolved_model", n2, t2, e10) : e10._closed ? new to("rejected", null, e10._closedReason, e10) : ti(e10), r2.set(t2, n2)), n2;
+        return n2 || (n2 = "string" == typeof (n2 = e10._formData.get(e10._prefix + t2)) ? tc(e10, n2, t2) : e10._closed ? new ta("rejected", null, e10._closedReason) : new ta("pending", null, null), r2.set(t2, n2)), n2;
       }
-      function tv(e10, t2, r2, n2, o2, i2, a2) {
-        if (td) {
-          var u2 = td;
-          n2 || u2.deps++;
-        } else u2 = td = { deps: +!n2, value: null };
-        return function(n3) {
-          for (var s2 = 1; s2 < a2.length; s2++) n3 = n3[a2[s2]];
-          t2[r2] = i2(o2, n3), "" === r2 && null === u2.value && (u2.value = t2[r2]), u2.deps--, 0 === u2.deps && "blocked" === e10.status && (n3 = e10.value, e10.status = "fulfilled", e10.value = u2.value, null !== n3 && ta(n3, u2.value));
-        };
+      function tb(e10, t2, r2) {
+        var n2 = t2.handler, o2 = t2.parentObject, i2 = t2.key, a2 = t2.map, u2 = t2.path;
+        try {
+          for (var l2 = 1; l2 < u2.length; l2++) {
+            var s2 = u2[l2];
+            if ("object" != typeof r2 || !ey.call(r2, s2) || r2 instanceof Promise) throw Error("Invalid reference.");
+            r2 = r2[s2];
+          }
+          var c2 = a2(e10, r2, o2, i2);
+          o2[i2] = c2, "" === i2 && null === n2.value && (n2.value = c2);
+        } catch (r3) {
+          t_(e10, t2.handler, r3);
+          return;
+        }
+        n2.deps--, 0 === n2.deps && null !== (t2 = n2.chunk) && "blocked" === t2.status && (r2 = t2.value, t2.status = "fulfilled", t2.value = n2.value, t2.reason = n2.reason, null !== r2 && tu(e10, r2, n2.value));
       }
-      function tg(e10) {
-        return function(t2) {
-          return tu(e10, t2);
-        };
+      function t_(e10, t2, r2) {
+        t2.errored || (t2.errored = true, t2.value = null, t2.reason = r2, null !== (t2 = t2.chunk) && "blocked" === t2.status && ts(e10, t2, r2));
       }
-      function tm(e10, t2, r2, n2, o2) {
+      function tS(e10, t2, r2, n2, o2) {
         var i2 = parseInt((t2 = t2.split(":"))[0], 16);
-        switch ("resolved_model" === (i2 = th(e10, i2)).status && tp(i2), i2.status) {
+        switch ("resolved_model" === (i2 = tm(e10, i2)).status && tv(i2), i2.status) {
           case "fulfilled":
-            for (n2 = 1, r2 = i2.value; n2 < t2.length; n2++) r2 = r2[t2[n2]];
-            return o2(e10, r2);
+            i2 = i2.value;
+            for (var a2 = 1; a2 < t2.length; a2++) {
+              var u2 = t2[a2];
+              if ("object" != typeof i2 || !ey.call(i2, u2) || i2 instanceof Promise) throw Error("Invalid reference.");
+              i2 = i2[u2];
+            }
+            return o2(e10, i2, r2, n2);
           case "pending":
           case "blocked":
-          case "cyclic":
-            var a2 = tf;
-            return i2.then(tv(a2, r2, n2, "cyclic" === i2.status, e10, o2, t2), tg(a2)), null;
+            return ty ? (e10 = ty, e10.deps++) : e10 = ty = { chunk: null, value: null, reason: null, deps: 1, errored: false }, r2 = { handler: e10, parentObject: r2, key: n2, map: o2, path: t2 }, null === i2.value ? i2.value = [r2] : i2.value.push(r2), null === i2.reason ? i2.reason = [r2] : i2.reason.push(r2), null;
           default:
-            throw i2.reason;
+            return ty ? (ty.errored = true, ty.value = null, ty.reason = i2.reason) : ty = { chunk: null, value: null, reason: i2.reason, deps: 0, errored: true }, null;
         }
       }
-      function tb(e10, t2) {
+      function tC(e10, t2) {
         return new Map(t2);
       }
-      function t_(e10, t2) {
+      function tR(e10, t2) {
         return new Set(t2);
       }
-      function tS(e10, t2) {
+      function tE(e10, t2) {
         return t2[Symbol.iterator]();
       }
-      function tC(e10, t2) {
-        return t2;
+      function tO(e10, t2, r2, n2) {
+        return "then" === n2 && "function" == typeof t2 ? null : t2;
       }
-      function tR(e10, t2, r2, n2, o2, i2) {
-        return t2 = parseInt(t2.slice(2), 16), t2 = e10._formData.get(e10._prefix + t2), t2 = r2 === ArrayBuffer ? t2.arrayBuffer() : t2.arrayBuffer().then(function(e11) {
-          return new r2(e11);
-        }), n2 = tf, t2.then(tv(n2, o2, i2, false, e10, tC, []), tg(n2)), null;
+      function tw(e10, t2, r2, n2, o2, i2) {
+        if (t2 = parseInt(t2.slice(2), 16), n2 = e10._prefix + t2, e10._chunks.has(t2)) throw Error("Already initialized typed array.");
+        if (t2 = e10._formData.get(n2).arrayBuffer(), ty) {
+          var a2 = ty;
+          a2.deps++;
+        } else a2 = ty = { chunk: null, value: null, reason: null, deps: 1, errored: false };
+        return t2.then(function(t3) {
+          if (t3 = r2 === ArrayBuffer ? t3 : new r2(t3), o2[i2] = t3, "" === i2 && null === a2.value && (a2.value = t3), a2.deps--, 0 === a2.deps && null !== (t3 = a2.chunk) && "blocked" === t3.status) {
+            var n3 = t3.value;
+            t3.status = "fulfilled", t3.value = a2.value, t3.reason = null, null !== n3 && tu(e10, n3, a2.value);
+          }
+        }, function(t3) {
+          if (!a2.errored) {
+            a2.errored = true, a2.value = null, a2.reason = t3;
+            var r3 = a2.chunk;
+            null !== r3 && "blocked" === r3.status && ts(e10, r3, t3);
+          }
+        }), null;
       }
-      function tE(e10, t2, r2, n2) {
+      function tP(e10, t2, r2, n2) {
         var o2 = e10._chunks;
-        for (r2 = new to("fulfilled", r2, n2, e10), o2.set(t2, r2), e10 = e10._formData.getAll(e10._prefix + t2), t2 = 0; t2 < e10.length; t2++) "C" === (o2 = e10[t2])[0] ? n2.close("C" === o2 ? '"$undefined"' : o2.slice(1)) : n2.enqueueModel(o2);
+        for (r2 = new ta("fulfilled", r2, n2), o2.set(t2, r2), e10 = e10._formData.getAll(e10._prefix + t2), t2 = 0; t2 < e10.length; t2++) "string" == typeof (o2 = e10[t2]) && ("C" === o2[0] ? n2.close("C" === o2 ? '"$undefined"' : o2.slice(1)) : n2.enqueueModel(o2));
       }
-      function tO(e10, t2, r2) {
-        t2 = parseInt(t2.slice(2), 16);
-        var n2 = null;
+      function tk(e10, t2, r2) {
+        if (t2 = parseInt(t2.slice(2), 16), e10._chunks.has(t2)) throw Error("Already initialized stream.");
+        var n2 = null, o2 = false;
         r2 = new ReadableStream({ type: r2, start: function(e11) {
           n2 = e11;
         } });
-        var o2 = null;
-        return tE(e10, t2, r2, { enqueueModel: function(t3) {
-          if (null === o2) {
-            var r3 = new to("resolved_model", t3, -1, e10);
-            tp(r3), "fulfilled" === r3.status ? n2.enqueue(r3.value) : (r3.then(function(e11) {
+        var i2 = null;
+        return tP(e10, t2, r2, { enqueueModel: function(t3) {
+          if (null === i2) {
+            var r3 = tc(e10, t3, -1);
+            tv(r3), "fulfilled" === r3.status ? n2.enqueue(r3.value) : (r3.then(function(e11) {
               return n2.enqueue(e11);
             }, function(e11) {
               return n2.error(e11);
-            }), o2 = r3);
+            }), i2 = r3);
           } else {
-            r3 = o2;
-            var i2 = ti(e10);
-            i2.then(function(e11) {
+            r3 = i2;
+            var o3 = new ta("pending", null, null);
+            o3.then(function(e11) {
               return n2.enqueue(e11);
             }, function(e11) {
               return n2.error(e11);
-            }), o2 = i2, r3.then(function() {
-              o2 === i2 && (o2 = null), ts(i2, t3, -1);
+            }), i2 = o3, r3.then(function() {
+              i2 === o3 && (i2 = null), tf(e10, o3, t3, -1);
             });
           }
         }, close: function() {
-          if (null === o2) n2.close();
+          if (!o2) if (o2 = true, null === i2) n2.close();
           else {
-            var e11 = o2;
-            o2 = null, e11.then(function() {
+            var e11 = i2;
+            i2 = null, e11.then(function() {
               return n2.close();
             });
           }
         }, error: function(e11) {
-          if (null === o2) n2.error(e11);
+          if (!o2) if (o2 = true, null === i2) n2.error(e11);
           else {
-            var t3 = o2;
-            o2 = null, t3.then(function() {
+            var t3 = i2;
+            i2 = null, t3.then(function() {
               return n2.error(e11);
             });
           }
         } }), r2;
       }
-      function tP() {
+      function tj() {
         return this;
       }
-      function tw(e10, t2, r2) {
-        t2 = parseInt(t2.slice(2), 16);
+      function t$(e10, t2, r2) {
+        if (t2 = parseInt(t2.slice(2), 16), e10._chunks.has(t2)) throw Error("Already initialized stream.");
         var n2 = [], o2 = false, i2 = 0, a2 = {};
         return a2[m] = function() {
-          var t3, r3 = 0;
-          return (t3 = { next: t3 = function(t4) {
-            if (void 0 !== t4) throw Error("Values cannot be passed to next() of AsyncIterables passed to Client Components.");
-            if (r3 === n2.length) {
-              if (o2) return new to("fulfilled", { done: true, value: void 0 }, null, e10);
-              n2[r3] = ti(e10);
+          var e11, t3 = 0;
+          return (e11 = { next: e11 = function(e12) {
+            if (void 0 !== e12) throw Error("Values cannot be passed to next() of AsyncIterables passed to Client Components.");
+            if (t3 === n2.length) {
+              if (o2) return new ta("fulfilled", { done: true, value: void 0 }, null);
+              n2[t3] = new ta("pending", null, null);
             }
-            return n2[r3++];
-          } })[m] = tP, t3;
-        }, tE(e10, t2, r2 = r2 ? a2[m]() : a2, { enqueueModel: function(t3) {
-          i2 === n2.length ? n2[i2] = tl(e10, t3, false) : tc(n2[i2], t3, false), i2++;
+            return n2[t3++];
+          } })[m] = tj, e11;
+        }, tP(e10, t2, r2 = r2 ? a2[m]() : a2, { enqueueModel: function(t3) {
+          i2 === n2.length ? n2[i2] = td(e10, t3, false) : tp(e10, n2[i2], t3, false), i2++;
         }, close: function(t3) {
-          for (o2 = true, i2 === n2.length ? n2[i2] = tl(e10, t3, true) : tc(n2[i2], t3, true), i2++; i2 < n2.length; ) tc(n2[i2++], '"$undefined"', true);
+          if (!o2) for (o2 = true, i2 === n2.length ? n2[i2] = td(e10, t3, true) : tp(e10, n2[i2], t3, true), i2++; i2 < n2.length; ) tp(e10, n2[i2++], '"$undefined"', true);
         }, error: function(t3) {
-          for (o2 = true, i2 === n2.length && (n2[i2] = ti(e10)); i2 < n2.length; ) tu(n2[i2++], t3);
+          if (!o2) for (o2 = true, i2 === n2.length && (n2[i2] = new ta("pending", null, null)); i2 < n2.length; ) ts(e10, n2[i2++], t3);
         } }), r2;
       }
-      function t$(e10, t2, r2) {
+      function tT(e10, t2, r2) {
         var n2 = 3 < arguments.length && void 0 !== arguments[3] ? arguments[3] : new FormData();
         return { _bundlerConfig: e10, _prefix: t2, _formData: n2, _chunks: /* @__PURE__ */ new Map(), _closed: false, _closedReason: null, _temporaryReferences: r2 };
       }
-      function tj(e10) {
-        ty(e10, Error("Connection closed."));
+      function tA(e10) {
+        tg(e10, Error("Connection closed."));
       }
-      function tT(e10, t2, r2) {
-        var n2 = e5(e10, t2);
-        return e10 = tr(n2), r2 ? Promise.all([r2, e10]).then(function(e11) {
+      function tx(e10, t2, r2) {
+        var n2 = e7(e10, t2);
+        return e10 = tn(n2), r2 ? Promise.all([r2, e10]).then(function(e11) {
           e11 = e11[0];
-          var t3 = tn(n2);
+          var t3 = to(n2);
           return t3.bind.apply(t3, [null].concat(e11));
         }) : e10 ? Promise.resolve(e10).then(function() {
-          return tn(n2);
-        }) : Promise.resolve(tn(n2));
+          return to(n2);
+        }) : Promise.resolve(to(n2));
       }
-      function tk(e10, t2, r2) {
-        if (tj(e10 = t$(t2, r2, void 0, e10)), (e10 = th(e10, 0)).then(function() {
+      function tM(e10, t2, r2) {
+        if (tA(e10 = tT(t2, r2, void 0, e10)), (e10 = tm(e10, 0)).then(function() {
         }), "fulfilled" !== e10.status) throw e10.reason;
         return e10.value;
       }
       r.createClientModuleProxy = function(e10) {
-        return new Proxy(e10 = k({}, e10, false), N);
+        return new Proxy(e10 = T({}, e10, false), U);
       }, r.createTemporaryReferenceSet = function() {
         return /* @__PURE__ */ new WeakMap();
       }, r.decodeAction = function(e10, t2) {
         var r2 = new FormData(), n2 = null;
         return e10.forEach(function(o2, i2) {
-          i2.startsWith("$ACTION_") ? i2.startsWith("$ACTION_REF_") ? (o2 = tk(e10, t2, o2 = "$ACTION_" + i2.slice(12) + ":"), n2 = tT(t2, o2.id, o2.bound)) : i2.startsWith("$ACTION_ID_") && (n2 = tT(t2, o2 = i2.slice(11), null)) : r2.append(i2, o2);
+          i2.startsWith("$ACTION_") ? i2.startsWith("$ACTION_REF_") ? (o2 = tM(e10, t2, o2 = "$ACTION_" + i2.slice(12) + ":"), n2 = tx(t2, o2.id, o2.bound)) : i2.startsWith("$ACTION_ID_") && (n2 = tx(t2, o2 = i2.slice(11), null)) : r2.append(i2, o2);
         }), null === n2 ? null : n2.then(function(e11) {
           return e11.bind(null, r2);
         });
@@ -3057,7 +3145,7 @@ var require_node_modules_91242dc2 = __commonJS({
         if ("string" != typeof n2) return Promise.resolve(null);
         var o2 = null;
         if (t2.forEach(function(e11, n3) {
-          n3.startsWith("$ACTION_REF_") && (o2 = tk(t2, r2, "$ACTION_" + n3.slice(12) + ":"));
+          n3.startsWith("$ACTION_REF_") && (o2 = tM(t2, r2, "$ACTION_" + n3.slice(12) + ":"));
         }), null === o2) return Promise.resolve(null);
         var i2 = o2.id;
         return Promise.resolve(o2.bound).then(function(t3) {
@@ -3068,14 +3156,14 @@ var require_node_modules_91242dc2 = __commonJS({
           var n2 = new FormData();
           n2.append("0", e10), e10 = n2;
         }
-        return t2 = th(e10 = t$(t2, "", r2 ? r2.temporaryReferences : void 0, e10), 0), tj(e10), t2;
+        return t2 = tm(e10 = tT(t2, "", r2 ? r2.temporaryReferences : void 0, e10), 0), tA(e10), t2;
       }, r.decodeReplyFromAsyncIterable = function(e10, t2, r2) {
         function n2(e11) {
-          ty(i2, e11), "function" == typeof o2.throw && o2.throw(e11).then(n2, n2);
+          tg(i2, e11), "function" == typeof o2.throw && o2.throw(e11).then(n2, n2);
         }
-        var o2 = e10[m](), i2 = t$(t2, "", r2 ? r2.temporaryReferences : void 0);
+        var o2 = e10[m](), i2 = tT(t2, "", r2 ? r2.temporaryReferences : void 0);
         return o2.next().then(function e11(t3) {
-          if (t3.done) tj(i2);
+          if (t3.done) tA(i2);
           else {
             var r3 = (t3 = t3.value)[0];
             if ("string" == typeof (t3 = t3[1])) {
@@ -3083,17 +3171,17 @@ var require_node_modules_91242dc2 = __commonJS({
               var a2 = i2._prefix;
               if (r3.startsWith(a2)) {
                 var u2 = i2._chunks;
-                r3 = +r3.slice(a2.length), (u2 = u2.get(r3)) && ts(u2, t3, r3);
+                r3 = +r3.slice(a2.length), (u2 = u2.get(r3)) && tf(i2, u2, t3, r3);
               }
             } else i2._formData.append(r3, t3);
             o2.next().then(e11, n2);
           }
-        }, n2), th(i2, 0);
+        }, n2), tm(i2, 0);
       }, r.prerender = function(e10, t2, r2) {
         return new Promise(function(n2, o2) {
-          var i2 = new em(21, e10, t2, r2 ? r2.onError : void 0, function() {
+          var i2 = new eb(21, e10, t2, r2 ? r2.onError : void 0, function() {
             n2({ prelude: new ReadableStream({ type: "bytes", pull: function(e11) {
-              e3(i2, e11);
+              e5(i2, e11);
             }, cancel: function(e11) {
               i2.destination = null, e9(i2, e11);
             } }, { highWaterMark: 0 }) });
@@ -3108,14 +3196,14 @@ var require_node_modules_91242dc2 = __commonJS({
               a2.addEventListener("abort", u2);
             }
           }
-          e2(i2);
+          e4(i2);
         });
       }, r.registerClientReference = function(e10, t2, r2) {
-        return k(e10, t2 + "#" + r2, false);
+        return T(e10, t2 + "#" + r2, false);
       }, r.registerServerReference = function(e10, t2, r2) {
-        return Object.defineProperties(e10, { $$typeof: { value: T }, $$id: { value: null === r2 ? t2 : t2 + "#" + r2, configurable: true }, $$bound: { value: null, configurable: true }, bind: { value: M, configurable: true } });
+        return Object.defineProperties(e10, { $$typeof: { value: $ }, $$id: { value: null === r2 ? t2 : t2 + "#" + r2, configurable: true }, $$bound: { value: null, configurable: true }, bind: { value: M, configurable: true }, toString: I });
       }, r.renderToReadableStream = function(e10, t2, r2) {
-        var n2 = new em(20, e10, t2, r2 ? r2.onError : void 0, Y, Y, r2 ? r2.identifierPrefix : void 0, r2 ? r2.temporaryReferences : void 0);
+        var n2 = new eb(20, e10, t2, r2 ? r2.onError : void 0, J, J, r2 ? r2.identifierPrefix : void 0, r2 ? r2.temporaryReferences : void 0);
         if (r2 && r2.signal) {
           var o2 = r2.signal;
           if (o2.aborted) e9(n2, o2.reason);
@@ -3127,9 +3215,9 @@ var require_node_modules_91242dc2 = __commonJS({
           }
         }
         return new ReadableStream({ type: "bytes", start: function() {
-          e2(n2);
+          e4(n2);
         }, pull: function(e11) {
-          e3(n2, e11);
+          e5(n2, e11);
         }, cancel: function(e11) {
           n2.destination = null, e9(n2, e11);
         } }, { highWaterMark: 0 });
@@ -3168,9 +3256,9 @@ var require_node_modules_91242dc2 = __commonJS({
       }, PAGE_SEGMENT_KEY: function() {
         return c;
       }, addSearchParamsIfPageSegment: function() {
-        return s;
-      }, computeSelectedLayoutSegment: function() {
         return l;
+      }, computeSelectedLayoutSegment: function() {
+        return s;
       }, getSegmentValue: function() {
         return i;
       }, getSelectedLayoutSegmentPath: function() {
@@ -3200,14 +3288,14 @@ var require_node_modules_91242dc2 = __commonJS({
       function u(e2) {
         return e2.startsWith("@") && "@children" !== e2;
       }
-      function s(e2, t2) {
+      function l(e2, t2) {
         if (e2.includes(c)) {
           let e3 = JSON.stringify(t2);
           return "{}" !== e3 ? c + "?" + e3 : c;
         }
         return e2;
       }
-      function l(e2, t2) {
+      function s(e2, t2) {
         if (!e2 || 0 === e2.length) return null;
         let r2 = "children" === t2 ? e2[0] : e2[e2.length - 1];
         return r2 === f ? null : r2;
@@ -3280,14 +3368,14 @@ var require_node_modules_91242dc2 = __commonJS({
       var n, o = { REDIRECT_ERROR_CODE: function() {
         return u;
       }, RedirectType: function() {
-        return s;
-      }, isRedirectError: function() {
         return l;
+      }, isRedirectError: function() {
+        return s;
       } };
       for (var i in o) Object.defineProperty(r, i, { enumerable: true, get: o[i] });
       let a = e.r(301659), u = "NEXT_REDIRECT";
-      var s = ((n = {}).push = "push", n.replace = "replace", n);
-      function l(e2) {
+      var l = ((n = {}).push = "push", n.replace = "replace", n);
+      function s(e2) {
         if ("object" != typeof e2 || null === e2 || !("digest" in e2) || "string" != typeof e2.digest) return false;
         let t2 = e2.digest.split(";"), [r2, n2] = t2, o2 = t2.slice(2, -2).join(";"), i2 = Number(t2.at(-2));
         return r2 === u && ("replace" === n2 || "push" === n2) && "string" == typeof o2 && !isNaN(i2) && i2 in a.RedirectStatusCode;
@@ -3309,7 +3397,7 @@ var require_node_modules_91242dc2 = __commonJS({
       "use strict";
       Object.defineProperty(r, "__esModule", { value: true });
       var n = { getRedirectError: function() {
-        return s;
+        return l;
       }, getRedirectStatusCodeFromError: function() {
         return p;
       }, getRedirectTypeFromError: function() {
@@ -3319,19 +3407,19 @@ var require_node_modules_91242dc2 = __commonJS({
       }, permanentRedirect: function() {
         return c;
       }, redirect: function() {
-        return l;
+        return s;
       } };
       for (var o in n) Object.defineProperty(r, o, { enumerable: true, get: n[o] });
       let i = e.r(301659), a = e.r(557976), u = e.r(447056).actionAsyncStorage;
-      function s(e2, t2, r2 = i.RedirectStatusCode.TemporaryRedirect) {
+      function l(e2, t2, r2 = i.RedirectStatusCode.TemporaryRedirect) {
         let n2 = Object.defineProperty(Error(a.REDIRECT_ERROR_CODE), "__NEXT_ERROR_CODE", { value: "E394", enumerable: false, configurable: true });
         return n2.digest = `${a.REDIRECT_ERROR_CODE};${t2};${e2};${r2};`, n2;
       }
-      function l(e2, t2) {
-        throw s(e2, t2 ??= u?.getStore()?.isAction ? a.RedirectType.push : a.RedirectType.replace, i.RedirectStatusCode.TemporaryRedirect);
+      function s(e2, t2) {
+        throw l(e2, t2 ??= u?.getStore()?.isAction ? a.RedirectType.push : a.RedirectType.replace, i.RedirectStatusCode.TemporaryRedirect);
       }
       function c(e2, t2 = a.RedirectType.replace) {
-        throw s(e2, t2, i.RedirectStatusCode.PermanentRedirect);
+        throw l(e2, t2, i.RedirectStatusCode.PermanentRedirect);
       }
       function f(e2) {
         return (0, a.isRedirectError)(e2) ? e2.digest.split(";").slice(2, -2).join(";") : null;
@@ -3355,18 +3443,18 @@ var require_node_modules_91242dc2 = __commonJS({
       }, getAccessFallbackErrorTypeByStatus: function() {
         return c;
       }, getAccessFallbackHTTPStatus: function() {
-        return l;
-      }, isHTTPAccessFallbackError: function() {
         return s;
+      }, isHTTPAccessFallbackError: function() {
+        return l;
       } };
       for (var o in n) Object.defineProperty(r, o, { enumerable: true, get: n[o] });
       let i = { NOT_FOUND: 404, FORBIDDEN: 403, UNAUTHORIZED: 401 }, a = new Set(Object.values(i)), u = "NEXT_HTTP_ERROR_FALLBACK";
-      function s(e2) {
+      function l(e2) {
         if ("object" != typeof e2 || null === e2 || !("digest" in e2) || "string" != typeof e2.digest) return false;
         let [t2, r2] = e2.digest.split(";");
         return t2 === u && a.has(Number(r2));
       }
-      function l(e2) {
+      function s(e2) {
         return Number(e2.digest.split(";")[1]);
       }
       function c(e2) {
@@ -3432,11 +3520,11 @@ var require_node_modules_91242dc2 = __commonJS({
       "use strict";
       Object.defineProperty(r, "__esModule", { value: true }), Object.defineProperty(r, "unstable_rethrow", { enumerable: true, get: function() {
         return function e2(t2) {
-          if ((0, a.isNextRouterError)(t2) || (0, i.isBailoutToCSRError)(t2) || (0, s.isDynamicServerError)(t2) || (0, u.isDynamicPostpone)(t2) || (0, o.isPostpone)(t2) || (0, n.isHangingPromiseRejectionError)(t2) || (0, u.isPrerenderInterruptedError)(t2)) throw t2;
+          if ((0, a.isNextRouterError)(t2) || (0, i.isBailoutToCSRError)(t2) || (0, l.isDynamicServerError)(t2) || (0, u.isDynamicPostpone)(t2) || (0, o.isPostpone)(t2) || (0, n.isHangingPromiseRejectionError)(t2) || (0, u.isPrerenderInterruptedError)(t2)) throw t2;
           t2 instanceof Error && "cause" in t2 && e2(t2.cause);
         };
       } });
-      let n = e.r(887014), o = e.r(263145), i = e.r(717954), a = e.r(62427), u = e.r(432459), s = e.r(993476);
+      let n = e.r(887014), o = e.r(263145), i = e.r(717954), a = e.r(62427), u = e.r(432459), l = e.r(993476);
       ("function" == typeof r.default || "object" == typeof r.default && null !== r.default) && void 0 === r.default.__esModule && (Object.defineProperty(r.default, "__esModule", { value: true }), Object.assign(r.default, r), t.exports = r.default);
     }, 795348, (e, t, r) => {
       "use strict";
@@ -3453,9 +3541,9 @@ var require_node_modules_91242dc2 = __commonJS({
       }, RedirectType: function() {
         return u.RedirectType;
       }, forbidden: function() {
-        return l.forbidden;
+        return s.forbidden;
       }, notFound: function() {
-        return s.notFound;
+        return l.notFound;
       }, permanentRedirect: function() {
         return a.permanentRedirect;
       }, redirect: function() {
@@ -3468,7 +3556,7 @@ var require_node_modules_91242dc2 = __commonJS({
         return f.unstable_rethrow;
       } };
       for (var o in n) Object.defineProperty(r, o, { enumerable: true, get: n[o] });
-      let i = e.r(158883), a = e.r(767712), u = e.r(557976), s = e.r(212022), l = e.r(79372), c = e.r(753520), f = e.r(795348);
+      let i = e.r(158883), a = e.r(767712), u = e.r(557976), l = e.r(212022), s = e.r(79372), c = e.r(753520), f = e.r(795348);
       function d() {
         throw Object.defineProperty(Error("`unstable_isUnrecognizedActionError` can only be used on the client."), "__NEXT_ERROR_CODE", { value: "E776", enumerable: false, configurable: true });
       }
@@ -3503,7 +3591,7 @@ var require_node_modules_91242dc2 = __commonJS({
       }, useRouter: function() {
         return g;
       }, useSearchParams: function() {
-        return h;
+        return y;
       }, useSelectedLayoutSegment: function() {
         return _;
       }, useSelectedLayoutSegments: function() {
@@ -3512,11 +3600,11 @@ var require_node_modules_91242dc2 = __commonJS({
         return c.useServerInsertedHTML;
       } };
       for (var o in n) Object.defineProperty(r, o, { enumerable: true, get: n[o] });
-      let i = e.r(776993)._(e.r(40049)), a = e.r(172956), u = e.r(327999), s = e.r(818902), l = e.r(158883), c = e.r(552939), f = e.r(548569), d = e.r(219736), p = e.r(432459).useDynamicRouteParams, y = e.r(432459).useDynamicSearchParams;
-      function h() {
-        y?.("useSearchParams()");
+      let i = e.r(776993)._(e.r(40049)), a = e.r(172956), u = e.r(327999), l = e.r(818902), s = e.r(158883), c = e.r(552939), f = e.r(548569), d = e.r(219736), p = e.r(432459).useDynamicRouteParams, h = e.r(432459).useDynamicSearchParams;
+      function y() {
+        h?.("useSearchParams()");
         let e2 = (0, i.useContext)(u.SearchParamsContext);
-        return (0, i.useMemo)(() => e2 ? new l.ReadonlyURLSearchParams(e2) : null, [e2]);
+        return (0, i.useMemo)(() => e2 ? new s.ReadonlyURLSearchParams(e2) : null, [e2]);
       }
       function v() {
         return p?.("usePathname()"), (0, i.useContext)(u.PathnameContext);
@@ -3532,12 +3620,12 @@ var require_node_modules_91242dc2 = __commonJS({
       function b(e2 = "children") {
         p?.("useSelectedLayoutSegments()");
         let t2 = (0, i.useContext)(a.LayoutRouterContext);
-        return t2 ? (0, s.getSelectedLayoutSegmentPath)(t2.parentTree, e2) : null;
+        return t2 ? (0, l.getSelectedLayoutSegmentPath)(t2.parentTree, e2) : null;
       }
       function _(e2 = "children") {
         p?.("useSelectedLayoutSegment()"), (0, i.useContext)(u.NavigationPromisesContext);
         let t2 = b(e2);
-        return (0, s.computeSelectedLayoutSegment)(t2, e2);
+        return (0, l.computeSelectedLayoutSegment)(t2, e2);
       }
       ("function" == typeof r.default || "object" == typeof r.default && null !== r.default) && void 0 === r.default.__esModule && (Object.defineProperty(r.default, "__esModule", { value: true }), Object.assign(r.default, r), t.exports = r.default);
     }, 626972, (e, t, r) => {
@@ -10013,13 +10101,15 @@ Learn More: https://nextjs.org/docs/messages/node-module-in-edge-runtime`;
           return r10 ? new tp.NextResponse(r10.message, { status: 400 }) : (await this.sessionStore.store.deleteByLogoutToken(n10), new tp.NextResponse(null, { status: 204 }));
         }
         async handleConnectAccount(e10) {
-          let t10 = await this.sessionStore.get(e10.cookies), r10 = e10.nextUrl.searchParams.get("connection"), n10 = e10.nextUrl.searchParams.get("returnTo") ?? void 0, a10 = Object.fromEntries([...e10.nextUrl.searchParams.entries()].filter(([e11]) => "connection" !== e11 && "returnTo" !== e11));
+          let t10 = await this.sessionStore.get(e10.cookies), r10 = e10.nextUrl.searchParams.get("connection"), n10 = e10.nextUrl.searchParams.get("returnTo") ?? void 0, a10 = e10.nextUrl.searchParams.getAll("scopes"), i10 = Object.fromEntries([...e10.nextUrl.searchParams.entries()].filter(([e11]) => "connection" !== e11 && "returnTo" !== e11 && "scopes" !== e11));
           if (!r10) return new tp.NextResponse("A connection is required.", { status: 400 });
           if (!t10) return new tp.NextResponse("The user does not have an active session.", { status: 401 });
-          let [i10, o2] = await this.getTokenSet(t10, { scope: "create:me:connected_accounts", audience: `${this.issuer}/me/` });
-          if (i10) return new tp.NextResponse("Failed to retrieve a connected account access token.", { status: 401 });
-          let { tokenSet: s2 } = o2, [c2, l2] = await this.connectAccount({ tokenSet: s2, connection: r10, authorizationParams: a10, returnTo: n10 });
-          return c2 ? new tp.NextResponse(c2.message, { status: c2.cause?.status ?? 500 }) : (await ol(this, q, "m", G).call(this, e10, l2, t10, o2), l2);
+          let [o2, s2] = await this.getTokenSet(t10, { scope: "create:me:connected_accounts", audience: `${this.issuer}/me/` });
+          if (o2) return new tp.NextResponse("Failed to retrieve a connected account access token.", { status: 401 });
+          let { tokenSet: c2 } = s2, l2 = { connection: r10, authorizationParams: i10, returnTo: n10 };
+          a10.length > 0 && (l2.scopes = a10);
+          let [u2, d2] = await this.connectAccount({ tokenSet: c2, ...l2 });
+          return u2 ? new tp.NextResponse(u2.message, { status: u2.cause?.status ?? 500 }) : (await ol(this, q, "m", G).call(this, e10, d2, t10, s2), d2);
         }
         async handleMyAccount(e10) {
           return ol(this, q, "m", z).call(this, e10, { proxyPath: "/me", targetBaseUrl: `${this.issuer}/me/v1`, audience: `${this.issuer}/me/`, scope: e10.headers.get("scope") });
@@ -10141,7 +10231,7 @@ Learn More: https://nextjs.org/docs/messages/node-module-in-edge-runtime`;
             let t11 = new URL(this.authorizationParameters.redirect_uri || this.appBaseUrl), n11 = iW(e10.returnTo, t11);
             n11 && (r10 = n11.pathname + n11.search + n11.hash);
           }
-          let n10 = t7(), a10 = await re(n10), i10 = t7(), [o2, s2] = await this.createConnectAccountTicket({ tokenSet: e10.tokenSet, connection: e10.connection, redirectUri: t10.toString(), state: i10, codeChallenge: a10, codeChallengeMethod: "S256", authorizationParams: e10.authorizationParams });
+          let n10 = t7(), a10 = await re(n10), i10 = t7(), [o2, s2] = await this.createConnectAccountTicket({ tokenSet: e10.tokenSet, connection: e10.connection, redirectUri: t10.toString(), state: i10, codeChallenge: a10, codeChallengeMethod: "S256", scopes: e10.scopes, authorizationParams: e10.authorizationParams });
           if (o2) return [o2, null];
           let c2 = { codeVerifier: n10, responseType: $.CONNECT_CODE, state: i10, returnTo: r10, authSession: s2.authSession }, l2 = tp.NextResponse.redirect(`${s2.connectUri}?ticket=${encodeURIComponent(s2.connectParams.ticket)}`);
           return await this.transactionStore.save(l2.cookies, c2), [null, l2];
@@ -10150,13 +10240,8 @@ Learn More: https://nextjs.org/docs/messages/node-module-in-edge-runtime`;
           try {
             let t10 = new URL("/me/v1/connected-accounts/connect", this.issuer), r10 = await this.fetcherFactory({ useDPoP: this.useDPoP, getAccessToken: async () => ({ accessToken: e10.tokenSet.accessToken, expiresAt: e10.tokenSet.expiresAt || 0, scope: e10.tokenSet.scope, token_type: e10.tokenSet.token_type }), fetch: this.fetch }), n10 = this.httpOptions();
             new Headers(n10.headers).set("Content-Type", "application/json");
-            let a10 = { connection: e10.connection, redirect_uri: e10.redirectUri, state: e10.state, code_challenge: e10.codeChallenge, code_challenge_method: e10.codeChallengeMethod, authorization_params: e10.authorizationParams }, i10 = await r10.fetchWithAuth(t10.toString(), { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(a10) });
-            if (!i10.ok) try {
-              let e11 = await i10.json();
-              return [new tx({ code: K.FAILED_TO_INITIATE, message: `The request to initiate the connect account flow failed with status ${i10.status}.`, cause: new tC({ type: e11.type, title: e11.title, detail: e11.detail, status: i10.status, validationErrors: e11.validation_errors }) }), null];
-            } catch (e11) {
-              return [new tx({ code: K.FAILED_TO_INITIATE, message: `The request to initiate the connect account flow failed with status ${i10.status}.` }), null];
-            }
+            let a10 = { connection: e10.connection, redirect_uri: e10.redirectUri, state: e10.state, code_challenge: e10.codeChallenge, code_challenge_method: e10.codeChallengeMethod, scopes: e10.scopes, authorization_params: e10.authorizationParams }, i10 = await r10.fetchWithAuth(t10.toString(), { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(a10) });
+            if (!i10.ok) return of(i10, K.FAILED_TO_INITIATE);
             let { connect_uri: o2, connect_params: s2, auth_session: c2, expires_in: l2 } = await i10.json();
             return [null, { connectUri: o2, connectParams: s2, authSession: c2, expiresIn: l2 }];
           } catch (t10) {
@@ -10170,12 +10255,7 @@ Learn More: https://nextjs.org/docs/messages/node-module-in-edge-runtime`;
             let r10 = this.httpOptions();
             new Headers(r10.headers).set("Content-Type", "application/json");
             let n10 = await this.fetcherFactory({ useDPoP: this.useDPoP, getAccessToken: async () => ({ accessToken: e10.tokenSet.accessToken, expiresAt: e10.tokenSet.expiresAt || 0, scope: e10.tokenSet.scope, token_type: e10.tokenSet.token_type }), fetch: this.fetch }), a10 = { auth_session: e10.authSession, connect_code: e10.connectCode, redirect_uri: e10.redirectUri, code_verifier: e10.codeVerifier }, i10 = await n10.fetchWithAuth(t10, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(a10) });
-            if (!i10.ok) try {
-              let e11 = await i10.json();
-              return [new tx({ code: K.FAILED_TO_COMPLETE, message: `The request to complete the connect account flow failed with status ${i10.status}.`, cause: new tC({ type: e11.type, title: e11.title, detail: e11.detail, status: i10.status, validationErrors: e11.validation_errors }) }), null];
-            } catch (e11) {
-              return [new tx({ code: K.FAILED_TO_COMPLETE, message: `The request to complete the connect account flow failed with status ${i10.status}.` }), null];
-            }
+            if (!i10.ok) return of(i10, K.FAILED_TO_COMPLETE);
             let { id: o2, connection: s2, access_type: c2, scopes: l2, created_at: u2, expires_at: d2 } = await i10.json();
             return [null, { id: o2, connection: s2, accessType: c2, scopes: l2, createdAt: u2, expiresAt: d2 }];
           } catch (e11) {
@@ -10259,7 +10339,30 @@ Learn More: https://nextjs.org/docs/messages/node-module-in-edge-runtime`;
         for (let e11 = 0; e11 < t10.length; e11 += 32768) r10.push(String.fromCharCode.apply(null, t10.subarray(e11, e11 + 32768)));
         return btoa(r10.join(""));
       };
-      class of {
+      async function of(e10, t10) {
+        let r10 = t10 === K.FAILED_TO_INITIATE ? "initiate" : "complete";
+        try {
+          let n10 = await e10.json();
+          return [new tx({ code: t10, message: `The request to ${r10} the connect account flow failed with status ${e10.status}.`, cause: new tC({ type: n10.type, title: n10.title, detail: n10.detail, status: e10.status, validationErrors: n10.validation_errors }) }), null];
+        } catch (n10) {
+          return [new tx({ code: t10, message: `The request to ${r10} the connect account flow failed with status ${e10.status}.` }), null];
+        }
+      }
+      function og(e10) {
+        if (e10 instanceof tp.NextRequest) return e10;
+        let t10 = function(e11) {
+          let t11;
+          try {
+            let r11 = e11.nextUrl;
+            if (!r11) return;
+            "string" == typeof r11.basePath && r11.basePath && (t11 = { basePath: r11.basePath }), ("string" == typeof r11.locale || "string" == typeof r11.defaultLocale) && (t11 = { ...t11 || {}, i18n: { locales: r11.locale ? [r11.locale] : [], defaultLocale: r11.defaultLocale } }), "boolean" == typeof r11.trailingSlash && (t11 = { ...t11 || {}, trailingSlash: r11.trailingSlash });
+          } catch {
+          }
+          return t11 && Object.keys(t11).length ? t11 : void 0;
+        }(e10), r10 = { method: e10.method, headers: e10.headers, body: e10.body, duplex: e10.duplex ?? "half" };
+        return t10 && (r10.nextConfig = t10), new tp.NextRequest(e10.url, r10);
+      }
+      class oy {
         constructor({ secret: e10, rolling: t10 = true, absoluteDuration: r10 = 259200, inactivityDuration: n10 = 86400, store: a10, cookieOptions: i10 }) {
           this.secret = e10, this.rolling = t10, this.absoluteDuration = r10, this.inactivityDuration = n10, this.store = a10, this.sessionCookieName = i10?.name ?? "__session", this.cookieConfig = { httpOnly: true, sameSite: i10?.sameSite ?? "lax", secure: i10?.secure ?? false, path: i10?.path ?? "/", domain: i10?.domain, transient: i10?.transient };
         }
@@ -10272,21 +10375,21 @@ Learn More: https://nextjs.org/docs/messages/node-module-in-edge-runtime`;
           return r10 > 0 ? r10 : 0;
         }
       }
-      let og = "appSession";
-      function oy(e10, t10) {
+      let om = "appSession";
+      function ow(e10, t10) {
         let r10 = t10.user;
         return { user: r10, tokenSet: { idToken: t10.idToken ?? void 0, accessToken: t10.accessToken ?? void 0, scope: t10.accessTokenScope, refreshToken: t10.refreshToken, expiresAt: t10.accessTokenExpiresAt }, internal: { sid: r10.sid, createdAt: e10.iat } };
       }
-      let om = () => {
+      let ob = () => {
         let e10 = new Uint8Array(16);
         return crypto.getRandomValues(e10), Array.from(e10).map((e11) => e11.toString(16).padStart(2, "0")).join("");
       };
-      class ow extends of {
+      class o_ extends oy {
         constructor({ secret: e10, store: t10, rolling: r10, absoluteDuration: n10, inactivityDuration: a10, cookieOptions: i10 }) {
           super({ secret: e10, rolling: r10, absoluteDuration: n10, inactivityDuration: a10, cookieOptions: i10 }), this.store = t10;
         }
         async get(e10) {
-          let t10 = e10.get(this.sessionCookieName) || e10.get(og);
+          let t10 = e10.get(this.sessionCookieName) || e10.get(om);
           if (!t10 || !t10.value) return null;
           let r10 = null;
           try {
@@ -10302,7 +10405,7 @@ Learn More: https://nextjs.org/docs/messages/node-module-in-edge-runtime`;
           }
           if (!r10) return null;
           let n10 = await this.store.get(r10);
-          return n10 ? n10.header?.iat ? oy(n10.header, n10.data) : n10 : null;
+          return n10 ? n10.header?.iat ? ow(n10.header, n10.data) : n10 : null;
         }
         async set(e10, t10, r10, n10 = false) {
           let a10 = null, i10 = e10.get(this.sessionCookieName)?.value;
@@ -10310,9 +10413,9 @@ Learn More: https://nextjs.org/docs/messages/node-module-in-edge-runtime`;
             let e11 = await i6(i10, this.secret);
             e11 && (a10 = e11.payload.id);
           }
-          a10 && n10 && (await this.store.delete(a10), a10 = om()), a10 || (a10 = om());
+          a10 && n10 && (await this.store.delete(a10), a10 = ob()), a10 || (a10 = ob());
           let o2 = this.calculateMaxAge(r10.internal.createdAt), s2 = this.epoch(), c2 = await i3({ id: a10 }, this.secret, s2 + o2);
-          t10.set(this.sessionCookieName, c2.toString(), { ...this.cookieConfig, maxAge: o2 }), await this.store.set(a10, r10), e10.set(this.sessionCookieName, c2.toString()), this.sessionCookieName !== og && e10.has(og) && oo(t10, og, { domain: this.cookieConfig.domain, path: this.cookieConfig.path });
+          t10.set(this.sessionCookieName, c2.toString(), { ...this.cookieConfig, maxAge: o2 }), await this.store.set(a10, r10), e10.set(this.sessionCookieName, c2.toString()), this.sessionCookieName !== om && e10.has(om) && oo(t10, om, { domain: this.cookieConfig.domain, path: this.cookieConfig.path });
         }
         async delete(e10, t10) {
           let r10 = e10.get(this.sessionCookieName)?.value;
@@ -10321,16 +10424,16 @@ Learn More: https://nextjs.org/docs/messages/node-module-in-edge-runtime`;
           n10 && await this.store.delete(n10.payload.id);
         }
       }
-      class ob extends of {
+      class ov extends oy {
         constructor({ secret: e10, rolling: t10, absoluteDuration: r10, inactivityDuration: n10, cookieOptions: a10 }) {
           super({ secret: e10, rolling: t10, absoluteDuration: r10, inactivityDuration: n10, cookieOptions: a10 }), this.connectionTokenSetsCookieName = "__FC";
         }
         async get(e10) {
-          let t10 = on(this.sessionCookieName, e10) ?? on(og, e10, true);
+          let t10 = on(this.sessionCookieName, e10) ?? on(om, e10, true);
           if (!t10) return null;
           let r10 = await i6(t10, this.secret);
           if (!r10) return null;
-          let n10 = r10.protectedHeader.iat ? oy(r10.protectedHeader, r10.payload) : r10.payload, a10 = this.getConnectionTokenSetsCookies(e10), i10 = [];
+          let n10 = r10.protectedHeader.iat ? ow(r10.protectedHeader, r10.payload) : r10.payload, a10 = this.getConnectionTokenSetsCookies(e10), i10 = [];
           for (let e11 of a10) {
             let t11 = await i6(e11.value, this.secret);
             t11 && i10.push(t11.payload);
@@ -10358,7 +10461,7 @@ Learn More: https://nextjs.org/docs/messages/node-module-in-edge-runtime`;
               oo(a11, i12, { path: s3.path, domain: s3.domain }), n11.delete(i12);
             }
             oo(a11, e11, { path: s3.path, domain: s3.domain }), n11.delete(e11);
-          }(this.sessionCookieName, s2, c2, e10, t10), n10?.length && await Promise.all(n10.map((r11, n11) => this.storeInCookie(e10, t10, r11, `${this.connectionTokenSetsCookieName}_${n11}`, i10))), on(og, e10, true) && oa(og, e10, t10, true, { domain: this.cookieConfig.domain, path: this.cookieConfig.path });
+          }(this.sessionCookieName, s2, c2, e10, t10), n10?.length && await Promise.all(n10.map((r11, n11) => this.storeInCookie(e10, t10, r11, `${this.connectionTokenSetsCookieName}_${n11}`, i10))), on(om, e10, true) && oa(om, e10, t10, true, { domain: this.cookieConfig.domain, path: this.cookieConfig.path });
         }
         async delete(e10, t10) {
           let r10 = { domain: this.cookieConfig.domain, path: this.cookieConfig.path };
@@ -10374,7 +10477,7 @@ Learn More: https://nextjs.org/docs/messages/node-module-in-edge-runtime`;
           return e10.getAll().filter((e11) => e11.name.startsWith(this.connectionTokenSetsCookieName));
         }
       }
-      class o_ {
+      class oE {
         constructor({ secret: e10, cookieOptions: t10, enableParallelTransactions: r10 }) {
           this.secret = e10, this.transactionCookiePrefix = t10?.prefix ?? "__txn_", this.cookieOptions = { httpOnly: true, sameSite: t10?.sameSite ?? "lax", secure: t10?.secure ?? false, path: t10?.path ?? "/", domain: t10?.domain, maxAge: t10?.maxAge || 3600 }, this.enableParallelTransactions = r10 ?? true;
         }
@@ -10407,20 +10510,20 @@ Learn More: https://nextjs.org/docs/messages/node-module-in-edge-runtime`;
           });
         }
       }
-      var ov = function(e10, t10, r10, n10, a10) {
+      var oS = function(e10, t10, r10, n10, a10) {
         if ("m" === n10) throw TypeError("Private method is not writable");
         if ("a" === n10 && !a10) throw TypeError("Private accessor was defined without a setter");
         if ("function" == typeof t10 ? e10 !== t10 || !a10 : !t10.has(e10)) throw TypeError("Cannot write private member to an object whose class did not declare it");
         return "a" === n10 ? a10.call(e10, r10) : a10 ? a10.value = r10 : t10.set(e10, r10), r10;
-      }, oE = function(e10, t10, r10, n10) {
+      }, oA = function(e10, t10, r10, n10) {
         if ("a" === r10 && !n10) throw TypeError("Private accessor was defined without a getter");
         if ("function" == typeof t10 ? e10 !== t10 || !n10 : !t10.has(e10)) throw TypeError("Cannot read private member from an object whose class did not declare it");
         return "m" === r10 ? n10 : "a" === r10 ? n10.call(e10) : n10 ? n10.value : t10.get(e10);
       };
       V = /* @__PURE__ */ new WeakMap();
-      let oS = new class {
+      let oT = new class {
         constructor(e10 = {}) {
-          V.set(this, void 0), ov(this, V, e10, "f");
+          V.set(this, void 0), oS(this, V, e10, "f");
           const { domain: t10, clientId: r10, clientSecret: n10, appBaseUrl: a10, secret: i10, clientAssertionSigningKey: o2 } = this.validateAndExtractRequiredOptions(e10);
           this.domain = t10;
           const s2 = e10.clientAssertionSigningAlg || process.env.AUTH0_CLIENT_ASSERTION_SIGNING_ALG, { dpopKeyPair: c2, dpopOptions: l2 } = function(e11) {
@@ -10470,13 +10573,20 @@ Learn More: https://nextjs.org/docs/messages/node-module-in-edge-runtime`;
             const { protocol: e11 } = new URL(a10);
             "https:" === e11 && (d2.secure = true, h2.secure = true);
           }
-          this.routes = { login: process.env.NEXT_PUBLIC_LOGIN_ROUTE || "/auth/login", logout: "/auth/logout", callback: "/auth/callback", backChannelLogout: "/auth/backchannel-logout", profile: process.env.NEXT_PUBLIC_PROFILE_ROUTE || "/auth/profile", accessToken: process.env.NEXT_PUBLIC_ACCESS_TOKEN_ROUTE || "/auth/access-token", connectAccount: "/auth/connect", ...e10.routes }, this.transactionStore = new o_({ secret: i10, cookieOptions: h2, enableParallelTransactions: e10.enableParallelTransactions ?? true }), this.sessionStore = e10.sessionStore ? new ow({ ...e10.session, secret: i10, store: e10.sessionStore, cookieOptions: d2 }) : new ob({ ...e10.session, secret: i10, cookieOptions: d2 }), this.authClient = new oh({ transactionStore: this.transactionStore, sessionStore: this.sessionStore, domain: t10, clientId: r10, clientSecret: n10, clientAssertionSigningKey: o2, clientAssertionSigningAlg: s2, authorizationParameters: e10.authorizationParameters, pushedAuthorizationRequests: e10.pushedAuthorizationRequests, appBaseUrl: a10, secret: i10, signInReturnToPath: e10.signInReturnToPath, logoutStrategy: e10.logoutStrategy, includeIdTokenHintInOIDCLogoutUrl: e10.includeIdTokenHintInOIDCLogoutUrl, beforeSessionSaved: e10.beforeSessionSaved, onCallback: e10.onCallback, routes: this.routes, allowInsecureRequests: e10.allowInsecureRequests, httpTimeout: e10.httpTimeout, enableTelemetry: e10.enableTelemetry, enableAccessTokenEndpoint: e10.enableAccessTokenEndpoint, noContentProfileResponseWhenUnauthenticated: e10.noContentProfileResponseWhenUnauthenticated, enableConnectAccountEndpoint: e10.enableConnectAccountEndpoint, useDPoP: e10.useDPoP || false, dpopKeyPair: e10.dpopKeyPair || c2, dpopOptions: e10.dpopOptions || l2 });
+          this.routes = { login: process.env.NEXT_PUBLIC_LOGIN_ROUTE || "/auth/login", logout: "/auth/logout", callback: "/auth/callback", backChannelLogout: "/auth/backchannel-logout", profile: process.env.NEXT_PUBLIC_PROFILE_ROUTE || "/auth/profile", accessToken: process.env.NEXT_PUBLIC_ACCESS_TOKEN_ROUTE || "/auth/access-token", connectAccount: "/auth/connect", ...e10.routes }, this.transactionStore = new oE({ secret: i10, cookieOptions: h2, enableParallelTransactions: e10.enableParallelTransactions ?? true }), this.sessionStore = e10.sessionStore ? new o_({ ...e10.session, secret: i10, store: e10.sessionStore, cookieOptions: d2 }) : new ov({ ...e10.session, secret: i10, cookieOptions: d2 }), this.authClient = new oh({ transactionStore: this.transactionStore, sessionStore: this.sessionStore, domain: t10, clientId: r10, clientSecret: n10, clientAssertionSigningKey: o2, clientAssertionSigningAlg: s2, authorizationParameters: e10.authorizationParameters, pushedAuthorizationRequests: e10.pushedAuthorizationRequests, appBaseUrl: a10, secret: i10, signInReturnToPath: e10.signInReturnToPath, logoutStrategy: e10.logoutStrategy, includeIdTokenHintInOIDCLogoutUrl: e10.includeIdTokenHintInOIDCLogoutUrl, beforeSessionSaved: e10.beforeSessionSaved, onCallback: e10.onCallback, routes: this.routes, allowInsecureRequests: e10.allowInsecureRequests, httpTimeout: e10.httpTimeout, enableTelemetry: e10.enableTelemetry, enableAccessTokenEndpoint: e10.enableAccessTokenEndpoint, noContentProfileResponseWhenUnauthenticated: e10.noContentProfileResponseWhenUnauthenticated, enableConnectAccountEndpoint: e10.enableConnectAccountEndpoint, useDPoP: e10.useDPoP || false, dpopKeyPair: e10.dpopKeyPair || c2, dpopOptions: e10.dpopOptions || l2 });
         }
         middleware(e10) {
-          return this.authClient.handler.bind(this.authClient)(e10);
+          return this.authClient.handler.bind(this.authClient)(og(e10));
         }
         async getSession(e10) {
-          return e10 ? e10 instanceof tp.NextRequest ? this.sessionStore.get(e10.cookies) : this.sessionStore.get(this.createRequestCookies(e10)) : this.sessionStore.get(await (0, th.cookies)());
+          if (e10) {
+            if (e10 instanceof Request) {
+              let t10 = og(e10);
+              return this.sessionStore.get(t10.cookies);
+            }
+            return this.sessionStore.get(this.createRequestCookies(e10));
+          }
+          return this.sessionStore.get(await (0, th.cookies)());
         }
         async getAccessToken(e10, t10, r10) {
           let n10, a10, i10 = { refresh: false }, o2 = {};
@@ -10493,46 +10603,56 @@ Learn More: https://nextjs.org/docs/messages/node-module-in-edge-runtime`;
           if (!n10) throw new tP(U.MISSING_SESSION, "The user does not have an active session.");
           let [a10, i10] = await this.authClient.getTokenSet(n10, r10);
           if (a10) throw a10;
-          let { tokenSet: o2, idTokenClaims: s2 } = i10, c2 = nO(n10, o2, { scope: oE(this, V, "f").authorizationParameters?.scope ?? tO, audience: oE(this, V, "f").authorizationParameters?.audience });
+          let { tokenSet: o2, idTokenClaims: s2 } = i10, c2 = nO(n10, o2, { scope: oA(this, V, "f").authorizationParameters?.scope ?? tO, audience: oA(this, V, "f").authorizationParameters?.audience });
           if (c2) {
             s2 && (n10.user = s2);
-            let r11 = await this.authClient.finalizeSession(n10, o2.idToken);
-            await this.saveToSession({ ...r11, ...c2 }, e10, t10);
+            let r11 = await this.authClient.finalizeSession({ ...n10, ...c2 }, o2.idToken);
+            await this.saveToSession(r11, e10, t10);
           }
           return { token: o2.accessToken, scope: o2.scope, expiresAt: o2.expiresAt, token_type: o2.token_type, audience: o2.audience };
         }
         async getAccessTokenForConnection(e10, t10, r10) {
-          let n10 = t10 ? await this.getSession(t10) : await this.getSession();
-          if (!n10) throw new tR(L.MISSING_SESSION, "The user does not have an active session.");
-          let a10 = n10.connectionTokenSets?.find((t11) => t11.connection === e10.connection), [i10, o2] = await this.authClient.getConnectionTokenSet(n10.tokenSet, a10, e10);
-          if (null !== i10) throw i10;
-          if (o2 && (!a10 || o2.accessToken !== a10.accessToken || o2.expiresAt !== a10.expiresAt || o2.scope !== a10.scope)) {
-            let i11;
-            i11 = a10 ? n10.connectionTokenSets?.map((t11) => t11.connection === e10.connection ? o2 : t11) : [...n10.connectionTokenSets || [], o2], await this.saveToSession({ ...n10, connectionTokenSets: i11 }, t10, r10);
+          let n10 = t10 instanceof Request ? og(t10) : t10, a10 = n10 ? await this.getSession(n10) : await this.getSession();
+          if (!a10) throw new tR(L.MISSING_SESSION, "The user does not have an active session.");
+          let i10 = a10.connectionTokenSets?.find((t11) => t11.connection === e10.connection), [o2, s2] = await this.authClient.getConnectionTokenSet(a10.tokenSet, i10, e10);
+          if (null !== o2) throw o2;
+          if (s2 && (!i10 || s2.accessToken !== i10.accessToken || s2.expiresAt !== i10.expiresAt || s2.scope !== i10.scope)) {
+            let t11;
+            t11 = i10 ? a10.connectionTokenSets?.map((t12) => t12.connection === e10.connection ? s2 : t12) : [...a10.connectionTokenSets || [], s2], await this.saveToSession({ ...a10, connectionTokenSets: t11 }, n10, r10);
           }
-          return { token: o2.accessToken, scope: o2.scope, expiresAt: o2.expiresAt };
+          return { token: s2.accessToken, scope: s2.scope, expiresAt: s2.expiresAt };
         }
         async updateSession(e10, t10, r10) {
-          if (t10) {
+          if (e10 instanceof Request && !(e10 instanceof tp.NextRequest) && (e10 = og(e10)), t10 && t10 instanceof Response && !(t10 instanceof tp.NextResponse) && (t10 = function(e11) {
+            if (e11 instanceof tp.NextResponse) return e11;
+            let t11 = new Headers(e11.headers), r11 = new tp.NextResponse(e11.body, { status: e11.status, statusText: e11.statusText, headers: t11 });
+            try {
+              "url" in e11 && e11.url && (r11.url = e11.url);
+            } catch {
+            }
+            return r11;
+          }(t10)), t10) {
+            let n10 = e10;
             if (!r10) throw Error("The session data is missing.");
-            if (e10 instanceof tp.NextRequest && t10 instanceof tp.NextResponse) {
-              let n10 = await this.getSession(e10);
-              if (!n10) throw Error("The user is not authenticated.");
-              await this.sessionStore.set(e10.cookies, t10.cookies, { ...r10, internal: { ...n10.internal } });
+            if (n10 instanceof tp.NextRequest && t10 instanceof tp.NextResponse) {
+              let e11 = await this.getSession(n10);
+              if (!e11) throw Error("The user is not authenticated.");
+              await this.sessionStore.set(n10.cookies, t10.cookies, { ...r10, internal: { ...e11.internal } });
             } else {
-              let n10 = await this.getSession(e10);
-              if (!n10) throw Error("The user is not authenticated.");
-              let a10 = new Headers(), i10 = new iG(a10), o2 = this.createRequestCookies(e10);
-              await this.sessionStore.set(o2, i10, { ...r10, internal: { ...n10.internal } });
-              let s2 = [], c2 = {};
-              for (let [e11, t11] of a10.entries()) "set-cookie" === e11.toLowerCase() ? s2.push(t11) : c2[e11] = t11;
-              for (let [e11, r11] of (s2.length > 0 && t10.setHeader("set-cookie", s2), Object.entries(c2))) t10.setHeader(e11, r11);
+              let e11 = await this.getSession(n10);
+              if (!e11) throw Error("The user is not authenticated.");
+              let a10 = new Headers(), i10 = new iG(a10), o2 = this.createRequestCookies(n10), s2 = t10;
+              await this.sessionStore.set(o2, i10, { ...r10, internal: { ...e11.internal } });
+              let c2 = [], l2 = {};
+              for (let [e12, t11] of a10.entries()) "set-cookie" === e12.toLowerCase() ? c2.push(t11) : l2[e12] = t11;
+              for (let [e12, t11] of (c2.length > 0 && s2.setHeader("set-cookie", c2), Object.entries(l2))) s2.setHeader(e12, t11);
             }
           } else {
             let t11 = await this.getSession();
             if (!t11) throw Error("The user is not authenticated.");
-            if (!e10) throw Error("The session data is missing.");
-            await this.sessionStore.set(await (0, th.cookies)(), await (0, th.cookies)(), { ...e10, internal: { ...t11.internal } });
+            let r11 = e10;
+            if (!r11) throw Error("The session data is missing.");
+            await this.sessionStore.set(await (0, th.cookies)(), await (0, th.cookies)(), { ...r11, internal: { ...t11.internal } });
           }
         }
         createRequestCookies(e10) {
@@ -10560,7 +10680,7 @@ Learn More: https://nextjs.org/docs/messages/node-module-in-edge-runtime`;
             let o3 = await n10.getSession();
             if (!o3?.user) {
               let t12 = "function" == typeof r11.returnTo ? await r11.returnTo(a11) : r11.returnTo, { redirect: n11 } = await Promise.resolve().then(() => e.i(626972));
-              n11(`${i10.loginUrl}${r11.returnTo ? `?returnTo=${t12}` : ""}`);
+              n11(`${i10.loginUrl}${t12 ? `?returnTo=${encodeURIComponent(t12)}` : ""}`);
             }
             return t11(a11);
           }), s2 = (a10 = this, ({ getServerSideProps: e10, returnTo: t11 } = {}) => async (r11) => {
@@ -10580,10 +10700,10 @@ Learn More: https://nextjs.org/docs/messages/node-module-in-edge-runtime`;
             let a11 = await t10.getSession(r11);
             a11 && a11.user ? await e11(r11, n11) : n11.status(401).json({ error: "not_authenticated", description: "The user does not have an active session or is not authenticated" });
           }), a10 = (r10 = this, (e11) => async (t11, n11) => {
-            let a11 = await r10.getSession();
-            if (!a11 || !a11.user) return tp.NextResponse.json({ error: "not_authenticated", description: "The user does not have an active session or is not authenticated" }, { status: 401 });
-            let i10 = await e11(t11, n11);
-            return i10 instanceof tp.NextResponse ? i10 : new tp.NextResponse(i10.body, i10);
+            let a11 = t11 instanceof Request ? og(t11) : t11, i10 = await r10.getSession();
+            if (!i10 || !i10.user) return tp.NextResponse.json({ error: "not_authenticated", description: "The user does not have an active session or is not authenticated" }, { status: 401 });
+            let o2 = await e11(a11, n11);
+            return o2 instanceof tp.NextResponse ? o2 : new tp.NextResponse(o2.body, o2);
           });
           return (t11, r11) => t11 instanceof Request || t11.headers instanceof Headers || "boolean" == typeof t11.bodyUsed ? a10(e10)(t11, r11) : n10(e10)(t11, r11);
         }
@@ -10591,7 +10711,8 @@ Learn More: https://nextjs.org/docs/messages/node-module-in-edge-runtime`;
           if (t10 && r10) if (t10 instanceof tp.NextRequest && r10 instanceof tp.NextResponse) await this.sessionStore.set(t10.cookies, r10.cookies, e10);
           else {
             let n10 = new Headers(), a10 = new iG(n10);
-            for (let [i10, o2] of (await this.sessionStore.set(this.createRequestCookies(t10), a10, e10), n10.entries())) r10.setHeader(i10, o2);
+            for (let i10 of (await this.sessionStore.set(this.createRequestCookies(t10), a10, e10), n10.getSetCookie())) r10.appendHeader("set-cookie", i10);
+            for (let [e11, t11] of n10.entries()) "set-cookie" !== e11.toLowerCase() && r10.setHeader(e11, t11);
           }
           else try {
             await this.sessionStore.set(await (0, th.cookies)(), await (0, th.cookies)(), e10);
@@ -10612,46 +10733,46 @@ Learn More: https://nextjs.org/docs/messages/node-module-in-edge-runtime`;
           return { ...t10, clientSecret: r10, clientAssertionSigningKey: n10 };
         }
         async createFetcher(e10, t10) {
-          let r10 = e10 ? await this.getSession(e10) : await this.getSession();
-          if (!r10) throw new tP(U.MISSING_SESSION, "The user does not have an active session.");
-          let n10 = async (e11) => {
-            let [t11, n11] = await this.authClient.getTokenSet(r10, e11 || {});
+          let r10 = e10 instanceof Request ? og(e10) : e10, n10 = r10 ? await this.getSession(r10) : await this.getSession();
+          if (!n10) throw new tP(U.MISSING_SESSION, "The user does not have an active session.");
+          let a10 = async (e11) => {
+            let [t11, r11] = await this.authClient.getTokenSet(n10, e11 || {});
             if (t11) throw t11;
-            return n11.tokenSet;
+            return r11.tokenSet;
           };
-          return await this.authClient.fetcherFactory({ ...t10, getAccessToken: n10 });
+          return await this.authClient.fetcherFactory({ ...t10, getAccessToken: a10 });
         }
         get issuer() {
           return this.domain.startsWith("http://") || this.domain.startsWith("https://") ? this.domain : `https://${this.domain}`;
         }
       }();
-      async function oA(e10) {
+      async function oP(e10) {
         try {
-          return await oS.middleware(e10);
+          return await oT.middleware(e10);
         } catch (e11) {
           return console.error("Middleware error:", e11), new Response(null, { status: 200 });
         }
       }
-      e.s(["config", 0, { matcher: ["/((?!_next/static|_next/image|favicon.ico|sitemap.xml|robots.txt).*)"] }, "middleware", () => oA], 999446);
-      var oT = e.i(999446);
+      e.s(["config", 0, { matcher: ["/((?!_next/static|_next/image|favicon.ico|sitemap.xml|robots.txt).*)"] }, "middleware", () => oP], 999446);
+      var oR = e.i(999446);
       Object.values({ NOT_FOUND: 404, FORBIDDEN: 403, UNAUTHORIZED: 401 });
-      let oP = { ...oT }, oR = "/middleware", ok = oP.middleware || oP.default;
-      if ("function" != typeof ok) throw new class extends Error {
+      let ok = { ...oR }, oC = "/middleware", ox = ok.middleware || ok.default;
+      if ("function" != typeof ox) throw new class extends Error {
         constructor(e10) {
           super(e10), this.stack = "";
         }
-      }(`The Middleware file "${oR}" must export a function named \`middleware\` or a default function.`);
-      function oC(e10) {
-        return td({ ...e10, page: oR, handler: async (...e11) => {
+      }(`The Middleware file "${oC}" must export a function named \`middleware\` or a default function.`);
+      function oO(e10) {
+        return td({ ...e10, page: oC, handler: async (...e11) => {
           try {
-            return await ok(...e11);
+            return await ox(...e11);
           } catch (a10) {
             let t10 = e11[0], r10 = new URL(t10.url), n10 = r10.pathname + r10.search;
             throw await g(a10, { path: n10, method: t10.method, headers: Object.fromEntries(t10.headers.entries()) }, { routerKind: "Pages Router", routePath: "/proxy", routeType: "proxy", revalidateReason: void 0 }), a10;
           }
         } });
       }
-      e.s(["default", () => oC], 242738);
+      e.s(["default", () => oO], 242738);
     }]);
   }
 });
@@ -11200,14 +11321,14 @@ globalThis.__dirname ??= "";
 var NEXT_DIR = path.join(__dirname, ".next");
 var OPEN_NEXT_DIR = path.join(__dirname, ".open-next");
 debug({ NEXT_DIR, OPEN_NEXT_DIR });
-var NextConfig = { "env": {}, "webpack": null, "typescript": { "ignoreBuildErrors": false }, "typedRoutes": false, "distDir": ".next", "cleanDistDir": true, "assetPrefix": "", "cacheMaxMemorySize": 52428800, "configOrigin": "next.config.ts", "useFileSystemPublicRoutes": true, "generateEtags": true, "pageExtensions": ["tsx", "ts", "jsx", "js"], "poweredByHeader": true, "compress": true, "images": { "deviceSizes": [640, 750, 828, 1080, 1200, 1920, 2048, 3840], "imageSizes": [32, 48, 64, 96, 128, 256, 384], "path": "/_next/image", "loader": "default", "loaderFile": "", "domains": [], "disableStaticImages": false, "minimumCacheTTL": 14400, "formats": ["image/webp"], "maximumRedirects": 3, "dangerouslyAllowLocalIP": false, "dangerouslyAllowSVG": false, "contentSecurityPolicy": "script-src 'none'; frame-src 'none'; sandbox;", "contentDispositionType": "attachment", "localPatterns": [{ "pathname": "**", "search": "" }], "remotePatterns": [], "qualities": [75], "unoptimized": true }, "devIndicators": { "position": "bottom-left" }, "onDemandEntries": { "maxInactiveAge": 6e4, "pagesBufferLength": 5 }, "basePath": "", "sassOptions": {}, "trailingSlash": false, "i18n": null, "productionBrowserSourceMaps": false, "excludeDefaultMomentLocales": true, "reactProductionProfiling": false, "reactStrictMode": null, "reactMaxHeadersLength": 6e3, "httpAgentOptions": { "keepAlive": true }, "logging": {}, "compiler": {}, "expireTime": 31536e3, "staticPageGenerationTimeout": 60, "output": "standalone", "modularizeImports": { "@mui/icons-material": { "transform": "@mui/icons-material/{{member}}" }, "lodash": { "transform": "lodash/{{member}}" } }, "outputFileTracingRoot": "/Users/k7/PRO/ATLETIA/dashboard", "cacheComponents": false, "cacheLife": { "default": { "stale": 300, "revalidate": 900, "expire": 4294967294 }, "seconds": { "stale": 30, "revalidate": 1, "expire": 60 }, "minutes": { "stale": 300, "revalidate": 60, "expire": 3600 }, "hours": { "stale": 300, "revalidate": 3600, "expire": 86400 }, "days": { "stale": 300, "revalidate": 86400, "expire": 604800 }, "weeks": { "stale": 300, "revalidate": 604800, "expire": 2592e3 }, "max": { "stale": 300, "revalidate": 2592e3, "expire": 31536e3 } }, "cacheHandlers": {}, "experimental": { "useSkewCookie": false, "cssChunking": true, "multiZoneDraftMode": false, "appNavFailHandling": false, "prerenderEarlyExit": true, "serverMinification": true, "serverSourceMaps": false, "linkNoTouchStart": false, "caseSensitiveRoutes": false, "dynamicOnHover": false, "preloadEntriesOnStart": true, "clientRouterFilter": true, "clientRouterFilterRedirects": false, "fetchCacheKeyPrefix": "", "proxyPrefetch": "flexible", "optimisticClientCache": true, "manualClientBasePath": false, "cpus": 9, "memoryBasedWorkersCount": false, "imgOptConcurrency": null, "imgOptTimeoutInSeconds": 7, "imgOptMaxInputPixels": 268402689, "imgOptSequentialRead": null, "imgOptSkipMetadata": null, "isrFlushToDisk": true, "workerThreads": false, "optimizeCss": false, "nextScriptWorkers": false, "scrollRestoration": false, "externalDir": false, "disableOptimizedLoading": false, "gzipSize": true, "craCompat": false, "esmExternals": true, "fullySpecified": false, "swcTraceProfiling": false, "forceSwcTransforms": false, "largePageDataBytes": 128e3, "typedEnv": false, "parallelServerCompiles": false, "parallelServerBuildTraces": false, "ppr": false, "authInterrupts": false, "webpackMemoryOptimizations": false, "optimizeServerReact": true, "viewTransition": false, "removeUncaughtErrorAndRejectionListeners": false, "validateRSCRequestHeaders": false, "staleTimes": { "dynamic": 0, "static": 300 }, "reactDebugChannel": false, "serverComponentsHmrCache": true, "staticGenerationMaxConcurrency": 8, "staticGenerationMinPagesPerWorker": 25, "inlineCss": false, "useCache": false, "globalNotFound": false, "browserDebugInfoInTerminal": false, "lockDistDir": true, "isolatedDevBuild": true, "proxyClientMaxBodySize": 10485760, "hideLogsAfterAbort": false, "mcpServer": true, "serverActions": { "bodySizeLimit": "2mb" }, "optimizePackageImports": ["lucide-react", "date-fns", "lodash-es", "ramda", "antd", "react-bootstrap", "ahooks", "@ant-design/icons", "@headlessui/react", "@headlessui-float/react", "@heroicons/react/20/solid", "@heroicons/react/24/solid", "@heroicons/react/24/outline", "@visx/visx", "@tremor/react", "rxjs", "@mui/material", "@mui/icons-material", "recharts", "react-use", "effect", "@effect/schema", "@effect/platform", "@effect/platform-node", "@effect/platform-browser", "@effect/platform-bun", "@effect/sql", "@effect/sql-mssql", "@effect/sql-mysql2", "@effect/sql-pg", "@effect/sql-sqlite-node", "@effect/sql-sqlite-bun", "@effect/sql-sqlite-wasm", "@effect/sql-sqlite-react-native", "@effect/rpc", "@effect/rpc-http", "@effect/typeclass", "@effect/experimental", "@effect/opentelemetry", "@material-ui/core", "@material-ui/icons", "@tabler/icons-react", "mui-core", "react-icons/ai", "react-icons/bi", "react-icons/bs", "react-icons/cg", "react-icons/ci", "react-icons/di", "react-icons/fa", "react-icons/fa6", "react-icons/fc", "react-icons/fi", "react-icons/gi", "react-icons/go", "react-icons/gr", "react-icons/hi", "react-icons/hi2", "react-icons/im", "react-icons/io", "react-icons/io5", "react-icons/lia", "react-icons/lib", "react-icons/lu", "react-icons/md", "react-icons/pi", "react-icons/ri", "react-icons/rx", "react-icons/si", "react-icons/sl", "react-icons/tb", "react-icons/tfi", "react-icons/ti", "react-icons/vsc", "react-icons/wi"], "trustHostHeader": false, "isExperimentalCompile": false }, "htmlLimitedBots": "[\\w-]+-Google|Google-[\\w-]+|Chrome-Lighthouse|Slurp|DuckDuckBot|baiduspider|yandex|sogou|bitlybot|tumblr|vkShare|quora link preview|redditbot|ia_archiver|Bingbot|BingPreview|applebot|facebookexternalhit|facebookcatalog|Twitterbot|LinkedInBot|Slackbot|Discordbot|WhatsApp|SkypeUriPreview|Yeti|googleweblight", "bundlePagesRouterDependencies": false, "configFileName": "next.config.ts", "turbopack": { "resolveAlias": { "next-intl/config": "./lib/i18n.ts" }, "root": "/Users/k7/PRO/ATLETIA/dashboard" }, "distDirRoot": ".next" };
-var BuildId = "dlAoypti2Hm3aXb0sWOI7";
-var RoutesManifest = { "basePath": "", "rewrites": { "beforeFiles": [], "afterFiles": [], "fallback": [] }, "redirects": [{ "source": "/:path+/", "destination": "/:path+", "internal": true, "priority": true, "statusCode": 308, "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$" }], "routes": { "static": [{ "page": "/", "regex": "^/(?:/)?$", "routeKeys": {}, "namedRegex": "^/(?:/)?$" }, { "page": "/_global-error", "regex": "^/_global\\-error(?:/)?$", "routeKeys": {}, "namedRegex": "^/_global\\-error(?:/)?$" }, { "page": "/_not-found", "regex": "^/_not\\-found(?:/)?$", "routeKeys": {}, "namedRegex": "^/_not\\-found(?:/)?$" }, { "page": "/api/admin/pros", "regex": "^/api/admin/pros(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/admin/pros(?:/)?$" }, { "page": "/api/agents", "regex": "^/api/agents(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/agents(?:/)?$" }, { "page": "/api/agents/init", "regex": "^/api/agents/init(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/agents/init(?:/)?$" }, { "page": "/api/auth/setup-role", "regex": "^/api/auth/setup\\-role(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/auth/setup\\-role(?:/)?$" }, { "page": "/api/auth/sync", "regex": "^/api/auth/sync(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/auth/sync(?:/)?$" }, { "page": "/api/auth/user", "regex": "^/api/auth/user(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/auth/user(?:/)?$" }, { "page": "/api/baseten/generate", "regex": "^/api/baseten/generate(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/baseten/generate(?:/)?$" }, { "page": "/api/chats", "regex": "^/api/chats(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/chats(?:/)?$" }, { "page": "/api/chats/direct", "regex": "^/api/chats/direct(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/chats/direct(?:/)?$" }, { "page": "/api/clients", "regex": "^/api/clients(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/clients(?:/)?$" }, { "page": "/api/dashboard/stats", "regex": "^/api/dashboard/stats(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/dashboard/stats(?:/)?$" }, { "page": "/api/exercises", "regex": "^/api/exercises(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/exercises(?:/)?$" }, { "page": "/api/exercises/grouped", "regex": "^/api/exercises/grouped(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/exercises/grouped(?:/)?$" }, { "page": "/api/invitations", "regex": "^/api/invitations(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/invitations(?:/)?$" }, { "page": "/api/logout", "regex": "^/api/logout(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/logout(?:/)?$" }, { "page": "/api/organizations", "regex": "^/api/organizations(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/organizations(?:/)?$" }, { "page": "/api/organizations/public", "regex": "^/api/organizations/public(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/organizations/public(?:/)?$" }, { "page": "/api/programs", "regex": "^/api/programs(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/programs(?:/)?$" }, { "page": "/api/programs/migrate", "regex": "^/api/programs/migrate(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/programs/migrate(?:/)?$" }, { "page": "/api/public/stats", "regex": "^/api/public/stats(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/public/stats(?:/)?$" }, { "page": "/api/requests", "regex": "^/api/requests(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/requests(?:/)?$" }, { "page": "/api/stripe/create-checkout", "regex": "^/api/stripe/create\\-checkout(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/stripe/create\\-checkout(?:/)?$" }, { "page": "/api/stripe/create-portal", "regex": "^/api/stripe/create\\-portal(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/stripe/create\\-portal(?:/)?$" }, { "page": "/api/stripe/invoices", "regex": "^/api/stripe/invoices(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/stripe/invoices(?:/)?$" }, { "page": "/api/stripe/webhook", "regex": "^/api/stripe/webhook(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/stripe/webhook(?:/)?$" }, { "page": "/api/subscription", "regex": "^/api/subscription(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/subscription(?:/)?$" }, { "page": "/api/subscription/sync", "regex": "^/api/subscription/sync(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/subscription/sync(?:/)?$" }, { "page": "/api/users", "regex": "^/api/users(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/users(?:/)?$" }, { "page": "/dashboard", "regex": "^/dashboard(?:/)?$", "routeKeys": {}, "namedRegex": "^/dashboard(?:/)?$" }, { "page": "/dashboard/admin/organizations", "regex": "^/dashboard/admin/organizations(?:/)?$", "routeKeys": {}, "namedRegex": "^/dashboard/admin/organizations(?:/)?$" }, { "page": "/dashboard/admin/pros", "regex": "^/dashboard/admin/pros(?:/)?$", "routeKeys": {}, "namedRegex": "^/dashboard/admin/pros(?:/)?$" }, { "page": "/dashboard/admin/users", "regex": "^/dashboard/admin/users(?:/)?$", "routeKeys": {}, "namedRegex": "^/dashboard/admin/users(?:/)?$" }, { "page": "/dashboard/assistants", "regex": "^/dashboard/assistants(?:/)?$", "routeKeys": {}, "namedRegex": "^/dashboard/assistants(?:/)?$" }, { "page": "/dashboard/calculators", "regex": "^/dashboard/calculators(?:/)?$", "routeKeys": {}, "namedRegex": "^/dashboard/calculators(?:/)?$" }, { "page": "/dashboard/clients", "regex": "^/dashboard/clients(?:/)?$", "routeKeys": {}, "namedRegex": "^/dashboard/clients(?:/)?$" }, { "page": "/dashboard/messaging", "regex": "^/dashboard/messaging(?:/)?$", "routeKeys": {}, "namedRegex": "^/dashboard/messaging(?:/)?$" }, { "page": "/dashboard/nutrition", "regex": "^/dashboard/nutrition(?:/)?$", "routeKeys": {}, "namedRegex": "^/dashboard/nutrition(?:/)?$" }, { "page": "/dashboard/organizations", "regex": "^/dashboard/organizations(?:/)?$", "routeKeys": {}, "namedRegex": "^/dashboard/organizations(?:/)?$" }, { "page": "/dashboard/organizations/migrate", "regex": "^/dashboard/organizations/migrate(?:/)?$", "routeKeys": {}, "namedRegex": "^/dashboard/organizations/migrate(?:/)?$" }, { "page": "/dashboard/organizations/user", "regex": "^/dashboard/organizations/user(?:/)?$", "routeKeys": {}, "namedRegex": "^/dashboard/organizations/user(?:/)?$" }, { "page": "/dashboard/profile", "regex": "^/dashboard/profile(?:/)?$", "routeKeys": {}, "namedRegex": "^/dashboard/profile(?:/)?$" }, { "page": "/dashboard/programs", "regex": "^/dashboard/programs(?:/)?$", "routeKeys": {}, "namedRegex": "^/dashboard/programs(?:/)?$" }, { "page": "/dashboard/programs/builder", "regex": "^/dashboard/programs/builder(?:/)?$", "routeKeys": {}, "namedRegex": "^/dashboard/programs/builder(?:/)?$" }, { "page": "/dashboard/subscription", "regex": "^/dashboard/subscription(?:/)?$", "routeKeys": {}, "namedRegex": "^/dashboard/subscription(?:/)?$" }, { "page": "/dashboard/trainings", "regex": "^/dashboard/trainings(?:/)?$", "routeKeys": {}, "namedRegex": "^/dashboard/trainings(?:/)?$" }, { "page": "/favicon.ico", "regex": "^/favicon\\.ico(?:/)?$", "routeKeys": {}, "namedRegex": "^/favicon\\.ico(?:/)?$" }, { "page": "/legal/cgv", "regex": "^/legal/cgv(?:/)?$", "routeKeys": {}, "namedRegex": "^/legal/cgv(?:/)?$" }, { "page": "/legal/mentions", "regex": "^/legal/mentions(?:/)?$", "routeKeys": {}, "namedRegex": "^/legal/mentions(?:/)?$" }, { "page": "/legal/privacy", "regex": "^/legal/privacy(?:/)?$", "routeKeys": {}, "namedRegex": "^/legal/privacy(?:/)?$" }, { "page": "/legal/termination", "regex": "^/legal/termination(?:/)?$", "routeKeys": {}, "namedRegex": "^/legal/termination(?:/)?$" }, { "page": "/legal/terms", "regex": "^/legal/terms(?:/)?$", "routeKeys": {}, "namedRegex": "^/legal/terms(?:/)?$" }, { "page": "/logout", "regex": "^/logout(?:/)?$", "routeKeys": {}, "namedRegex": "^/logout(?:/)?$" }, { "page": "/signup", "regex": "^/signup(?:/)?$", "routeKeys": {}, "namedRegex": "^/signup(?:/)?$" }], "dynamic": [{ "page": "/api/admin/pros/[id]/approve", "regex": "^/api/admin/pros/([^/]+?)/approve(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/api/admin/pros/(?<nxtPid>[^/]+?)/approve(?:/)?$" }, { "page": "/api/admin/pros/[id]/reject", "regex": "^/api/admin/pros/([^/]+?)/reject(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/api/admin/pros/(?<nxtPid>[^/]+?)/reject(?:/)?$" }, { "page": "/api/agents/[id]", "regex": "^/api/agents/([^/]+?)(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/api/agents/(?<nxtPid>[^/]+?)(?:/)?$" }, { "page": "/api/agents/[id]/sessions", "regex": "^/api/agents/([^/]+?)/sessions(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/api/agents/(?<nxtPid>[^/]+?)/sessions(?:/)?$" }, { "page": "/api/chats/[id]", "regex": "^/api/chats/([^/]+?)(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/api/chats/(?<nxtPid>[^/]+?)(?:/)?$" }, { "page": "/api/chats/[id]/messages", "regex": "^/api/chats/([^/]+?)/messages(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/api/chats/(?<nxtPid>[^/]+?)/messages(?:/)?$" }, { "page": "/api/chats/[id]/read", "regex": "^/api/chats/([^/]+?)/read(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/api/chats/(?<nxtPid>[^/]+?)/read(?:/)?$" }, { "page": "/api/coaching/[organizationId]/analyze-program", "regex": "^/api/coaching/([^/]+?)/analyze\\-program(?:/)?$", "routeKeys": { "nxtPorganizationId": "nxtPorganizationId" }, "namedRegex": "^/api/coaching/(?<nxtPorganizationId>[^/]+?)/analyze\\-program(?:/)?$" }, { "page": "/api/coaching/[organizationId]/notes", "regex": "^/api/coaching/([^/]+?)/notes(?:/)?$", "routeKeys": { "nxtPorganizationId": "nxtPorganizationId" }, "namedRegex": "^/api/coaching/(?<nxtPorganizationId>[^/]+?)/notes(?:/)?$" }, { "page": "/api/measurements/users/[userId]", "regex": "^/api/measurements/users/([^/]+?)(?:/)?$", "routeKeys": { "nxtPuserId": "nxtPuserId" }, "namedRegex": "^/api/measurements/users/(?<nxtPuserId>[^/]+?)(?:/)?$" }, { "page": "/api/measurements/users/[userId]/stats", "regex": "^/api/measurements/users/([^/]+?)/stats(?:/)?$", "routeKeys": { "nxtPuserId": "nxtPuserId" }, "namedRegex": "^/api/measurements/users/(?<nxtPuserId>[^/]+?)/stats(?:/)?$" }, { "page": "/api/messages/[id]/read", "regex": "^/api/messages/([^/]+?)/read(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/api/messages/(?<nxtPid>[^/]+?)/read(?:/)?$" }, { "page": "/api/organizations/[id]", "regex": "^/api/organizations/([^/]+?)(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/api/organizations/(?<nxtPid>[^/]+?)(?:/)?$" }, { "page": "/api/organizations/[id]/invitations", "regex": "^/api/organizations/([^/]+?)/invitations(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/api/organizations/(?<nxtPid>[^/]+?)/invitations(?:/)?$" }, { "page": "/api/organizations/[id]/invitations/[invitationId]", "regex": "^/api/organizations/([^/]+?)/invitations/([^/]+?)(?:/)?$", "routeKeys": { "nxtPid": "nxtPid", "nxtPinvitationId": "nxtPinvitationId" }, "namedRegex": "^/api/organizations/(?<nxtPid>[^/]+?)/invitations/(?<nxtPinvitationId>[^/]+?)(?:/)?$" }, { "page": "/api/organizations/[id]/invite", "regex": "^/api/organizations/([^/]+?)/invite(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/api/organizations/(?<nxtPid>[^/]+?)/invite(?:/)?$" }, { "page": "/api/organizations/[id]/join", "regex": "^/api/organizations/([^/]+?)/join(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/api/organizations/(?<nxtPid>[^/]+?)/join(?:/)?$" }, { "page": "/api/organizations/[id]/request", "regex": "^/api/organizations/([^/]+?)/request(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/api/organizations/(?<nxtPid>[^/]+?)/request(?:/)?$" }, { "page": "/api/organizations/[id]/requests", "regex": "^/api/organizations/([^/]+?)/requests(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/api/organizations/(?<nxtPid>[^/]+?)/requests(?:/)?$" }, { "page": "/api/organizations/[id]/requests/[requestId]", "regex": "^/api/organizations/([^/]+?)/requests/([^/]+?)(?:/)?$", "routeKeys": { "nxtPid": "nxtPid", "nxtPrequestId": "nxtPrequestId" }, "namedRegex": "^/api/organizations/(?<nxtPid>[^/]+?)/requests/(?<nxtPrequestId>[^/]+?)(?:/)?$" }, { "page": "/api/programs/[id]", "regex": "^/api/programs/([^/]+?)(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/api/programs/(?<nxtPid>[^/]+?)(?:/)?$" }, { "page": "/api/users/[id]", "regex": "^/api/users/([^/]+?)(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/api/users/(?<nxtPid>[^/]+?)(?:/)?$" }, { "page": "/api/users/[id]/profile", "regex": "^/api/users/([^/]+?)/profile(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/api/users/(?<nxtPid>[^/]+?)/profile(?:/)?$" }, { "page": "/api/workout-sessions/users/[userId]", "regex": "^/api/workout\\-sessions/users/([^/]+?)(?:/)?$", "routeKeys": { "nxtPuserId": "nxtPuserId" }, "namedRegex": "^/api/workout\\-sessions/users/(?<nxtPuserId>[^/]+?)(?:/)?$" }, { "page": "/api/workout-sessions/users/[userId]/stats", "regex": "^/api/workout\\-sessions/users/([^/]+?)/stats(?:/)?$", "routeKeys": { "nxtPuserId": "nxtPuserId" }, "namedRegex": "^/api/workout\\-sessions/users/(?<nxtPuserId>[^/]+?)/stats(?:/)?$" }, { "page": "/dashboard/assistants/[id]/chat", "regex": "^/dashboard/assistants/([^/]+?)/chat(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/dashboard/assistants/(?<nxtPid>[^/]+?)/chat(?:/)?$" }, { "page": "/dashboard/assistants/[id]/history", "regex": "^/dashboard/assistants/([^/]+?)/history(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/dashboard/assistants/(?<nxtPid>[^/]+?)/history(?:/)?$" }, { "page": "/dashboard/clients/[id]/follow-up", "regex": "^/dashboard/clients/([^/]+?)/follow\\-up(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/dashboard/clients/(?<nxtPid>[^/]+?)/follow\\-up(?:/)?$" }, { "page": "/dashboard/clients/[id]/measurements", "regex": "^/dashboard/clients/([^/]+?)/measurements(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/dashboard/clients/(?<nxtPid>[^/]+?)/measurements(?:/)?$" }, { "page": "/dashboard/clients/[id]/sessions", "regex": "^/dashboard/clients/([^/]+?)/sessions(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/dashboard/clients/(?<nxtPid>[^/]+?)/sessions(?:/)?$" }, { "page": "/dashboard/organizations/[id]", "regex": "^/dashboard/organizations/([^/]+?)(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/dashboard/organizations/(?<nxtPid>[^/]+?)(?:/)?$" }, { "page": "/dashboard/programs/[id]", "regex": "^/dashboard/programs/([^/]+?)(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/dashboard/programs/(?<nxtPid>[^/]+?)(?:/)?$" }, { "page": "/dashboard/programs/[id]/edit", "regex": "^/dashboard/programs/([^/]+?)/edit(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/dashboard/programs/(?<nxtPid>[^/]+?)/edit(?:/)?$" }], "data": { "static": [], "dynamic": [] } }, "locales": [] };
+var NextConfig = { "env": {}, "webpack": null, "typescript": { "ignoreBuildErrors": false }, "typedRoutes": false, "distDir": ".next", "cleanDistDir": true, "assetPrefix": "", "cacheMaxMemorySize": 52428800, "configOrigin": "next.config.ts", "useFileSystemPublicRoutes": true, "generateEtags": true, "pageExtensions": ["tsx", "ts", "jsx", "js"], "poweredByHeader": true, "compress": true, "images": { "deviceSizes": [640, 750, 828, 1080, 1200, 1920, 2048, 3840], "imageSizes": [32, 48, 64, 96, 128, 256, 384], "path": "/_next/image", "loader": "default", "loaderFile": "", "domains": [], "disableStaticImages": false, "minimumCacheTTL": 14400, "formats": ["image/webp"], "maximumRedirects": 3, "dangerouslyAllowLocalIP": false, "dangerouslyAllowSVG": false, "contentSecurityPolicy": "script-src 'none'; frame-src 'none'; sandbox;", "contentDispositionType": "attachment", "localPatterns": [{ "pathname": "**", "search": "" }], "remotePatterns": [], "qualities": [75], "unoptimized": true }, "devIndicators": { "position": "bottom-left" }, "onDemandEntries": { "maxInactiveAge": 6e4, "pagesBufferLength": 5 }, "basePath": "", "sassOptions": {}, "trailingSlash": false, "i18n": null, "productionBrowserSourceMaps": false, "excludeDefaultMomentLocales": true, "reactProductionProfiling": false, "reactStrictMode": null, "reactMaxHeadersLength": 6e3, "httpAgentOptions": { "keepAlive": true }, "logging": {}, "compiler": {}, "expireTime": 31536e3, "staticPageGenerationTimeout": 60, "output": "standalone", "modularizeImports": { "@mui/icons-material": { "transform": "@mui/icons-material/{{member}}" }, "lodash": { "transform": "lodash/{{member}}" } }, "outputFileTracingRoot": "/Users/k7/PRO/ATLETIA/dashboard", "cacheComponents": false, "cacheLife": { "default": { "stale": 300, "revalidate": 900, "expire": 4294967294 }, "seconds": { "stale": 30, "revalidate": 1, "expire": 60 }, "minutes": { "stale": 300, "revalidate": 60, "expire": 3600 }, "hours": { "stale": 300, "revalidate": 3600, "expire": 86400 }, "days": { "stale": 300, "revalidate": 86400, "expire": 604800 }, "weeks": { "stale": 300, "revalidate": 604800, "expire": 2592e3 }, "max": { "stale": 300, "revalidate": 2592e3, "expire": 31536e3 } }, "cacheHandlers": {}, "experimental": { "useSkewCookie": false, "cssChunking": true, "multiZoneDraftMode": false, "appNavFailHandling": false, "prerenderEarlyExit": true, "serverMinification": true, "serverSourceMaps": false, "linkNoTouchStart": false, "caseSensitiveRoutes": false, "dynamicOnHover": false, "preloadEntriesOnStart": true, "clientRouterFilter": true, "clientRouterFilterRedirects": false, "fetchCacheKeyPrefix": "", "proxyPrefetch": "flexible", "optimisticClientCache": true, "manualClientBasePath": false, "cpus": 9, "memoryBasedWorkersCount": false, "imgOptConcurrency": null, "imgOptTimeoutInSeconds": 7, "imgOptMaxInputPixels": 268402689, "imgOptSequentialRead": null, "imgOptSkipMetadata": null, "isrFlushToDisk": true, "workerThreads": false, "optimizeCss": false, "nextScriptWorkers": false, "scrollRestoration": false, "externalDir": false, "disableOptimizedLoading": false, "gzipSize": true, "craCompat": false, "esmExternals": true, "fullySpecified": false, "swcTraceProfiling": false, "forceSwcTransforms": false, "largePageDataBytes": 128e3, "typedEnv": false, "parallelServerCompiles": false, "parallelServerBuildTraces": false, "ppr": false, "authInterrupts": false, "webpackMemoryOptimizations": false, "optimizeServerReact": true, "viewTransition": false, "removeUncaughtErrorAndRejectionListeners": false, "validateRSCRequestHeaders": false, "staleTimes": { "dynamic": 0, "static": 300 }, "reactDebugChannel": false, "serverComponentsHmrCache": true, "staticGenerationMaxConcurrency": 8, "staticGenerationMinPagesPerWorker": 25, "inlineCss": false, "useCache": false, "globalNotFound": false, "browserDebugInfoInTerminal": false, "lockDistDir": true, "isolatedDevBuild": true, "proxyClientMaxBodySize": 10485760, "hideLogsAfterAbort": false, "mcpServer": true, "serverActions": { "bodySizeLimit": "8mb" }, "optimizePackageImports": ["lucide-react", "date-fns", "lodash-es", "ramda", "antd", "react-bootstrap", "ahooks", "@ant-design/icons", "@headlessui/react", "@headlessui-float/react", "@heroicons/react/20/solid", "@heroicons/react/24/solid", "@heroicons/react/24/outline", "@visx/visx", "@tremor/react", "rxjs", "@mui/material", "@mui/icons-material", "recharts", "react-use", "effect", "@effect/schema", "@effect/platform", "@effect/platform-node", "@effect/platform-browser", "@effect/platform-bun", "@effect/sql", "@effect/sql-mssql", "@effect/sql-mysql2", "@effect/sql-pg", "@effect/sql-sqlite-node", "@effect/sql-sqlite-bun", "@effect/sql-sqlite-wasm", "@effect/sql-sqlite-react-native", "@effect/rpc", "@effect/rpc-http", "@effect/typeclass", "@effect/experimental", "@effect/opentelemetry", "@material-ui/core", "@material-ui/icons", "@tabler/icons-react", "mui-core", "react-icons/ai", "react-icons/bi", "react-icons/bs", "react-icons/cg", "react-icons/ci", "react-icons/di", "react-icons/fa", "react-icons/fa6", "react-icons/fc", "react-icons/fi", "react-icons/gi", "react-icons/go", "react-icons/gr", "react-icons/hi", "react-icons/hi2", "react-icons/im", "react-icons/io", "react-icons/io5", "react-icons/lia", "react-icons/lib", "react-icons/lu", "react-icons/md", "react-icons/pi", "react-icons/ri", "react-icons/rx", "react-icons/si", "react-icons/sl", "react-icons/tb", "react-icons/tfi", "react-icons/ti", "react-icons/vsc", "react-icons/wi"], "trustHostHeader": false, "isExperimentalCompile": false }, "htmlLimitedBots": "[\\w-]+-Google|Google-[\\w-]+|Chrome-Lighthouse|Slurp|DuckDuckBot|baiduspider|yandex|sogou|bitlybot|tumblr|vkShare|quora link preview|redditbot|ia_archiver|Bingbot|BingPreview|applebot|facebookexternalhit|facebookcatalog|Twitterbot|LinkedInBot|Slackbot|Discordbot|WhatsApp|SkypeUriPreview|Yeti|googleweblight", "bundlePagesRouterDependencies": false, "configFileName": "next.config.ts", "turbopack": { "resolveAlias": { "next-intl/config": "./lib/i18n.ts" }, "root": "/Users/k7/PRO/ATLETIA/dashboard" }, "distDirRoot": ".next" };
+var BuildId = "ju0tWlgh9eQwl-s4yWxD7";
+var RoutesManifest = { "basePath": "", "rewrites": { "beforeFiles": [], "afterFiles": [], "fallback": [] }, "redirects": [{ "source": "/:path+/", "destination": "/:path+", "internal": true, "priority": true, "statusCode": 308, "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$" }], "routes": { "static": [{ "page": "/", "regex": "^/(?:/)?$", "routeKeys": {}, "namedRegex": "^/(?:/)?$" }, { "page": "/_global-error", "regex": "^/_global\\-error(?:/)?$", "routeKeys": {}, "namedRegex": "^/_global\\-error(?:/)?$" }, { "page": "/_not-found", "regex": "^/_not\\-found(?:/)?$", "routeKeys": {}, "namedRegex": "^/_not\\-found(?:/)?$" }, { "page": "/api/admin/pros", "regex": "^/api/admin/pros(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/admin/pros(?:/)?$" }, { "page": "/api/agents", "regex": "^/api/agents(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/agents(?:/)?$" }, { "page": "/api/agents/init", "regex": "^/api/agents/init(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/agents/init(?:/)?$" }, { "page": "/api/auth/setup-role", "regex": "^/api/auth/setup\\-role(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/auth/setup\\-role(?:/)?$" }, { "page": "/api/auth/sync", "regex": "^/api/auth/sync(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/auth/sync(?:/)?$" }, { "page": "/api/auth/user", "regex": "^/api/auth/user(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/auth/user(?:/)?$" }, { "page": "/api/baseten/generate", "regex": "^/api/baseten/generate(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/baseten/generate(?:/)?$" }, { "page": "/api/chats", "regex": "^/api/chats(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/chats(?:/)?$" }, { "page": "/api/chats/direct", "regex": "^/api/chats/direct(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/chats/direct(?:/)?$" }, { "page": "/api/clients", "regex": "^/api/clients(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/clients(?:/)?$" }, { "page": "/api/dashboard/stats", "regex": "^/api/dashboard/stats(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/dashboard/stats(?:/)?$" }, { "page": "/api/exercises", "regex": "^/api/exercises(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/exercises(?:/)?$" }, { "page": "/api/exercises/grouped", "regex": "^/api/exercises/grouped(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/exercises/grouped(?:/)?$" }, { "page": "/api/invitations", "regex": "^/api/invitations(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/invitations(?:/)?$" }, { "page": "/api/logout", "regex": "^/api/logout(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/logout(?:/)?$" }, { "page": "/api/organizations", "regex": "^/api/organizations(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/organizations(?:/)?$" }, { "page": "/api/organizations/public", "regex": "^/api/organizations/public(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/organizations/public(?:/)?$" }, { "page": "/api/programs", "regex": "^/api/programs(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/programs(?:/)?$" }, { "page": "/api/programs/migrate", "regex": "^/api/programs/migrate(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/programs/migrate(?:/)?$" }, { "page": "/api/public/stats", "regex": "^/api/public/stats(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/public/stats(?:/)?$" }, { "page": "/api/requests", "regex": "^/api/requests(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/requests(?:/)?$" }, { "page": "/api/stripe/create-checkout", "regex": "^/api/stripe/create\\-checkout(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/stripe/create\\-checkout(?:/)?$" }, { "page": "/api/stripe/create-portal", "regex": "^/api/stripe/create\\-portal(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/stripe/create\\-portal(?:/)?$" }, { "page": "/api/stripe/invoices", "regex": "^/api/stripe/invoices(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/stripe/invoices(?:/)?$" }, { "page": "/api/stripe/webhook", "regex": "^/api/stripe/webhook(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/stripe/webhook(?:/)?$" }, { "page": "/api/subscription", "regex": "^/api/subscription(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/subscription(?:/)?$" }, { "page": "/api/subscription/sync", "regex": "^/api/subscription/sync(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/subscription/sync(?:/)?$" }, { "page": "/api/users", "regex": "^/api/users(?:/)?$", "routeKeys": {}, "namedRegex": "^/api/users(?:/)?$" }, { "page": "/dashboard", "regex": "^/dashboard(?:/)?$", "routeKeys": {}, "namedRegex": "^/dashboard(?:/)?$" }, { "page": "/dashboard/admin/organizations", "regex": "^/dashboard/admin/organizations(?:/)?$", "routeKeys": {}, "namedRegex": "^/dashboard/admin/organizations(?:/)?$" }, { "page": "/dashboard/admin/pros", "regex": "^/dashboard/admin/pros(?:/)?$", "routeKeys": {}, "namedRegex": "^/dashboard/admin/pros(?:/)?$" }, { "page": "/dashboard/admin/users", "regex": "^/dashboard/admin/users(?:/)?$", "routeKeys": {}, "namedRegex": "^/dashboard/admin/users(?:/)?$" }, { "page": "/dashboard/assistants", "regex": "^/dashboard/assistants(?:/)?$", "routeKeys": {}, "namedRegex": "^/dashboard/assistants(?:/)?$" }, { "page": "/dashboard/calculators", "regex": "^/dashboard/calculators(?:/)?$", "routeKeys": {}, "namedRegex": "^/dashboard/calculators(?:/)?$" }, { "page": "/dashboard/clients", "regex": "^/dashboard/clients(?:/)?$", "routeKeys": {}, "namedRegex": "^/dashboard/clients(?:/)?$" }, { "page": "/dashboard/messaging", "regex": "^/dashboard/messaging(?:/)?$", "routeKeys": {}, "namedRegex": "^/dashboard/messaging(?:/)?$" }, { "page": "/dashboard/nutrition", "regex": "^/dashboard/nutrition(?:/)?$", "routeKeys": {}, "namedRegex": "^/dashboard/nutrition(?:/)?$" }, { "page": "/dashboard/organizations", "regex": "^/dashboard/organizations(?:/)?$", "routeKeys": {}, "namedRegex": "^/dashboard/organizations(?:/)?$" }, { "page": "/dashboard/organizations/migrate", "regex": "^/dashboard/organizations/migrate(?:/)?$", "routeKeys": {}, "namedRegex": "^/dashboard/organizations/migrate(?:/)?$" }, { "page": "/dashboard/organizations/user", "regex": "^/dashboard/organizations/user(?:/)?$", "routeKeys": {}, "namedRegex": "^/dashboard/organizations/user(?:/)?$" }, { "page": "/dashboard/profile", "regex": "^/dashboard/profile(?:/)?$", "routeKeys": {}, "namedRegex": "^/dashboard/profile(?:/)?$" }, { "page": "/dashboard/programs", "regex": "^/dashboard/programs(?:/)?$", "routeKeys": {}, "namedRegex": "^/dashboard/programs(?:/)?$" }, { "page": "/dashboard/programs/builder", "regex": "^/dashboard/programs/builder(?:/)?$", "routeKeys": {}, "namedRegex": "^/dashboard/programs/builder(?:/)?$" }, { "page": "/dashboard/subscription", "regex": "^/dashboard/subscription(?:/)?$", "routeKeys": {}, "namedRegex": "^/dashboard/subscription(?:/)?$" }, { "page": "/dashboard/trainings", "regex": "^/dashboard/trainings(?:/)?$", "routeKeys": {}, "namedRegex": "^/dashboard/trainings(?:/)?$" }, { "page": "/favicon.ico", "regex": "^/favicon\\.ico(?:/)?$", "routeKeys": {}, "namedRegex": "^/favicon\\.ico(?:/)?$" }, { "page": "/legal/cgv", "regex": "^/legal/cgv(?:/)?$", "routeKeys": {}, "namedRegex": "^/legal/cgv(?:/)?$" }, { "page": "/legal/mentions", "regex": "^/legal/mentions(?:/)?$", "routeKeys": {}, "namedRegex": "^/legal/mentions(?:/)?$" }, { "page": "/legal/privacy", "regex": "^/legal/privacy(?:/)?$", "routeKeys": {}, "namedRegex": "^/legal/privacy(?:/)?$" }, { "page": "/legal/termination", "regex": "^/legal/termination(?:/)?$", "routeKeys": {}, "namedRegex": "^/legal/termination(?:/)?$" }, { "page": "/legal/terms", "regex": "^/legal/terms(?:/)?$", "routeKeys": {}, "namedRegex": "^/legal/terms(?:/)?$" }, { "page": "/logout", "regex": "^/logout(?:/)?$", "routeKeys": {}, "namedRegex": "^/logout(?:/)?$" }, { "page": "/pro", "regex": "^/pro(?:/)?$", "routeKeys": {}, "namedRegex": "^/pro(?:/)?$" }, { "page": "/signup", "regex": "^/signup(?:/)?$", "routeKeys": {}, "namedRegex": "^/signup(?:/)?$" }], "dynamic": [{ "page": "/api/admin/pros/[id]/approve", "regex": "^/api/admin/pros/([^/]+?)/approve(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/api/admin/pros/(?<nxtPid>[^/]+?)/approve(?:/)?$" }, { "page": "/api/admin/pros/[id]/reject", "regex": "^/api/admin/pros/([^/]+?)/reject(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/api/admin/pros/(?<nxtPid>[^/]+?)/reject(?:/)?$" }, { "page": "/api/agents/[id]", "regex": "^/api/agents/([^/]+?)(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/api/agents/(?<nxtPid>[^/]+?)(?:/)?$" }, { "page": "/api/agents/[id]/sessions", "regex": "^/api/agents/([^/]+?)/sessions(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/api/agents/(?<nxtPid>[^/]+?)/sessions(?:/)?$" }, { "page": "/api/chats/[id]", "regex": "^/api/chats/([^/]+?)(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/api/chats/(?<nxtPid>[^/]+?)(?:/)?$" }, { "page": "/api/chats/[id]/messages", "regex": "^/api/chats/([^/]+?)/messages(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/api/chats/(?<nxtPid>[^/]+?)/messages(?:/)?$" }, { "page": "/api/chats/[id]/read", "regex": "^/api/chats/([^/]+?)/read(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/api/chats/(?<nxtPid>[^/]+?)/read(?:/)?$" }, { "page": "/api/coaching/[organizationId]/analyze-program", "regex": "^/api/coaching/([^/]+?)/analyze\\-program(?:/)?$", "routeKeys": { "nxtPorganizationId": "nxtPorganizationId" }, "namedRegex": "^/api/coaching/(?<nxtPorganizationId>[^/]+?)/analyze\\-program(?:/)?$" }, { "page": "/api/coaching/[organizationId]/notes", "regex": "^/api/coaching/([^/]+?)/notes(?:/)?$", "routeKeys": { "nxtPorganizationId": "nxtPorganizationId" }, "namedRegex": "^/api/coaching/(?<nxtPorganizationId>[^/]+?)/notes(?:/)?$" }, { "page": "/api/measurements/users/[userId]", "regex": "^/api/measurements/users/([^/]+?)(?:/)?$", "routeKeys": { "nxtPuserId": "nxtPuserId" }, "namedRegex": "^/api/measurements/users/(?<nxtPuserId>[^/]+?)(?:/)?$" }, { "page": "/api/measurements/users/[userId]/stats", "regex": "^/api/measurements/users/([^/]+?)/stats(?:/)?$", "routeKeys": { "nxtPuserId": "nxtPuserId" }, "namedRegex": "^/api/measurements/users/(?<nxtPuserId>[^/]+?)/stats(?:/)?$" }, { "page": "/api/messages/[id]/read", "regex": "^/api/messages/([^/]+?)/read(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/api/messages/(?<nxtPid>[^/]+?)/read(?:/)?$" }, { "page": "/api/organizations/[id]", "regex": "^/api/organizations/([^/]+?)(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/api/organizations/(?<nxtPid>[^/]+?)(?:/)?$" }, { "page": "/api/organizations/[id]/invitations", "regex": "^/api/organizations/([^/]+?)/invitations(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/api/organizations/(?<nxtPid>[^/]+?)/invitations(?:/)?$" }, { "page": "/api/organizations/[id]/invitations/[invitationId]", "regex": "^/api/organizations/([^/]+?)/invitations/([^/]+?)(?:/)?$", "routeKeys": { "nxtPid": "nxtPid", "nxtPinvitationId": "nxtPinvitationId" }, "namedRegex": "^/api/organizations/(?<nxtPid>[^/]+?)/invitations/(?<nxtPinvitationId>[^/]+?)(?:/)?$" }, { "page": "/api/organizations/[id]/invite", "regex": "^/api/organizations/([^/]+?)/invite(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/api/organizations/(?<nxtPid>[^/]+?)/invite(?:/)?$" }, { "page": "/api/organizations/[id]/join", "regex": "^/api/organizations/([^/]+?)/join(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/api/organizations/(?<nxtPid>[^/]+?)/join(?:/)?$" }, { "page": "/api/organizations/[id]/request", "regex": "^/api/organizations/([^/]+?)/request(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/api/organizations/(?<nxtPid>[^/]+?)/request(?:/)?$" }, { "page": "/api/organizations/[id]/requests", "regex": "^/api/organizations/([^/]+?)/requests(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/api/organizations/(?<nxtPid>[^/]+?)/requests(?:/)?$" }, { "page": "/api/organizations/[id]/requests/[requestId]", "regex": "^/api/organizations/([^/]+?)/requests/([^/]+?)(?:/)?$", "routeKeys": { "nxtPid": "nxtPid", "nxtPrequestId": "nxtPrequestId" }, "namedRegex": "^/api/organizations/(?<nxtPid>[^/]+?)/requests/(?<nxtPrequestId>[^/]+?)(?:/)?$" }, { "page": "/api/programs/[id]", "regex": "^/api/programs/([^/]+?)(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/api/programs/(?<nxtPid>[^/]+?)(?:/)?$" }, { "page": "/api/users/[id]", "regex": "^/api/users/([^/]+?)(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/api/users/(?<nxtPid>[^/]+?)(?:/)?$" }, { "page": "/api/users/[id]/profile", "regex": "^/api/users/([^/]+?)/profile(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/api/users/(?<nxtPid>[^/]+?)/profile(?:/)?$" }, { "page": "/api/workout-sessions/users/[userId]", "regex": "^/api/workout\\-sessions/users/([^/]+?)(?:/)?$", "routeKeys": { "nxtPuserId": "nxtPuserId" }, "namedRegex": "^/api/workout\\-sessions/users/(?<nxtPuserId>[^/]+?)(?:/)?$" }, { "page": "/api/workout-sessions/users/[userId]/stats", "regex": "^/api/workout\\-sessions/users/([^/]+?)/stats(?:/)?$", "routeKeys": { "nxtPuserId": "nxtPuserId" }, "namedRegex": "^/api/workout\\-sessions/users/(?<nxtPuserId>[^/]+?)/stats(?:/)?$" }, { "page": "/dashboard/assistants/[id]/chat", "regex": "^/dashboard/assistants/([^/]+?)/chat(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/dashboard/assistants/(?<nxtPid>[^/]+?)/chat(?:/)?$" }, { "page": "/dashboard/assistants/[id]/history", "regex": "^/dashboard/assistants/([^/]+?)/history(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/dashboard/assistants/(?<nxtPid>[^/]+?)/history(?:/)?$" }, { "page": "/dashboard/clients/[id]/follow-up", "regex": "^/dashboard/clients/([^/]+?)/follow\\-up(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/dashboard/clients/(?<nxtPid>[^/]+?)/follow\\-up(?:/)?$" }, { "page": "/dashboard/clients/[id]/measurements", "regex": "^/dashboard/clients/([^/]+?)/measurements(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/dashboard/clients/(?<nxtPid>[^/]+?)/measurements(?:/)?$" }, { "page": "/dashboard/clients/[id]/sessions", "regex": "^/dashboard/clients/([^/]+?)/sessions(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/dashboard/clients/(?<nxtPid>[^/]+?)/sessions(?:/)?$" }, { "page": "/dashboard/organizations/[id]", "regex": "^/dashboard/organizations/([^/]+?)(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/dashboard/organizations/(?<nxtPid>[^/]+?)(?:/)?$" }, { "page": "/dashboard/programs/[id]", "regex": "^/dashboard/programs/([^/]+?)(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/dashboard/programs/(?<nxtPid>[^/]+?)(?:/)?$" }, { "page": "/dashboard/programs/[id]/edit", "regex": "^/dashboard/programs/([^/]+?)/edit(?:/)?$", "routeKeys": { "nxtPid": "nxtPid" }, "namedRegex": "^/dashboard/programs/(?<nxtPid>[^/]+?)/edit(?:/)?$" }], "data": { "static": [], "dynamic": [] } }, "locales": [] };
 var ConfigHeaders = [];
 var PrerenderManifest = { "version": 4, "routes": { "/_global-error": { "experimentalBypassFor": [{ "type": "header", "key": "next-action" }, { "type": "header", "key": "content-type", "value": "multipart/form-data;.*" }], "initialRevalidateSeconds": false, "srcRoute": "/_global-error", "dataRoute": "/_global-error.rsc", "prefetchDataRoute": null, "allowHeader": ["host", "x-matched-path", "x-prerender-revalidate", "x-prerender-revalidate-if-generated", "x-next-revalidated-tags", "x-next-revalidate-tag-token"] }, "/favicon.ico": { "initialHeaders": { "cache-control": "public, max-age=0, must-revalidate", "content-type": "image/x-icon", "x-next-cache-tags": "_N_T_/layout,_N_T_/favicon.ico/layout,_N_T_/favicon.ico/route,_N_T_/favicon.ico" }, "experimentalBypassFor": [{ "type": "header", "key": "next-action" }, { "type": "header", "key": "content-type", "value": "multipart/form-data;.*" }], "initialRevalidateSeconds": false, "srcRoute": "/favicon.ico", "dataRoute": null, "prefetchDataRoute": null, "allowHeader": ["host", "x-matched-path", "x-prerender-revalidate", "x-prerender-revalidate-if-generated", "x-next-revalidated-tags", "x-next-revalidate-tag-token"] } }, "dynamicRoutes": {}, "notFoundRoutes": [], "preview": { "previewModeId": "c4c3d0ef1339e09e41bad08580252e0e", "previewModeSigningKey": "4b5d650411df94ae78227660bf3b123420646615d2ce13334574929655801c69", "previewModeEncryptionKey": "fc657dccdb5e63a865320a3cdffb246e2d3e98fb64d9e1d6577ec34cb0d35c21" } };
-var MiddlewareManifest = { "version": 3, "middleware": { "/": { "files": ["server/edge/chunks/[root-of-the-server]__ad53bf88._.js", "server/edge/chunks/node_modules_next_dist_82203b28._.js", "server/edge/chunks/node_modules_91242dc2._.js", "server/edge/chunks/_74669f4d._.js", "server/edge/chunks/turbopack-edge-wrapper_7b27dc96.js"], "name": "middleware", "page": "/", "matchers": [{ "regexp": "^(?:\\/(_next\\/data\\/[^/]{1,}))?(?:\\/((?!_next\\/static|_next\\/image|favicon.ico|sitemap.xml|robots.txt).*))(\\\\.json)?[\\/#\\?]?$", "originalSource": "/((?!_next/static|_next/image|favicon.ico|sitemap.xml|robots.txt).*)" }], "wasm": [], "assets": [], "env": { "__NEXT_BUILD_ID": "dlAoypti2Hm3aXb0sWOI7", "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "EgmNF13NUN/tapjpWa4t5P23JF2yT5XlzGtTzpfMq08=", "__NEXT_PREVIEW_MODE_ID": "c4c3d0ef1339e09e41bad08580252e0e", "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "fc657dccdb5e63a865320a3cdffb246e2d3e98fb64d9e1d6577ec34cb0d35c21", "__NEXT_PREVIEW_MODE_SIGNING_KEY": "4b5d650411df94ae78227660bf3b123420646615d2ce13334574929655801c69" } } }, "sortedMiddleware": ["/"], "functions": { "/api/coaching/[organizationId]/analyze-program/route": { "files": ["server/middleware-build-manifest.js", "server/interception-route-rewrite-manifest.js", "server/server-reference-manifest.js", "server/app/api/coaching/[organizationId]/analyze-program/route_client-reference-manifest.js", "server/edge/chunks/ce889_server_app_api_coaching_[organizationId]_analyze-program_route_actions_a4321d20.js", "server/edge/chunks/[root-of-the-server]__1d278b79._.js", "server/edge/chunks/node_modules_next_dist_1ee357a9._.js", "server/edge/chunks/turbopack-edge-wrapper_014b09da.js"], "name": "app/api/coaching/[organizationId]/analyze-program/route", "page": "/api/coaching/[organizationId]/analyze-program/route", "matchers": [{ "regexp": "^/api/coaching/(?P<nxtPorganizationId>[^/]+?)/analyze-program(?:/)?$", "originalSource": "/api/coaching/[organizationId]/analyze-program" }], "wasm": [], "assets": [], "env": { "__NEXT_BUILD_ID": "dlAoypti2Hm3aXb0sWOI7", "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "EgmNF13NUN/tapjpWa4t5P23JF2yT5XlzGtTzpfMq08=", "__NEXT_PREVIEW_MODE_ID": "c4c3d0ef1339e09e41bad08580252e0e", "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "fc657dccdb5e63a865320a3cdffb246e2d3e98fb64d9e1d6577ec34cb0d35c21", "__NEXT_PREVIEW_MODE_SIGNING_KEY": "4b5d650411df94ae78227660bf3b123420646615d2ce13334574929655801c69" } }, "/api/coaching/[organizationId]/notes/route": { "files": ["server/middleware-build-manifest.js", "server/interception-route-rewrite-manifest.js", "server/server-reference-manifest.js", "server/app/api/coaching/[organizationId]/notes/route_client-reference-manifest.js", "server/edge/chunks/ce889_server_app_api_coaching_[organizationId]_notes_route_actions_32f431c1.js", "server/edge/chunks/[root-of-the-server]__a59c03e7._.js", "server/edge/chunks/node_modules_next_dist_1ee357a9._.js", "server/edge/chunks/turbopack-edge-wrapper_3080243d.js"], "name": "app/api/coaching/[organizationId]/notes/route", "page": "/api/coaching/[organizationId]/notes/route", "matchers": [{ "regexp": "^/api/coaching/(?P<nxtPorganizationId>[^/]+?)/notes(?:/)?$", "originalSource": "/api/coaching/[organizationId]/notes" }], "wasm": [], "assets": [], "env": { "__NEXT_BUILD_ID": "dlAoypti2Hm3aXb0sWOI7", "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "EgmNF13NUN/tapjpWa4t5P23JF2yT5XlzGtTzpfMq08=", "__NEXT_PREVIEW_MODE_ID": "c4c3d0ef1339e09e41bad08580252e0e", "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "fc657dccdb5e63a865320a3cdffb246e2d3e98fb64d9e1d6577ec34cb0d35c21", "__NEXT_PREVIEW_MODE_SIGNING_KEY": "4b5d650411df94ae78227660bf3b123420646615d2ce13334574929655801c69" } }, "/api/exercises/grouped/route": { "files": ["server/middleware-build-manifest.js", "server/interception-route-rewrite-manifest.js", "server/server-reference-manifest.js", "server/app/api/exercises/grouped/route_client-reference-manifest.js", "server/edge/chunks/_next-internal_server_app_api_exercises_grouped_route_actions_1849a913.js", "server/edge/chunks/[root-of-the-server]__77347e06._.js", "server/edge/chunks/node_modules_next_dist_1ee357a9._.js", "server/edge/chunks/turbopack-edge-wrapper_d6a55f5b.js"], "name": "app/api/exercises/grouped/route", "page": "/api/exercises/grouped/route", "matchers": [{ "regexp": "^/api/exercises/grouped(?:/)?$", "originalSource": "/api/exercises/grouped" }], "wasm": [], "assets": [], "env": { "__NEXT_BUILD_ID": "dlAoypti2Hm3aXb0sWOI7", "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "EgmNF13NUN/tapjpWa4t5P23JF2yT5XlzGtTzpfMq08=", "__NEXT_PREVIEW_MODE_ID": "c4c3d0ef1339e09e41bad08580252e0e", "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "fc657dccdb5e63a865320a3cdffb246e2d3e98fb64d9e1d6577ec34cb0d35c21", "__NEXT_PREVIEW_MODE_SIGNING_KEY": "4b5d650411df94ae78227660bf3b123420646615d2ce13334574929655801c69" } }, "/api/exercises/route": { "files": ["server/middleware-build-manifest.js", "server/interception-route-rewrite-manifest.js", "server/server-reference-manifest.js", "server/app/api/exercises/route_client-reference-manifest.js", "server/edge/chunks/_next-internal_server_app_api_exercises_route_actions_5910f22c.js", "server/edge/chunks/[root-of-the-server]__c5534fee._.js", "server/edge/chunks/node_modules_next_dist_1ee357a9._.js", "server/edge/chunks/turbopack-edge-wrapper_34109ab3.js"], "name": "app/api/exercises/route", "page": "/api/exercises/route", "matchers": [{ "regexp": "^/api/exercises(?:/)?$", "originalSource": "/api/exercises" }], "wasm": [], "assets": [], "env": { "__NEXT_BUILD_ID": "dlAoypti2Hm3aXb0sWOI7", "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "EgmNF13NUN/tapjpWa4t5P23JF2yT5XlzGtTzpfMq08=", "__NEXT_PREVIEW_MODE_ID": "c4c3d0ef1339e09e41bad08580252e0e", "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "fc657dccdb5e63a865320a3cdffb246e2d3e98fb64d9e1d6577ec34cb0d35c21", "__NEXT_PREVIEW_MODE_SIGNING_KEY": "4b5d650411df94ae78227660bf3b123420646615d2ce13334574929655801c69" } }, "/api/logout/route": { "files": ["server/middleware-build-manifest.js", "server/interception-route-rewrite-manifest.js", "server/server-reference-manifest.js", "server/app/api/logout/route_client-reference-manifest.js", "server/edge/chunks/_next-internal_server_app_api_logout_route_actions_ef40b8fa.js", "server/edge/chunks/[root-of-the-server]__608b62e5._.js", "server/edge/chunks/node_modules_next_dist_1ee357a9._.js", "server/edge/chunks/turbopack-edge-wrapper_b07ccfb4.js"], "name": "app/api/logout/route", "page": "/api/logout/route", "matchers": [{ "regexp": "^/api/logout(?:/)?$", "originalSource": "/api/logout" }], "wasm": [], "assets": [], "env": { "__NEXT_BUILD_ID": "dlAoypti2Hm3aXb0sWOI7", "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "EgmNF13NUN/tapjpWa4t5P23JF2yT5XlzGtTzpfMq08=", "__NEXT_PREVIEW_MODE_ID": "c4c3d0ef1339e09e41bad08580252e0e", "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "fc657dccdb5e63a865320a3cdffb246e2d3e98fb64d9e1d6577ec34cb0d35c21", "__NEXT_PREVIEW_MODE_SIGNING_KEY": "4b5d650411df94ae78227660bf3b123420646615d2ce13334574929655801c69" } }, "/api/measurements/users/[userId]/route": { "files": ["server/middleware-build-manifest.js", "server/interception-route-rewrite-manifest.js", "server/server-reference-manifest.js", "server/app/api/measurements/users/[userId]/route_client-reference-manifest.js", "server/edge/chunks/_next-internal_server_app_api_measurements_users_[userId]_route_actions_a19f00c0.js", "server/edge/chunks/[root-of-the-server]__c127b6d4._.js", "server/edge/chunks/node_modules_next_dist_1ee357a9._.js", "server/edge/chunks/turbopack-edge-wrapper_c5a226f5.js"], "name": "app/api/measurements/users/[userId]/route", "page": "/api/measurements/users/[userId]/route", "matchers": [{ "regexp": "^/api/measurements/users/(?P<nxtPuserId>[^/]+?)(?:/)?$", "originalSource": "/api/measurements/users/[userId]" }], "wasm": [], "assets": [], "env": { "__NEXT_BUILD_ID": "dlAoypti2Hm3aXb0sWOI7", "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "EgmNF13NUN/tapjpWa4t5P23JF2yT5XlzGtTzpfMq08=", "__NEXT_PREVIEW_MODE_ID": "c4c3d0ef1339e09e41bad08580252e0e", "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "fc657dccdb5e63a865320a3cdffb246e2d3e98fb64d9e1d6577ec34cb0d35c21", "__NEXT_PREVIEW_MODE_SIGNING_KEY": "4b5d650411df94ae78227660bf3b123420646615d2ce13334574929655801c69" } }, "/api/measurements/users/[userId]/stats/route": { "files": ["server/middleware-build-manifest.js", "server/interception-route-rewrite-manifest.js", "server/server-reference-manifest.js", "server/app/api/measurements/users/[userId]/stats/route_client-reference-manifest.js", "server/edge/chunks/ce889_server_app_api_measurements_users_[userId]_stats_route_actions_294c7d70.js", "server/edge/chunks/[root-of-the-server]__b15a0072._.js", "server/edge/chunks/node_modules_next_dist_1ee357a9._.js", "server/edge/chunks/turbopack-edge-wrapper_153819ee.js"], "name": "app/api/measurements/users/[userId]/stats/route", "page": "/api/measurements/users/[userId]/stats/route", "matchers": [{ "regexp": "^/api/measurements/users/(?P<nxtPuserId>[^/]+?)/stats(?:/)?$", "originalSource": "/api/measurements/users/[userId]/stats" }], "wasm": [], "assets": [], "env": { "__NEXT_BUILD_ID": "dlAoypti2Hm3aXb0sWOI7", "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "EgmNF13NUN/tapjpWa4t5P23JF2yT5XlzGtTzpfMq08=", "__NEXT_PREVIEW_MODE_ID": "c4c3d0ef1339e09e41bad08580252e0e", "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "fc657dccdb5e63a865320a3cdffb246e2d3e98fb64d9e1d6577ec34cb0d35c21", "__NEXT_PREVIEW_MODE_SIGNING_KEY": "4b5d650411df94ae78227660bf3b123420646615d2ce13334574929655801c69" } }, "/api/public/stats/route": { "files": ["server/middleware-build-manifest.js", "server/interception-route-rewrite-manifest.js", "server/server-reference-manifest.js", "server/app/api/public/stats/route_client-reference-manifest.js", "server/edge/chunks/_next-internal_server_app_api_public_stats_route_actions_76f89835.js", "server/edge/chunks/[root-of-the-server]__0b003bdf._.js", "server/edge/chunks/node_modules_next_dist_1ee357a9._.js", "server/edge/chunks/_514b03cf._.js", "server/edge/chunks/turbopack-edge-wrapper_31223102.js"], "name": "app/api/public/stats/route", "page": "/api/public/stats/route", "matchers": [{ "regexp": "^/api/public/stats(?:/)?$", "originalSource": "/api/public/stats" }], "wasm": [{ "name": "wasm_5ff7258941bdfe0f", "filePath": "server/edge/chunks/node_modules__prisma_client_query_engine_bg_23ace1ce.wasm" }], "assets": [], "env": { "__NEXT_BUILD_ID": "dlAoypti2Hm3aXb0sWOI7", "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "EgmNF13NUN/tapjpWa4t5P23JF2yT5XlzGtTzpfMq08=", "__NEXT_PREVIEW_MODE_ID": "c4c3d0ef1339e09e41bad08580252e0e", "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "fc657dccdb5e63a865320a3cdffb246e2d3e98fb64d9e1d6577ec34cb0d35c21", "__NEXT_PREVIEW_MODE_SIGNING_KEY": "4b5d650411df94ae78227660bf3b123420646615d2ce13334574929655801c69" } }, "/api/stripe/webhook/route": { "files": ["server/middleware-build-manifest.js", "server/interception-route-rewrite-manifest.js", "server/server-reference-manifest.js", "server/app/api/stripe/webhook/route_client-reference-manifest.js", "server/edge/chunks/_next-internal_server_app_api_stripe_webhook_route_actions_371d5332.js", "server/edge/chunks/[root-of-the-server]__bafad193._.js", "server/edge/chunks/_514b03cf._.js", "server/edge/chunks/node_modules_next_dist_1ee357a9._.js", "server/edge/chunks/node_modules_d9643d43._.js", "server/edge/chunks/turbopack-edge-wrapper_5639d93a.js"], "name": "app/api/stripe/webhook/route", "page": "/api/stripe/webhook/route", "matchers": [{ "regexp": "^/api/stripe/webhook(?:/)?$", "originalSource": "/api/stripe/webhook" }], "wasm": [{ "name": "wasm_5ff7258941bdfe0f", "filePath": "server/edge/chunks/node_modules__prisma_client_query_engine_bg_23ace1ce.wasm" }], "assets": [], "env": { "__NEXT_BUILD_ID": "dlAoypti2Hm3aXb0sWOI7", "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "EgmNF13NUN/tapjpWa4t5P23JF2yT5XlzGtTzpfMq08=", "__NEXT_PREVIEW_MODE_ID": "c4c3d0ef1339e09e41bad08580252e0e", "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "fc657dccdb5e63a865320a3cdffb246e2d3e98fb64d9e1d6577ec34cb0d35c21", "__NEXT_PREVIEW_MODE_SIGNING_KEY": "4b5d650411df94ae78227660bf3b123420646615d2ce13334574929655801c69" } }, "/api/workout-sessions/users/[userId]/route": { "files": ["server/middleware-build-manifest.js", "server/interception-route-rewrite-manifest.js", "server/server-reference-manifest.js", "server/app/api/workout-sessions/users/[userId]/route_client-reference-manifest.js", "server/edge/chunks/ce889_server_app_api_workout-sessions_users_[userId]_route_actions_f65fde18.js", "server/edge/chunks/[root-of-the-server]__059d4b9f._.js", "server/edge/chunks/node_modules_next_dist_1ee357a9._.js", "server/edge/chunks/turbopack-edge-wrapper_42ff7551.js"], "name": "app/api/workout-sessions/users/[userId]/route", "page": "/api/workout-sessions/users/[userId]/route", "matchers": [{ "regexp": "^/api/workout-sessions/users/(?P<nxtPuserId>[^/]+?)(?:/)?$", "originalSource": "/api/workout-sessions/users/[userId]" }], "wasm": [], "assets": [], "env": { "__NEXT_BUILD_ID": "dlAoypti2Hm3aXb0sWOI7", "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "EgmNF13NUN/tapjpWa4t5P23JF2yT5XlzGtTzpfMq08=", "__NEXT_PREVIEW_MODE_ID": "c4c3d0ef1339e09e41bad08580252e0e", "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "fc657dccdb5e63a865320a3cdffb246e2d3e98fb64d9e1d6577ec34cb0d35c21", "__NEXT_PREVIEW_MODE_SIGNING_KEY": "4b5d650411df94ae78227660bf3b123420646615d2ce13334574929655801c69" } }, "/api/workout-sessions/users/[userId]/stats/route": { "files": ["server/middleware-build-manifest.js", "server/interception-route-rewrite-manifest.js", "server/server-reference-manifest.js", "server/app/api/workout-sessions/users/[userId]/stats/route_client-reference-manifest.js", "server/edge/chunks/ce889_server_app_api_workout-sessions_users_[userId]_stats_route_actions_a1ea547f.js", "server/edge/chunks/[root-of-the-server]__f11cc950._.js", "server/edge/chunks/node_modules_next_dist_1ee357a9._.js", "server/edge/chunks/turbopack-edge-wrapper_ce07318e.js"], "name": "app/api/workout-sessions/users/[userId]/stats/route", "page": "/api/workout-sessions/users/[userId]/stats/route", "matchers": [{ "regexp": "^/api/workout-sessions/users/(?P<nxtPuserId>[^/]+?)/stats(?:/)?$", "originalSource": "/api/workout-sessions/users/[userId]/stats" }], "wasm": [], "assets": [], "env": { "__NEXT_BUILD_ID": "dlAoypti2Hm3aXb0sWOI7", "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "EgmNF13NUN/tapjpWa4t5P23JF2yT5XlzGtTzpfMq08=", "__NEXT_PREVIEW_MODE_ID": "c4c3d0ef1339e09e41bad08580252e0e", "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "fc657dccdb5e63a865320a3cdffb246e2d3e98fb64d9e1d6577ec34cb0d35c21", "__NEXT_PREVIEW_MODE_SIGNING_KEY": "4b5d650411df94ae78227660bf3b123420646615d2ce13334574929655801c69" } }, "/dashboard/subscription/page": { "files": ["server/middleware-build-manifest.js", "server/interception-route-rewrite-manifest.js", "server/next-font-manifest.js", "server/server-reference-manifest.js", "server/edge/chunks/ssr/node_modules_next_dist_esm_c00b1214._.js", "server/edge/chunks/ssr/node_modules_25f7ace7._.js", "server/edge/chunks/ssr/node_modules_next_dist_7f07cde4._.js", "server/edge/chunks/ssr/node_modules_next_dist_esm_f49f2b82._.js", "server/edge/chunks/ssr/node_modules_next_dist_esm_e5eeb198._.js", "server/edge/chunks/ssr/node_modules_next_dist_4be51fa8._.js", "server/edge/chunks/ssr/_97fb8d0f._.js", "server/edge/chunks/ssr/node_modules_6bd593ec._.js", "server/edge/chunks/ssr/node_modules_bae079aa._.js", "server/edge/chunks/ssr/_08e2b131._.js", "server/edge/chunks/ssr/node_modules_next_dist_41c11b27._.js", "server/edge/chunks/ssr/node_modules_next_dist_esm_72fd41e8._.js", "server/edge/chunks/ssr/node_modules_next_dist_esm_82294b61._.js", "server/edge/chunks/ssr/node_modules_next_dist_esm_dd9bd04d._.js", "server/edge/chunks/ssr/_021848b5._.js", "server/edge/chunks/ssr/_838b99d6._.js", "server/edge/chunks/ssr/app_dashboard_subscription_subscription-content_tsx_d22a83a4._.js", "server/app/dashboard/subscription/page_client-reference-manifest.js", "server/edge/chunks/ssr/_next-internal_server_app_dashboard_subscription_page_actions_3ece0863.js", "server/edge/chunks/ssr/node_modules_next_dist_esm_22086735._.js", "server/edge/chunks/ssr/node_modules_next_dist_esm_94ba665d._.js", "server/edge/chunks/ssr/node_modules_8a63ea84._.js", "server/edge/chunks/ssr/node_modules_ce586a77._.js", "server/edge/chunks/ssr/node_modules_next_dist_esm_18bd30a1._.js", "server/edge/chunks/ssr/[root-of-the-server]__4be8a7d0._.js", "server/edge/chunks/ssr/node_modules_next_dist_11e13324._.js", "server/edge/chunks/ssr/node_modules_next_dist_339889d6._.js", "server/edge/chunks/ssr/node_modules_next_dist_a982dfac._.js", "server/edge/chunks/ssr/_713d0f81._.js", "server/edge/chunks/ssr/node_modules_next_dist_compiled_2adaed9e._.js", "server/edge/chunks/ssr/node_modules_next_dist_9e149d85._.js", "server/edge/chunks/ssr/node_modules_next_dist_esm_d627f0c8._.js", "server/edge/chunks/ssr/_48b0f63a._.js", "server/edge/chunks/ssr/[root-of-the-server]__c7f19159._.js", "server/edge/chunks/ssr/turbopack-edge-wrapper_1b74ec03.js", "server/app/dashboard/subscription/page/react-loadable-manifest.js"], "name": "app/dashboard/subscription/page", "page": "/dashboard/subscription/page", "matchers": [{ "regexp": "^/dashboard/subscription(?:/)?$", "originalSource": "/dashboard/subscription" }], "wasm": [{ "name": "wasm_5ff7258941bdfe0f", "filePath": "server/edge/chunks/ssr/node_modules__prisma_client_query_engine_bg_23ace1ce.wasm" }], "assets": [], "env": { "__NEXT_BUILD_ID": "dlAoypti2Hm3aXb0sWOI7", "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "EgmNF13NUN/tapjpWa4t5P23JF2yT5XlzGtTzpfMq08=", "__NEXT_PREVIEW_MODE_ID": "c4c3d0ef1339e09e41bad08580252e0e", "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "fc657dccdb5e63a865320a3cdffb246e2d3e98fb64d9e1d6577ec34cb0d35c21", "__NEXT_PREVIEW_MODE_SIGNING_KEY": "4b5d650411df94ae78227660bf3b123420646615d2ce13334574929655801c69" } } } };
-var AppPathRoutesManifest = { "/_global-error/page": "/_global-error", "/_not-found/page": "/_not-found", "/api/admin/pros/[id]/approve/route": "/api/admin/pros/[id]/approve", "/api/admin/pros/[id]/reject/route": "/api/admin/pros/[id]/reject", "/api/admin/pros/route": "/api/admin/pros", "/api/agents/[id]/route": "/api/agents/[id]", "/api/agents/[id]/sessions/route": "/api/agents/[id]/sessions", "/api/agents/init/route": "/api/agents/init", "/api/agents/route": "/api/agents", "/api/auth/setup-role/route": "/api/auth/setup-role", "/api/auth/sync/route": "/api/auth/sync", "/api/auth/user/route": "/api/auth/user", "/api/baseten/generate/route": "/api/baseten/generate", "/api/chats/[id]/messages/route": "/api/chats/[id]/messages", "/api/chats/[id]/read/route": "/api/chats/[id]/read", "/api/chats/[id]/route": "/api/chats/[id]", "/api/chats/direct/route": "/api/chats/direct", "/api/chats/route": "/api/chats", "/api/clients/route": "/api/clients", "/api/coaching/[organizationId]/analyze-program/route": "/api/coaching/[organizationId]/analyze-program", "/api/coaching/[organizationId]/notes/route": "/api/coaching/[organizationId]/notes", "/api/dashboard/stats/route": "/api/dashboard/stats", "/api/exercises/grouped/route": "/api/exercises/grouped", "/api/exercises/route": "/api/exercises", "/api/invitations/route": "/api/invitations", "/api/logout/route": "/api/logout", "/api/measurements/users/[userId]/route": "/api/measurements/users/[userId]", "/api/measurements/users/[userId]/stats/route": "/api/measurements/users/[userId]/stats", "/api/messages/[id]/read/route": "/api/messages/[id]/read", "/api/organizations/[id]/invitations/[invitationId]/route": "/api/organizations/[id]/invitations/[invitationId]", "/api/organizations/[id]/invitations/route": "/api/organizations/[id]/invitations", "/api/organizations/[id]/invite/route": "/api/organizations/[id]/invite", "/api/organizations/[id]/join/route": "/api/organizations/[id]/join", "/api/organizations/[id]/request/route": "/api/organizations/[id]/request", "/api/organizations/[id]/requests/[requestId]/route": "/api/organizations/[id]/requests/[requestId]", "/api/organizations/[id]/requests/route": "/api/organizations/[id]/requests", "/api/organizations/[id]/route": "/api/organizations/[id]", "/api/organizations/public/route": "/api/organizations/public", "/api/organizations/route": "/api/organizations", "/api/programs/[id]/route": "/api/programs/[id]", "/api/programs/migrate/route": "/api/programs/migrate", "/api/programs/route": "/api/programs", "/api/public/stats/route": "/api/public/stats", "/api/requests/route": "/api/requests", "/api/stripe/create-checkout/route": "/api/stripe/create-checkout", "/api/stripe/create-portal/route": "/api/stripe/create-portal", "/api/stripe/invoices/route": "/api/stripe/invoices", "/api/stripe/webhook/route": "/api/stripe/webhook", "/api/subscription/route": "/api/subscription", "/api/subscription/sync/route": "/api/subscription/sync", "/api/users/[id]/profile/route": "/api/users/[id]/profile", "/api/users/[id]/route": "/api/users/[id]", "/api/users/route": "/api/users", "/api/workout-sessions/users/[userId]/route": "/api/workout-sessions/users/[userId]", "/api/workout-sessions/users/[userId]/stats/route": "/api/workout-sessions/users/[userId]/stats", "/dashboard/admin/organizations/page": "/dashboard/admin/organizations", "/dashboard/admin/pros/page": "/dashboard/admin/pros", "/dashboard/admin/users/page": "/dashboard/admin/users", "/dashboard/assistants/[id]/chat/page": "/dashboard/assistants/[id]/chat", "/dashboard/assistants/[id]/history/page": "/dashboard/assistants/[id]/history", "/dashboard/assistants/page": "/dashboard/assistants", "/dashboard/calculators/page": "/dashboard/calculators", "/dashboard/clients/[id]/follow-up/page": "/dashboard/clients/[id]/follow-up", "/dashboard/clients/[id]/measurements/page": "/dashboard/clients/[id]/measurements", "/dashboard/clients/[id]/sessions/page": "/dashboard/clients/[id]/sessions", "/dashboard/clients/page": "/dashboard/clients", "/dashboard/messaging/page": "/dashboard/messaging", "/dashboard/nutrition/page": "/dashboard/nutrition", "/dashboard/organizations/[id]/page": "/dashboard/organizations/[id]", "/dashboard/organizations/migrate/page": "/dashboard/organizations/migrate", "/dashboard/organizations/page": "/dashboard/organizations", "/dashboard/organizations/user/page": "/dashboard/organizations/user", "/dashboard/page": "/dashboard", "/dashboard/profile/page": "/dashboard/profile", "/dashboard/programs/[id]/edit/page": "/dashboard/programs/[id]/edit", "/dashboard/programs/[id]/page": "/dashboard/programs/[id]", "/dashboard/programs/builder/page": "/dashboard/programs/builder", "/dashboard/programs/page": "/dashboard/programs", "/dashboard/subscription/page": "/dashboard/subscription", "/dashboard/trainings/page": "/dashboard/trainings", "/favicon.ico/route": "/favicon.ico", "/legal/cgv/page": "/legal/cgv", "/legal/mentions/page": "/legal/mentions", "/legal/privacy/page": "/legal/privacy", "/legal/termination/page": "/legal/termination", "/legal/terms/page": "/legal/terms", "/logout/page": "/logout", "/page": "/", "/signup/page": "/signup" };
-var FunctionsConfigManifest = { "version": 1, "functions": { "/api/coaching/[organizationId]/analyze-program": {}, "/api/coaching/[organizationId]/notes": {}, "/api/exercises/grouped": {}, "/api/exercises": {}, "/api/measurements/users/[userId]/stats": {}, "/api/measurements/users/[userId]": {}, "/api/logout": {}, "/api/public/stats": {}, "/api/stripe/webhook": {}, "/api/workout-sessions/users/[userId]": {}, "/api/workout-sessions/users/[userId]/stats": {}, "/dashboard/subscription": {} } };
+var MiddlewareManifest = { "version": 3, "middleware": { "/": { "files": ["server/edge/chunks/[root-of-the-server]__ad53bf88._.js", "server/edge/chunks/node_modules_next_dist_82203b28._.js", "server/edge/chunks/node_modules_91242dc2._.js", "server/edge/chunks/_74669f4d._.js", "server/edge/chunks/turbopack-edge-wrapper_7b27dc96.js"], "name": "middleware", "page": "/", "matchers": [{ "regexp": "^(?:\\/(_next\\/data\\/[^/]{1,}))?(?:\\/((?!_next\\/static|_next\\/image|favicon.ico|sitemap.xml|robots.txt).*))(\\\\.json)?[\\/#\\?]?$", "originalSource": "/((?!_next/static|_next/image|favicon.ico|sitemap.xml|robots.txt).*)" }], "wasm": [], "assets": [], "env": { "__NEXT_BUILD_ID": "ju0tWlgh9eQwl-s4yWxD7", "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "EgmNF13NUN/tapjpWa4t5P23JF2yT5XlzGtTzpfMq08=", "__NEXT_PREVIEW_MODE_ID": "c4c3d0ef1339e09e41bad08580252e0e", "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "fc657dccdb5e63a865320a3cdffb246e2d3e98fb64d9e1d6577ec34cb0d35c21", "__NEXT_PREVIEW_MODE_SIGNING_KEY": "4b5d650411df94ae78227660bf3b123420646615d2ce13334574929655801c69" } } }, "sortedMiddleware": ["/"], "functions": { "/api/coaching/[organizationId]/analyze-program/route": { "files": ["server/middleware-build-manifest.js", "server/interception-route-rewrite-manifest.js", "server/server-reference-manifest.js", "server/app/api/coaching/[organizationId]/analyze-program/route_client-reference-manifest.js", "server/edge/chunks/ce889_server_app_api_coaching_[organizationId]_analyze-program_route_actions_a4321d20.js", "server/edge/chunks/[root-of-the-server]__1d278b79._.js", "server/edge/chunks/node_modules_next_dist_f1acf56c._.js", "server/edge/chunks/turbopack-edge-wrapper_4c9f4d91.js"], "name": "app/api/coaching/[organizationId]/analyze-program/route", "page": "/api/coaching/[organizationId]/analyze-program/route", "matchers": [{ "regexp": "^/api/coaching/(?P<nxtPorganizationId>[^/]+?)/analyze-program(?:/)?$", "originalSource": "/api/coaching/[organizationId]/analyze-program" }], "wasm": [], "assets": [], "env": { "__NEXT_BUILD_ID": "ju0tWlgh9eQwl-s4yWxD7", "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "EgmNF13NUN/tapjpWa4t5P23JF2yT5XlzGtTzpfMq08=", "__NEXT_PREVIEW_MODE_ID": "c4c3d0ef1339e09e41bad08580252e0e", "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "fc657dccdb5e63a865320a3cdffb246e2d3e98fb64d9e1d6577ec34cb0d35c21", "__NEXT_PREVIEW_MODE_SIGNING_KEY": "4b5d650411df94ae78227660bf3b123420646615d2ce13334574929655801c69" } }, "/api/coaching/[organizationId]/notes/route": { "files": ["server/middleware-build-manifest.js", "server/interception-route-rewrite-manifest.js", "server/server-reference-manifest.js", "server/app/api/coaching/[organizationId]/notes/route_client-reference-manifest.js", "server/edge/chunks/ce889_server_app_api_coaching_[organizationId]_notes_route_actions_32f431c1.js", "server/edge/chunks/[root-of-the-server]__a59c03e7._.js", "server/edge/chunks/node_modules_next_dist_f1acf56c._.js", "server/edge/chunks/turbopack-edge-wrapper_83ae48b0.js"], "name": "app/api/coaching/[organizationId]/notes/route", "page": "/api/coaching/[organizationId]/notes/route", "matchers": [{ "regexp": "^/api/coaching/(?P<nxtPorganizationId>[^/]+?)/notes(?:/)?$", "originalSource": "/api/coaching/[organizationId]/notes" }], "wasm": [], "assets": [], "env": { "__NEXT_BUILD_ID": "ju0tWlgh9eQwl-s4yWxD7", "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "EgmNF13NUN/tapjpWa4t5P23JF2yT5XlzGtTzpfMq08=", "__NEXT_PREVIEW_MODE_ID": "c4c3d0ef1339e09e41bad08580252e0e", "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "fc657dccdb5e63a865320a3cdffb246e2d3e98fb64d9e1d6577ec34cb0d35c21", "__NEXT_PREVIEW_MODE_SIGNING_KEY": "4b5d650411df94ae78227660bf3b123420646615d2ce13334574929655801c69" } }, "/api/exercises/grouped/route": { "files": ["server/middleware-build-manifest.js", "server/interception-route-rewrite-manifest.js", "server/server-reference-manifest.js", "server/app/api/exercises/grouped/route_client-reference-manifest.js", "server/edge/chunks/_next-internal_server_app_api_exercises_grouped_route_actions_1849a913.js", "server/edge/chunks/[root-of-the-server]__77347e06._.js", "server/edge/chunks/node_modules_next_dist_f1acf56c._.js", "server/edge/chunks/turbopack-edge-wrapper_121bd2b1.js"], "name": "app/api/exercises/grouped/route", "page": "/api/exercises/grouped/route", "matchers": [{ "regexp": "^/api/exercises/grouped(?:/)?$", "originalSource": "/api/exercises/grouped" }], "wasm": [], "assets": [], "env": { "__NEXT_BUILD_ID": "ju0tWlgh9eQwl-s4yWxD7", "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "EgmNF13NUN/tapjpWa4t5P23JF2yT5XlzGtTzpfMq08=", "__NEXT_PREVIEW_MODE_ID": "c4c3d0ef1339e09e41bad08580252e0e", "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "fc657dccdb5e63a865320a3cdffb246e2d3e98fb64d9e1d6577ec34cb0d35c21", "__NEXT_PREVIEW_MODE_SIGNING_KEY": "4b5d650411df94ae78227660bf3b123420646615d2ce13334574929655801c69" } }, "/api/exercises/route": { "files": ["server/middleware-build-manifest.js", "server/interception-route-rewrite-manifest.js", "server/server-reference-manifest.js", "server/app/api/exercises/route_client-reference-manifest.js", "server/edge/chunks/_next-internal_server_app_api_exercises_route_actions_5910f22c.js", "server/edge/chunks/[root-of-the-server]__c5534fee._.js", "server/edge/chunks/node_modules_next_dist_f1acf56c._.js", "server/edge/chunks/turbopack-edge-wrapper_57b84b60.js"], "name": "app/api/exercises/route", "page": "/api/exercises/route", "matchers": [{ "regexp": "^/api/exercises(?:/)?$", "originalSource": "/api/exercises" }], "wasm": [], "assets": [], "env": { "__NEXT_BUILD_ID": "ju0tWlgh9eQwl-s4yWxD7", "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "EgmNF13NUN/tapjpWa4t5P23JF2yT5XlzGtTzpfMq08=", "__NEXT_PREVIEW_MODE_ID": "c4c3d0ef1339e09e41bad08580252e0e", "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "fc657dccdb5e63a865320a3cdffb246e2d3e98fb64d9e1d6577ec34cb0d35c21", "__NEXT_PREVIEW_MODE_SIGNING_KEY": "4b5d650411df94ae78227660bf3b123420646615d2ce13334574929655801c69" } }, "/api/logout/route": { "files": ["server/middleware-build-manifest.js", "server/interception-route-rewrite-manifest.js", "server/server-reference-manifest.js", "server/app/api/logout/route_client-reference-manifest.js", "server/edge/chunks/_next-internal_server_app_api_logout_route_actions_ef40b8fa.js", "server/edge/chunks/[root-of-the-server]__608b62e5._.js", "server/edge/chunks/node_modules_next_dist_f1acf56c._.js", "server/edge/chunks/turbopack-edge-wrapper_2c7f5b71.js"], "name": "app/api/logout/route", "page": "/api/logout/route", "matchers": [{ "regexp": "^/api/logout(?:/)?$", "originalSource": "/api/logout" }], "wasm": [], "assets": [], "env": { "__NEXT_BUILD_ID": "ju0tWlgh9eQwl-s4yWxD7", "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "EgmNF13NUN/tapjpWa4t5P23JF2yT5XlzGtTzpfMq08=", "__NEXT_PREVIEW_MODE_ID": "c4c3d0ef1339e09e41bad08580252e0e", "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "fc657dccdb5e63a865320a3cdffb246e2d3e98fb64d9e1d6577ec34cb0d35c21", "__NEXT_PREVIEW_MODE_SIGNING_KEY": "4b5d650411df94ae78227660bf3b123420646615d2ce13334574929655801c69" } }, "/api/measurements/users/[userId]/route": { "files": ["server/middleware-build-manifest.js", "server/interception-route-rewrite-manifest.js", "server/server-reference-manifest.js", "server/app/api/measurements/users/[userId]/route_client-reference-manifest.js", "server/edge/chunks/_next-internal_server_app_api_measurements_users_[userId]_route_actions_a19f00c0.js", "server/edge/chunks/[root-of-the-server]__c127b6d4._.js", "server/edge/chunks/node_modules_next_dist_f1acf56c._.js", "server/edge/chunks/turbopack-edge-wrapper_759336c5.js"], "name": "app/api/measurements/users/[userId]/route", "page": "/api/measurements/users/[userId]/route", "matchers": [{ "regexp": "^/api/measurements/users/(?P<nxtPuserId>[^/]+?)(?:/)?$", "originalSource": "/api/measurements/users/[userId]" }], "wasm": [], "assets": [], "env": { "__NEXT_BUILD_ID": "ju0tWlgh9eQwl-s4yWxD7", "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "EgmNF13NUN/tapjpWa4t5P23JF2yT5XlzGtTzpfMq08=", "__NEXT_PREVIEW_MODE_ID": "c4c3d0ef1339e09e41bad08580252e0e", "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "fc657dccdb5e63a865320a3cdffb246e2d3e98fb64d9e1d6577ec34cb0d35c21", "__NEXT_PREVIEW_MODE_SIGNING_KEY": "4b5d650411df94ae78227660bf3b123420646615d2ce13334574929655801c69" } }, "/api/measurements/users/[userId]/stats/route": { "files": ["server/middleware-build-manifest.js", "server/interception-route-rewrite-manifest.js", "server/server-reference-manifest.js", "server/app/api/measurements/users/[userId]/stats/route_client-reference-manifest.js", "server/edge/chunks/ce889_server_app_api_measurements_users_[userId]_stats_route_actions_294c7d70.js", "server/edge/chunks/[root-of-the-server]__b15a0072._.js", "server/edge/chunks/node_modules_next_dist_f1acf56c._.js", "server/edge/chunks/turbopack-edge-wrapper_6f039ac8.js"], "name": "app/api/measurements/users/[userId]/stats/route", "page": "/api/measurements/users/[userId]/stats/route", "matchers": [{ "regexp": "^/api/measurements/users/(?P<nxtPuserId>[^/]+?)/stats(?:/)?$", "originalSource": "/api/measurements/users/[userId]/stats" }], "wasm": [], "assets": [], "env": { "__NEXT_BUILD_ID": "ju0tWlgh9eQwl-s4yWxD7", "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "EgmNF13NUN/tapjpWa4t5P23JF2yT5XlzGtTzpfMq08=", "__NEXT_PREVIEW_MODE_ID": "c4c3d0ef1339e09e41bad08580252e0e", "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "fc657dccdb5e63a865320a3cdffb246e2d3e98fb64d9e1d6577ec34cb0d35c21", "__NEXT_PREVIEW_MODE_SIGNING_KEY": "4b5d650411df94ae78227660bf3b123420646615d2ce13334574929655801c69" } }, "/api/workout-sessions/users/[userId]/route": { "files": ["server/middleware-build-manifest.js", "server/interception-route-rewrite-manifest.js", "server/server-reference-manifest.js", "server/app/api/workout-sessions/users/[userId]/route_client-reference-manifest.js", "server/edge/chunks/ce889_server_app_api_workout-sessions_users_[userId]_route_actions_f65fde18.js", "server/edge/chunks/[root-of-the-server]__059d4b9f._.js", "server/edge/chunks/node_modules_next_dist_f1acf56c._.js", "server/edge/chunks/turbopack-edge-wrapper_ab64ffc2.js"], "name": "app/api/workout-sessions/users/[userId]/route", "page": "/api/workout-sessions/users/[userId]/route", "matchers": [{ "regexp": "^/api/workout-sessions/users/(?P<nxtPuserId>[^/]+?)(?:/)?$", "originalSource": "/api/workout-sessions/users/[userId]" }], "wasm": [], "assets": [], "env": { "__NEXT_BUILD_ID": "ju0tWlgh9eQwl-s4yWxD7", "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "EgmNF13NUN/tapjpWa4t5P23JF2yT5XlzGtTzpfMq08=", "__NEXT_PREVIEW_MODE_ID": "c4c3d0ef1339e09e41bad08580252e0e", "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "fc657dccdb5e63a865320a3cdffb246e2d3e98fb64d9e1d6577ec34cb0d35c21", "__NEXT_PREVIEW_MODE_SIGNING_KEY": "4b5d650411df94ae78227660bf3b123420646615d2ce13334574929655801c69" } }, "/api/workout-sessions/users/[userId]/stats/route": { "files": ["server/middleware-build-manifest.js", "server/interception-route-rewrite-manifest.js", "server/server-reference-manifest.js", "server/app/api/workout-sessions/users/[userId]/stats/route_client-reference-manifest.js", "server/edge/chunks/ce889_server_app_api_workout-sessions_users_[userId]_stats_route_actions_a1ea547f.js", "server/edge/chunks/[root-of-the-server]__f11cc950._.js", "server/edge/chunks/node_modules_next_dist_f1acf56c._.js", "server/edge/chunks/turbopack-edge-wrapper_f50e20b0.js"], "name": "app/api/workout-sessions/users/[userId]/stats/route", "page": "/api/workout-sessions/users/[userId]/stats/route", "matchers": [{ "regexp": "^/api/workout-sessions/users/(?P<nxtPuserId>[^/]+?)/stats(?:/)?$", "originalSource": "/api/workout-sessions/users/[userId]/stats" }], "wasm": [], "assets": [], "env": { "__NEXT_BUILD_ID": "ju0tWlgh9eQwl-s4yWxD7", "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "EgmNF13NUN/tapjpWa4t5P23JF2yT5XlzGtTzpfMq08=", "__NEXT_PREVIEW_MODE_ID": "c4c3d0ef1339e09e41bad08580252e0e", "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "fc657dccdb5e63a865320a3cdffb246e2d3e98fb64d9e1d6577ec34cb0d35c21", "__NEXT_PREVIEW_MODE_SIGNING_KEY": "4b5d650411df94ae78227660bf3b123420646615d2ce13334574929655801c69" } }, "/dashboard/subscription/page": { "files": ["server/middleware-build-manifest.js", "server/interception-route-rewrite-manifest.js", "server/next-font-manifest.js", "server/server-reference-manifest.js", "server/edge/chunks/ssr/node_modules_next_dist_esm_c00b1214._.js", "server/edge/chunks/ssr/node_modules_25f7ace7._.js", "server/edge/chunks/ssr/node_modules_next_dist_7f07cde4._.js", "server/edge/chunks/ssr/node_modules_next_dist_esm_f49f2b82._.js", "server/edge/chunks/ssr/node_modules_next_dist_esm_e5eeb198._.js", "server/edge/chunks/ssr/node_modules_next_dist_4be51fa8._.js", "server/edge/chunks/ssr/_97fb8d0f._.js", "server/edge/chunks/ssr/node_modules_6bd593ec._.js", "server/edge/chunks/ssr/node_modules_bae079aa._.js", "server/edge/chunks/ssr/_08e2b131._.js", "server/edge/chunks/ssr/node_modules_next_dist_41c11b27._.js", "server/edge/chunks/ssr/node_modules_next_dist_esm_72fd41e8._.js", "server/edge/chunks/ssr/node_modules_next_dist_esm_82294b61._.js", "server/edge/chunks/ssr/node_modules_next_dist_esm_dd9bd04d._.js", "server/edge/chunks/ssr/_021848b5._.js", "server/edge/chunks/ssr/_838b99d6._.js", "server/edge/chunks/ssr/app_dashboard_subscription_subscription-content_tsx_d22a83a4._.js", "server/app/dashboard/subscription/page_client-reference-manifest.js", "server/edge/chunks/ssr/_next-internal_server_app_dashboard_subscription_page_actions_3ece0863.js", "server/edge/chunks/ssr/node_modules_next_dist_esm_22086735._.js", "server/edge/chunks/ssr/node_modules_next_dist_esm_94ba665d._.js", "server/edge/chunks/ssr/node_modules_8a63ea84._.js", "server/edge/chunks/ssr/node_modules_ce586a77._.js", "server/edge/chunks/ssr/node_modules_next_dist_esm_18bd30a1._.js", "server/edge/chunks/ssr/[root-of-the-server]__4be8a7d0._.js", "server/edge/chunks/ssr/node_modules_next_dist_11e13324._.js", "server/edge/chunks/ssr/node_modules_next_dist_339889d6._.js", "server/edge/chunks/ssr/node_modules_next_dist_a982dfac._.js", "server/edge/chunks/ssr/_713d0f81._.js", "server/edge/chunks/ssr/node_modules_next_dist_compiled_2adaed9e._.js", "server/edge/chunks/ssr/node_modules_next_dist_9e149d85._.js", "server/edge/chunks/ssr/node_modules_next_dist_esm_d627f0c8._.js", "server/edge/chunks/ssr/_48b0f63a._.js", "server/edge/chunks/ssr/[root-of-the-server]__c7f19159._.js", "server/edge/chunks/ssr/turbopack-edge-wrapper_1b74ec03.js", "server/app/dashboard/subscription/page/react-loadable-manifest.js"], "name": "app/dashboard/subscription/page", "page": "/dashboard/subscription/page", "matchers": [{ "regexp": "^/dashboard/subscription(?:/)?$", "originalSource": "/dashboard/subscription" }], "wasm": [{ "name": "wasm_5ff7258941bdfe0f", "filePath": "server/edge/chunks/ssr/node_modules__prisma_client_query_engine_bg_23ace1ce.wasm" }], "assets": [], "env": { "__NEXT_BUILD_ID": "ju0tWlgh9eQwl-s4yWxD7", "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "EgmNF13NUN/tapjpWa4t5P23JF2yT5XlzGtTzpfMq08=", "__NEXT_PREVIEW_MODE_ID": "c4c3d0ef1339e09e41bad08580252e0e", "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "fc657dccdb5e63a865320a3cdffb246e2d3e98fb64d9e1d6577ec34cb0d35c21", "__NEXT_PREVIEW_MODE_SIGNING_KEY": "4b5d650411df94ae78227660bf3b123420646615d2ce13334574929655801c69" } } } };
+var AppPathRoutesManifest = { "/_global-error/page": "/_global-error", "/_not-found/page": "/_not-found", "/api/admin/pros/[id]/approve/route": "/api/admin/pros/[id]/approve", "/api/admin/pros/[id]/reject/route": "/api/admin/pros/[id]/reject", "/api/admin/pros/route": "/api/admin/pros", "/api/agents/[id]/route": "/api/agents/[id]", "/api/agents/[id]/sessions/route": "/api/agents/[id]/sessions", "/api/agents/init/route": "/api/agents/init", "/api/agents/route": "/api/agents", "/api/auth/setup-role/route": "/api/auth/setup-role", "/api/auth/sync/route": "/api/auth/sync", "/api/auth/user/route": "/api/auth/user", "/api/baseten/generate/route": "/api/baseten/generate", "/api/chats/[id]/messages/route": "/api/chats/[id]/messages", "/api/chats/[id]/read/route": "/api/chats/[id]/read", "/api/chats/[id]/route": "/api/chats/[id]", "/api/chats/direct/route": "/api/chats/direct", "/api/chats/route": "/api/chats", "/api/clients/route": "/api/clients", "/api/coaching/[organizationId]/analyze-program/route": "/api/coaching/[organizationId]/analyze-program", "/api/coaching/[organizationId]/notes/route": "/api/coaching/[organizationId]/notes", "/api/dashboard/stats/route": "/api/dashboard/stats", "/api/exercises/grouped/route": "/api/exercises/grouped", "/api/exercises/route": "/api/exercises", "/api/invitations/route": "/api/invitations", "/api/logout/route": "/api/logout", "/api/measurements/users/[userId]/route": "/api/measurements/users/[userId]", "/api/measurements/users/[userId]/stats/route": "/api/measurements/users/[userId]/stats", "/api/messages/[id]/read/route": "/api/messages/[id]/read", "/api/organizations/[id]/invitations/[invitationId]/route": "/api/organizations/[id]/invitations/[invitationId]", "/api/organizations/[id]/invitations/route": "/api/organizations/[id]/invitations", "/api/organizations/[id]/invite/route": "/api/organizations/[id]/invite", "/api/organizations/[id]/join/route": "/api/organizations/[id]/join", "/api/organizations/[id]/request/route": "/api/organizations/[id]/request", "/api/organizations/[id]/requests/[requestId]/route": "/api/organizations/[id]/requests/[requestId]", "/api/organizations/[id]/requests/route": "/api/organizations/[id]/requests", "/api/organizations/[id]/route": "/api/organizations/[id]", "/api/organizations/public/route": "/api/organizations/public", "/api/organizations/route": "/api/organizations", "/api/programs/[id]/route": "/api/programs/[id]", "/api/programs/migrate/route": "/api/programs/migrate", "/api/programs/route": "/api/programs", "/api/public/stats/route": "/api/public/stats", "/api/requests/route": "/api/requests", "/api/stripe/create-checkout/route": "/api/stripe/create-checkout", "/api/stripe/create-portal/route": "/api/stripe/create-portal", "/api/stripe/invoices/route": "/api/stripe/invoices", "/api/stripe/webhook/route": "/api/stripe/webhook", "/api/subscription/route": "/api/subscription", "/api/subscription/sync/route": "/api/subscription/sync", "/api/users/[id]/profile/route": "/api/users/[id]/profile", "/api/users/[id]/route": "/api/users/[id]", "/api/users/route": "/api/users", "/api/workout-sessions/users/[userId]/route": "/api/workout-sessions/users/[userId]", "/api/workout-sessions/users/[userId]/stats/route": "/api/workout-sessions/users/[userId]/stats", "/dashboard/admin/organizations/page": "/dashboard/admin/organizations", "/dashboard/admin/pros/page": "/dashboard/admin/pros", "/dashboard/admin/users/page": "/dashboard/admin/users", "/dashboard/assistants/[id]/chat/page": "/dashboard/assistants/[id]/chat", "/dashboard/assistants/[id]/history/page": "/dashboard/assistants/[id]/history", "/dashboard/assistants/page": "/dashboard/assistants", "/dashboard/calculators/page": "/dashboard/calculators", "/dashboard/clients/[id]/follow-up/page": "/dashboard/clients/[id]/follow-up", "/dashboard/clients/[id]/measurements/page": "/dashboard/clients/[id]/measurements", "/dashboard/clients/[id]/sessions/page": "/dashboard/clients/[id]/sessions", "/dashboard/clients/page": "/dashboard/clients", "/dashboard/messaging/page": "/dashboard/messaging", "/dashboard/nutrition/page": "/dashboard/nutrition", "/dashboard/organizations/[id]/page": "/dashboard/organizations/[id]", "/dashboard/organizations/migrate/page": "/dashboard/organizations/migrate", "/dashboard/organizations/page": "/dashboard/organizations", "/dashboard/organizations/user/page": "/dashboard/organizations/user", "/dashboard/page": "/dashboard", "/dashboard/profile/page": "/dashboard/profile", "/dashboard/programs/[id]/edit/page": "/dashboard/programs/[id]/edit", "/dashboard/programs/[id]/page": "/dashboard/programs/[id]", "/dashboard/programs/builder/page": "/dashboard/programs/builder", "/dashboard/programs/page": "/dashboard/programs", "/dashboard/subscription/page": "/dashboard/subscription", "/dashboard/trainings/page": "/dashboard/trainings", "/favicon.ico/route": "/favicon.ico", "/legal/cgv/page": "/legal/cgv", "/legal/mentions/page": "/legal/mentions", "/legal/privacy/page": "/legal/privacy", "/legal/termination/page": "/legal/termination", "/legal/terms/page": "/legal/terms", "/logout/page": "/logout", "/page": "/", "/pro/page": "/pro", "/signup/page": "/signup" };
+var FunctionsConfigManifest = { "version": 1, "functions": { "/api/coaching/[organizationId]/analyze-program": {}, "/api/exercises/grouped": {}, "/api/exercises": {}, "/api/logout": {}, "/api/measurements/users/[userId]": {}, "/api/coaching/[organizationId]/notes": {}, "/api/measurements/users/[userId]/stats": {}, "/api/workout-sessions/users/[userId]/stats": {}, "/api/workout-sessions/users/[userId]": {}, "/dashboard/subscription": {} } };
 var PagesManifest = { "/500": "pages/500.html" };
 process.env.NEXT_BUILD_ID = BuildId;
 process.env.NEXT_PREVIEW_MODE_ID = PrerenderManifest?.preview?.previewModeId;
