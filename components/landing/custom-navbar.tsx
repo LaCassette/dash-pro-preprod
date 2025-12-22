@@ -339,9 +339,9 @@ const renderMenuItem = (item: MenuItem) => {
         </NavigationMenuTrigger>
         <NavigationMenuContent>
           <ul className="w-80 p-3 bg-slate-900/95 backdrop-blur-md border border-slate-800/50">
-            <NavigationMenuLink>
-              {item.items.map((subItem) => (
-                <li key={subItem.title}>
+            {item.items.map((subItem) => (
+              <li key={subItem.title}>
+                <NavigationMenuLink asChild>
                   <Link
                     className="flex select-none gap-4 rounded-lg p-3 leading-none no-underline outline-none transition-all hover:bg-slate-800/50 group"
                     href={subItem.url}
@@ -364,9 +364,9 @@ const renderMenuItem = (item: MenuItem) => {
                       )}
                     </div>
                   </Link>
-                </li>
-              ))}
-            </NavigationMenuLink>
+                </NavigationMenuLink>
+              </li>
+            ))}
           </ul>
         </NavigationMenuContent>
       </NavigationMenuItem>

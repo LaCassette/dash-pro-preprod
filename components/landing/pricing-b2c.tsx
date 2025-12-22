@@ -95,21 +95,21 @@ export function PricingB2C() {
 
                             {/* Download buttons */}
                             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-                                <a
-                                    href="https://expo.dev/accounts/lacassette/projects/atletia/builds/b386b67c-3d71-4e86-913d-39a61a54b29e"
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    className="group/btn relative inline-block transform hover:scale-105 transition-all duration-300"
-                                >
-                                    <div className="absolute inset-0 bg-gradient-to-r from-green-500/20 to-emerald-500/10 rounded-lg blur-lg opacity-0 group-hover/btn:opacity-100 transition-opacity" />
-                                    <Image
-                                        src="/download/get-in-on-google-play.png"
-                                        alt="Télécharger sur Google Play"
-                                        width={160}
-                                        height={48}
-                                        className="h-auto rounded-lg relative"
-                                    />
-                                </a>
+                                {/* Android - Coming soon */}
+                                <div className="relative inline-block cursor-not-allowed">
+                                    <div className="relative flex items-center gap-2 bg-slate-800/80 border border-slate-600/50 rounded-lg px-3 py-2 opacity-70">
+                                        <Image
+                                            src="/download/get-in-on-google-play.png"
+                                            alt="Google Play"
+                                            width={120}
+                                            height={36}
+                                            className="h-auto rounded opacity-50 grayscale"
+                                        />
+                                        <span className="absolute -bottom-2 left-1/2 -translate-x-1/2 bg-amber-500 text-slate-900 text-xs font-semibold px-2 py-0.5 rounded-full whitespace-nowrap">
+                                            Arrive bientôt
+                                        </span>
+                                    </div>
+                                </div>
                                 <a
                                     href="https://testflight.apple.com/join/3HnFCND3"
                                     target="_blank"
