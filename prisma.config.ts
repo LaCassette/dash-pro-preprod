@@ -1,4 +1,4 @@
-import { defineConfig, env } from "prisma/config";
+import { defineConfig } from "prisma/config";
 import dotenv from "dotenv";
 
 // Load environment variables from .env.local (local dev)
@@ -12,6 +12,7 @@ export default defineConfig({
   },
   engine: "classic",
   datasource: {
-    url: env("DATABASE_URL"),
+    // Use process.env with fallback for prisma generate (doesn't need actual DB connection)
+    url: process.env.DATABASE_URL || "mysql://placeholder:placeholder@localhost:3306/placeholder",
   },
 });
